@@ -31,8 +31,8 @@ jobs:
             exit 0
           fi
 
-          git config user.name "Mohammad"
-          git config user.email "mohammadsaadati74@gmail.com"
+          git config user.name "yashar2004"
+          git config user.email "yashar2004@gmail.com"
 
           git add generated/*.rsc countries.txt
           git commit -m "chore: update country RSC files"

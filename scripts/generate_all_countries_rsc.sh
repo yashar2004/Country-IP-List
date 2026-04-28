@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 set -eu
 
-# ورودی‌ها
+# country ISO code list
 COUNTRIES_FILE="${1:-countries.txt}"
 OUT_DIR="${2:-generated}"
 
@@ -13,26 +13,26 @@ last="$(date -u '+%Y-%m-%d %H:%M:%S UTC')"
 filterv4='.data.resources.ipv4[]'
 filterv6='.data.resources.ipv6[]'
 
-# نرمال‌سازی اسم لیست:
-# - IPv4: IP-<CC>  مثلا IP-IR
-# - IPv6: <CC>v6   مثلا IRv6
-v4_list_name() { echo "IP-$1"; }
-v6_list_name() { echo "${1}v6"; }
+# normalize list names:
+# - IPv4: <CC>-IPv4  eg. IR-IPv4
+# - IPv6: <CC>-IPv6  eg. IR-IPv6
+v4_list_name() { echo "${1}-IPv4"; }
+v6_list_name() { echo "${1}-IPv6"; }
 
 write_country_rsc() {
   cc="$1"
   url="${base_url}?resource=${cc}&v4_format=prefix"
 
-  # خروجی
+  # output file for this country
   out_file="${OUT_DIR}/${cc}.rsc"
 
-  # دریافت دیتا
+  # fetch data
   output="$(curl -s --http2-prior-knowledge -H 'Connection: close' "$url")"
 
   v4_list="$(echo "$output" | jq -r "$filterv4" 2>/dev/null || true)"
   v6_list="$(echo "$output" | jq -r "$filterv6" 2>/dev/null || true)"
 
-  # اگر هیچ دیتایی نبود، فایل را نساز (یا قبلی را دست نزن)
+  # if no data, skip
   if [ -z "${v4_list}${v6_list}" ]; then
     echo "Skip ${cc}: empty"
     return 0
@@ -66,7 +66,6 @@ write_country_rsc() {
   echo "Wrote $out_file"
 }
 
-# اجرای اصلی: هر خط یک کد کشور (با امکان کامنت و خط خالی)
 if [ ! -f "$COUNTRIES_FILE" ]; then
   echo "Countries file not found: $COUNTRIES_FILE" >&2
   exit 1
@@ -75,14 +74,14 @@ fi
 while IFS= read -r line || [ -n "$line" ]; do
   cc="$(echo "$line" | tr -d '\r' | awk '{print $1}')"
 
-  # خالی/کامنت
+  # empty or comment line
   [ -z "$cc" ] && continue
   echo "$cc" | grep -qE '^[#;]' && continue
 
   # uppercase
   cc="$(echo "$cc" | tr '[:lower:]' '[:upper:]')"
 
-  # فقط 2 حرف
+  # just two letters
   echo "$cc" | grep -qE '^[A-Z]{2}$' || { echo "Skip invalid code: $cc"; continue; }
 
   write_country_rsc "$cc"
