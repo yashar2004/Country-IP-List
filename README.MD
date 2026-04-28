@@ -15,7 +15,7 @@ Replace `CC` with the 2-letter country code you want (IR, DE, US, ...).
 ```bash
 foreach cc in={"IR"} do={
   :local fileName ($cc . ".rsc")
-  :local url ("https://raw.githubusercontent.com/mo13ammad/Country-IP-List/main/generated/" . $cc . ".rsc")
+  :local url ("https://raw.githubusercontent.com/yashar2004/Country-IP-List/main/generated/" . $cc . ".rsc")
 
   /tool fetch url=$url dst-path=$fileName mode=http
   :delay 5
@@ -29,7 +29,7 @@ foreach cc in={"IR"} do={
 ```bash
 foreach cc in={"IR"} do={
   :local fileName ($cc . ".rsc")
-  :local url ("https://raw.githubusercontent.com/mo13ammad/Country-IP-List/main/generated/" . $cc . ".rsc")
+  :local url ("https://raw.githubusercontent.com/yashar2004/Country-IP-List/main/generated/" . $cc . ".rsc")
 
   /tool fetch url=$url dst-path=$fileName mode=http
 
