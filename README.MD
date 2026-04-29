@@ -7,17 +7,16 @@ Generate MikroTik address-list `.rsc` files (IPv4 + IPv6) for multiple countries
 
 Each country has a file in `generated/<CC>.rsc` (for example: `generated/IR.rsc`).
 List names inside each file:
-- IPv4: `IP-<CC>`
-- IPv6: `<CC>v6`
+- IPv4: `<CC>-IPv4`
+- IPv6: `<CC>-IPv6`
 
 Replace `CC` with the 2-letter country code you want (IR, DE, US, ...).
 
 ```bash
-foreach cc in={"IR"} do={
+:foreach cc in={"IR"} do={
   :local fileName ($cc . ".rsc")
   :local url ("https://raw.githubusercontent.com/yashar2004/Country-IP-List/main/generated/" . $cc . ".rsc")
-
-  /tool fetch url=$url dst-path=$fileName mode=http
+  /tool fetch url=$url dst-path=$fileName
   :delay 5
   /import file-name=$fileName
   /file remove $fileName
@@ -27,15 +26,15 @@ foreach cc in={"IR"} do={
 * If your internet is disconnected and you cannot connect to GitHub to fetch the new list, you can use the script below so that the previous list is not deleted.
 
 ```bash
-foreach cc in={"IR"} do={
+:foreach cc in={"IR";"DE"} do={
   :local fileName ($cc . ".rsc")
   :local url ("https://raw.githubusercontent.com/yashar2004/Country-IP-List/main/generated/" . $cc . ".rsc")
 
-  /tool fetch url=$url dst-path=$fileName mode=http
+  /tool fetch url=$url dst-path=$fileName
 
   :delay 5
 
-  :if ([/file find name=$fileName] != "") do={
+  :if ([:len [/file find name=$fileName]] > 0) do={
 
     :if ([/file get $fileName size] > 0) do={
 
@@ -43,12 +42,12 @@ foreach cc in={"IR"} do={
       /file remove $fileName
 
     } else={
-      :log warning "Download failed or empty file for $cc — keeping old address list"
+      :log warning ("Download failed or empty file for " . $cc . " — keeping old address list")
       /file remove $fileName
     }
 
   } else={
-    :log warning "File not found after fetch — download likely failed — keeping old address list"
+    :log warning ("File not found after fetch — download likely failed — keeping old address list")
   }
 }
 ```
