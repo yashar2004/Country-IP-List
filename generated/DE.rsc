@@ -1,4 +1,4 @@
-# Last update: 2026-04-29 08:12:06 UTC
+# Last update: 2026-04-29 10:53:39 UTC
 # Country: DE
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=DE&v4_format=prefix
 
@@ -13256,7 +13256,6 @@
 :do { add address=195.253.212.0/22 list=DE-IPv4 } on-error={}
 :do { add address=195.253.224.0/20 list=DE-IPv4 } on-error={}
 :do { add address=195.253.240.0/24 list=DE-IPv4 } on-error={}
-:do { add address=195.253.242.0/24 list=DE-IPv4 } on-error={}
 :do { add address=195.253.244.0/22 list=DE-IPv4 } on-error={}
 :do { add address=195.253.252.0/22 list=DE-IPv4 } on-error={}
 :do { add address=195.254.158.0/23 list=DE-IPv4 } on-error={}
