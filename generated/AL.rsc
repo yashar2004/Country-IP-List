@@ -1,4 +1,4 @@
-# Last update: 2026-05-02 10:49:05 UTC
+# Last update: 2026-05-02 11:42:25 UTC
 # Country: AL
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=AL&v4_format=prefix
 
