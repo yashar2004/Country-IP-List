@@ -1,4 +1,4 @@
-# Last update: 2026-05-02 23:40:08 UTC
+# Last update: 2026-05-03 02:38:57 UTC
 # Country: IO
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=IO&v4_format=prefix
 
