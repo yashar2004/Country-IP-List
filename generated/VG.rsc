@@ -1,4 +1,4 @@
-# Last update: 2026-05-05 15:51:36 UTC
+# Last update: 2026-05-05 17:21:23 UTC
 # Country: VG
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=VG&v4_format=prefix
 
