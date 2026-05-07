@@ -1,4 +1,4 @@
-# Last update: 2026-05-07 09:29:43 UTC
+# Last update: 2026-05-07 11:45:13 UTC
 # Country: AF
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=AF&v4_format=prefix
 
@@ -56,7 +56,10 @@
 :do { add address=64.224.144.0/20 list=AF-IPv4 } on-error={}
 :do { add address=74.118.80.0/22 list=AF-IPv4 } on-error={}
 :do { add address=91.109.216.0/24 list=AF-IPv4 } on-error={}
+:do { add address=91.109.217.0/24 list=AF-IPv4 } on-error={}
 :do { add address=91.109.218.0/24 list=AF-IPv4 } on-error={}
+:do { add address=91.109.219.0/24 list=AF-IPv4 } on-error={}
+:do { add address=91.109.220.0/22 list=AF-IPv4 } on-error={}
 :do { add address=103.5.172.0/22 list=AF-IPv4 } on-error={}
 :do { add address=103.13.64.0/22 list=AF-IPv4 } on-error={}
 :do { add address=103.15.38.0/24 list=AF-IPv4 } on-error={}

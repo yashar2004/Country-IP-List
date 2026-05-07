@@ -1,4 +1,4 @@
-# Last update: 2026-05-07 09:29:43 UTC
+# Last update: 2026-05-07 11:45:13 UTC
 # Country: KR
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=KR&v4_format=prefix
 
@@ -57,6 +57,8 @@
 :do { add address=2001:3a8:2000::/35 list=KR-IPv6 } on-error={}
 :do { add address=2001:3a8:4000::/34 list=KR-IPv6 } on-error={}
 :do { add address=2001:3a8:8000::/33 list=KR-IPv6 } on-error={}
+:do { add address=2001:678:1188::/48 list=KR-IPv6 } on-error={}
+:do { add address=2001:67c:2dd4::/48 list=KR-IPv6 } on-error={}
 :do { add address=2001:7fa:0:2::/64 list=KR-IPv6 } on-error={}
 :do { add address=2001:7fa:8::/48 list=KR-IPv6 } on-error={}
 :do { add address=2001:c48::/32 list=KR-IPv6 } on-error={}
@@ -182,6 +184,8 @@
 :do { add address=2407:d100::/32 list=KR-IPv6 } on-error={}
 :do { add address=2602:f5d1::/40 list=KR-IPv6 } on-error={}
 :do { add address=2602:f71f::/36 list=KR-IPv6 } on-error={}
+:do { add address=2a0f:3ec0::/29 list=KR-IPv6 } on-error={}
+:do { add address=2a13:140::/29 list=KR-IPv6 } on-error={}
 
 /ip firewall address-list remove [/ip firewall address-list find list=KR-IPv4]
 /ip firewall address-list
@@ -323,6 +327,7 @@
 :do { add address=45.121.164.0/22 list=KR-IPv4 } on-error={}
 :do { add address=45.125.232.0/22 list=KR-IPv4 } on-error={}
 :do { add address=45.126.148.0/22 list=KR-IPv4 } on-error={}
+:do { add address=45.151.180.0/22 list=KR-IPv4 } on-error={}
 :do { add address=45.248.72.0/22 list=KR-IPv4 } on-error={}
 :do { add address=45.249.64.0/22 list=KR-IPv4 } on-error={}
 :do { add address=45.249.160.0/22 list=KR-IPv4 } on-error={}
@@ -644,6 +649,8 @@
 :do { add address=61.254.192.0/18 list=KR-IPv4 } on-error={}
 :do { add address=61.255.0.0/16 list=KR-IPv4 } on-error={}
 :do { add address=64.188.32.0/20 list=KR-IPv4 } on-error={}
+:do { add address=85.208.212.0/22 list=KR-IPv4 } on-error={}
+:do { add address=91.240.89.0/24 list=KR-IPv4 } on-error={}
 :do { add address=101.1.8.0/21 list=KR-IPv4 } on-error={}
 :do { add address=101.1.32.0/19 list=KR-IPv4 } on-error={}
 :do { add address=101.53.64.0/19 list=KR-IPv4 } on-error={}
@@ -1494,6 +1501,8 @@
 :do { add address=183.90.128.0/19 list=KR-IPv4 } on-error={}
 :do { add address=183.91.192.0/18 list=KR-IPv4 } on-error={}
 :do { add address=183.96.0.0/11 list=KR-IPv4 } on-error={}
+:do { add address=185.130.49.0/24 list=KR-IPv4 } on-error={}
+:do { add address=185.227.152.0/22 list=KR-IPv4 } on-error={}
 :do { add address=192.5.90.0/24 list=KR-IPv4 } on-error={}
 :do { add address=192.40.0.0/22 list=KR-IPv4 } on-error={}
 :do { add address=192.100.2.0/24 list=KR-IPv4 } on-error={}
@@ -1517,6 +1526,7 @@
 :do { add address=192.249.26.0/23 list=KR-IPv4 } on-error={}
 :do { add address=192.249.28.0/22 list=KR-IPv4 } on-error={}
 :do { add address=198.148.192.0/22 list=KR-IPv4 } on-error={}
+:do { add address=199.241.120.0/21 list=KR-IPv4 } on-error={}
 :do { add address=202.3.16.0/20 list=KR-IPv4 } on-error={}
 :do { add address=202.6.95.0/24 list=KR-IPv4 } on-error={}
 :do { add address=202.8.160.0/19 list=KR-IPv4 } on-error={}

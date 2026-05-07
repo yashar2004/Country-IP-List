@@ -1,4 +1,4 @@
-# Last update: 2026-05-07 09:29:43 UTC
+# Last update: 2026-05-07 11:45:13 UTC
 # Country: AI
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=AI&v4_format=prefix
 
@@ -16,5 +16,6 @@
 :do { add address=162.251.108.0/22 list=AI-IPv4 } on-error={}
 :do { add address=162.254.188.0/22 list=AI-IPv4 } on-error={}
 :do { add address=192.30.124.0/24 list=AI-IPv4 } on-error={}
+:do { add address=195.149.107.0/24 list=AI-IPv4 } on-error={}
 :do { add address=204.14.248.0/21 list=AI-IPv4 } on-error={}
 :do { add address=208.66.48.0/21 list=AI-IPv4 } on-error={}
