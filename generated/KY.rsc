@@ -1,4 +1,4 @@
-# Last update: 2026-05-07 06:07:43 UTC
+# Last update: 2026-05-07 09:29:43 UTC
 # Country: KY
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=KY&v4_format=prefix
 
@@ -13,8 +13,6 @@
 /ip firewall address-list remove [/ip firewall address-list find list=KY-IPv4]
 /ip firewall address-list
 :do { add address=23.188.0.0/24 list=KY-IPv4 } on-error={}
-:do { add address=45.144.204.0/22 list=KY-IPv4 } on-error={}
-:do { add address=45.152.156.0/22 list=KY-IPv4 } on-error={}
 :do { add address=63.136.112.0/21 list=KY-IPv4 } on-error={}
 :do { add address=64.239.32.0/22 list=KY-IPv4 } on-error={}
 :do { add address=64.239.116.0/22 list=KY-IPv4 } on-error={}
@@ -23,15 +21,12 @@
 :do { add address=76.76.15.0/24 list=KY-IPv4 } on-error={}
 :do { add address=138.43.115.0/24 list=KY-IPv4 } on-error={}
 :do { add address=138.43.248.0/22 list=KY-IPv4 } on-error={}
-:do { add address=148.51.0.0/17 list=KY-IPv4 } on-error={}
 :do { add address=149.112.19.0/24 list=KY-IPv4 } on-error={}
-:do { add address=157.207.32.0/22 list=KY-IPv4 } on-error={}
 :do { add address=161.199.132.0/22 list=KY-IPv4 } on-error={}
 :do { add address=162.211.136.0/22 list=KY-IPv4 } on-error={}
 :do { add address=162.247.220.0/22 list=KY-IPv4 } on-error={}
 :do { add address=162.249.128.0/21 list=KY-IPv4 } on-error={}
 :do { add address=173.225.208.0/20 list=KY-IPv4 } on-error={}
-:do { add address=185.158.252.0/22 list=KY-IPv4 } on-error={}
 :do { add address=192.0.4.0/22 list=KY-IPv4 } on-error={}
 :do { add address=192.160.250.0/24 list=KY-IPv4 } on-error={}
 :do { add address=199.201.84.0/22 list=KY-IPv4 } on-error={}

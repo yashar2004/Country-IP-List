@@ -1,4 +1,4 @@
-# Last update: 2026-05-07 06:07:43 UTC
+# Last update: 2026-05-07 09:29:43 UTC
 # Country: TW
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=TW&v4_format=prefix
 
@@ -8,9 +8,6 @@
 :do { add address=2001:288:2000::/35 list=TW-IPv6 } on-error={}
 :do { add address=2001:288:4000::/34 list=TW-IPv6 } on-error={}
 :do { add address=2001:288:8000::/33 list=TW-IPv6 } on-error={}
-:do { add address=2001:67c:f34::/48 list=TW-IPv6 } on-error={}
-:do { add address=2001:67c:2800::/48 list=TW-IPv6 } on-error={}
-:do { add address=2001:67c:2be8::/48 list=TW-IPv6 } on-error={}
 :do { add address=2001:7fa:1::/48 list=TW-IPv6 } on-error={}
 :do { add address=2001:c08::/32 list=TW-IPv6 } on-error={}
 :do { add address=2001:c50::/32 list=TW-IPv6 } on-error={}
@@ -323,8 +320,6 @@
 :do { add address=2407:d240::/32 list=TW-IPv6 } on-error={}
 :do { add address=2407:d2c0::/32 list=TW-IPv6 } on-error={}
 :do { add address=2407:e4c0::/32 list=TW-IPv6 } on-error={}
-:do { add address=2a0a:f480::/29 list=TW-IPv6 } on-error={}
-:do { add address=2a13:2200::/29 list=TW-IPv6 } on-error={}
 
 /ip firewall address-list remove [/ip firewall address-list find list=TW-IPv4]
 /ip firewall address-list
@@ -644,7 +639,6 @@
 :do { add address=103.153.200.0/23 list=TW-IPv4 } on-error={}
 :do { add address=103.155.202.0/23 list=TW-IPv4 } on-error={}
 :do { add address=103.156.116.0/23 list=TW-IPv4 } on-error={}
-:do { add address=103.156.184.0/23 list=TW-IPv4 } on-error={}
 :do { add address=103.156.242.0/23 list=TW-IPv4 } on-error={}
 :do { add address=103.157.42.0/23 list=TW-IPv4 } on-error={}
 :do { add address=103.157.86.0/23 list=TW-IPv4 } on-error={}
@@ -992,7 +986,7 @@
 :do { add address=182.173.0.0/18 list=TW-IPv4 } on-error={}
 :do { add address=182.233.0.0/16 list=TW-IPv4 } on-error={}
 :do { add address=182.234.0.0/15 list=TW-IPv4 } on-error={}
-:do { add address=188.68.64.0/20 list=TW-IPv4 } on-error={}
+:do { add address=187.79.192.0/18 list=TW-IPv4 } on-error={}
 :do { add address=192.72.3.0/24 list=TW-IPv4 } on-error={}
 :do { add address=192.72.4.0/24 list=TW-IPv4 } on-error={}
 :do { add address=192.72.5.0/24 list=TW-IPv4 } on-error={}
@@ -1081,7 +1075,6 @@
 :do { add address=192.192.168.0/21 list=TW-IPv4 } on-error={}
 :do { add address=192.192.176.0/20 list=TW-IPv4 } on-error={}
 :do { add address=192.192.192.0/18 list=TW-IPv4 } on-error={}
-:do { add address=193.42.40.0/22 list=TW-IPv4 } on-error={}
 :do { add address=193.149.158.0/23 list=TW-IPv4 } on-error={}
 :do { add address=193.149.166.0/23 list=TW-IPv4 } on-error={}
 :do { add address=202.2.52.0/22 list=TW-IPv4 } on-error={}

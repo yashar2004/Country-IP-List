@@ -1,4 +1,4 @@
-# Last update: 2026-05-07 06:07:43 UTC
+# Last update: 2026-05-07 09:29:43 UTC
 # Country: HK
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=HK&v4_format=prefix
 
@@ -504,6 +504,7 @@
 :do { add address=2402:4f00::/32 list=HK-IPv6 } on-error={}
 :do { add address=2402:5060::/32 list=HK-IPv6 } on-error={}
 :do { add address=2402:5aa0::/32 list=HK-IPv6 } on-error={}
+:do { add address=2402:5c20::/32 list=HK-IPv6 } on-error={}
 :do { add address=2402:5dc0::/32 list=HK-IPv6 } on-error={}
 :do { add address=2402:6140::/32 list=HK-IPv6 } on-error={}
 :do { add address=2402:6a80::/32 list=HK-IPv6 } on-error={}
@@ -756,7 +757,6 @@
 :do { add address=2a04:94c0::/30 list=HK-IPv6 } on-error={}
 :do { add address=2a05:a300::/29 list=HK-IPv6 } on-error={}
 :do { add address=2a06:5040::/29 list=HK-IPv6 } on-error={}
-:do { add address=2a06:9200::/29 list=HK-IPv6 } on-error={}
 :do { add address=2a06:da40::/29 list=HK-IPv6 } on-error={}
 :do { add address=2a09:640::/29 list=HK-IPv6 } on-error={}
 :do { add address=2a09:42c0::/29 list=HK-IPv6 } on-error={}
@@ -962,6 +962,7 @@
 :do { add address=5.182.116.0/22 list=HK-IPv4 } on-error={}
 :do { add address=5.182.216.0/22 list=HK-IPv4 } on-error={}
 :do { add address=5.254.128.0/19 list=HK-IPv4 } on-error={}
+:do { add address=9.176.0.0/16 list=HK-IPv4 } on-error={}
 :do { add address=14.0.128.0/17 list=HK-IPv4 } on-error={}
 :do { add address=14.1.20.0/22 list=HK-IPv4 } on-error={}
 :do { add address=14.102.90.0/24 list=HK-IPv4 } on-error={}
@@ -1173,6 +1174,7 @@
 :do { add address=43.251.32.0/22 list=HK-IPv4 } on-error={}
 :do { add address=43.251.44.0/22 list=HK-IPv4 } on-error={}
 :do { add address=43.251.76.0/22 list=HK-IPv4 } on-error={}
+:do { add address=43.251.100.0/22 list=HK-IPv4 } on-error={}
 :do { add address=43.251.104.0/22 list=HK-IPv4 } on-error={}
 :do { add address=43.251.132.0/22 list=HK-IPv4 } on-error={}
 :do { add address=43.251.140.0/22 list=HK-IPv4 } on-error={}
@@ -1985,6 +1987,7 @@
 :do { add address=103.81.247.0/24 list=HK-IPv4 } on-error={}
 :do { add address=103.82.4.0/23 list=HK-IPv4 } on-error={}
 :do { add address=103.82.16.0/22 list=HK-IPv4 } on-error={}
+:do { add address=103.82.52.0/22 list=HK-IPv4 } on-error={}
 :do { add address=103.82.168.0/22 list=HK-IPv4 } on-error={}
 :do { add address=103.82.212.0/22 list=HK-IPv4 } on-error={}
 :do { add address=103.82.216.0/22 list=HK-IPv4 } on-error={}
@@ -3198,7 +3201,6 @@
 :do { add address=185.109.237.0/24 list=HK-IPv4 } on-error={}
 :do { add address=185.109.238.0/24 list=HK-IPv4 } on-error={}
 :do { add address=185.109.239.0/24 list=HK-IPv4 } on-error={}
-:do { add address=185.118.60.0/22 list=HK-IPv4 } on-error={}
 :do { add address=185.128.41.0/24 list=HK-IPv4 } on-error={}
 :do { add address=185.128.42.0/24 list=HK-IPv4 } on-error={}
 :do { add address=185.128.43.0/24 list=HK-IPv4 } on-error={}

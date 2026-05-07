@@ -1,4 +1,4 @@
-# Last update: 2026-05-07 06:07:43 UTC
+# Last update: 2026-05-07 09:29:43 UTC
 # Country: VC
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=VC&v4_format=prefix
 
@@ -12,7 +12,6 @@
 /ip firewall address-list
 :do { add address=23.170.80.0/24 list=VC-IPv4 } on-error={}
 :do { add address=45.42.232.0/22 list=VC-IPv4 } on-error={}
-:do { add address=91.230.190.0/24 list=VC-IPv4 } on-error={}
 :do { add address=104.219.24.0/22 list=VC-IPv4 } on-error={}
 :do { add address=104.255.232.0/22 list=VC-IPv4 } on-error={}
 :do { add address=162.212.210.0/23 list=VC-IPv4 } on-error={}
