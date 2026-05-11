@@ -1,4 +1,4 @@
-# Last update: 2026-05-11 06:37:40 UTC
+# Last update: 2026-05-11 10:36:20 UTC
 # Country: GU
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=GU&v4_format=prefix
 
