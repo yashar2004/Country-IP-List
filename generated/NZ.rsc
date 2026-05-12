@@ -1,4 +1,4 @@
-# Last update: 2026-05-12 06:14:09 UTC
+# Last update: 2026-05-12 09:35:54 UTC
 # Country: NZ
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=NZ&v4_format=prefix
 
@@ -445,7 +445,6 @@
 :do { add address=2a03:dd40::/29 list=NZ-IPv6 } on-error={}
 :do { add address=2a03:ebc0::/32 list=NZ-IPv6 } on-error={}
 :do { add address=2a05:3340::/29 list=NZ-IPv6 } on-error={}
-:do { add address=2a09:a380::/29 list=NZ-IPv6 } on-error={}
 :do { add address=2a13:c680::/29 list=NZ-IPv6 } on-error={}
 
 /ip firewall address-list remove [/ip firewall address-list find list=NZ-IPv4]
@@ -528,13 +527,11 @@
 :do { add address=64.246.80.0/20 list=NZ-IPv4 } on-error={}
 :do { add address=66.235.120.0/21 list=NZ-IPv4 } on-error={}
 :do { add address=67.215.112.0/20 list=NZ-IPv4 } on-error={}
-:do { add address=69.30.89.0/24 list=NZ-IPv4 } on-error={}
 :do { add address=78.138.10.0/23 list=NZ-IPv4 } on-error={}
 :do { add address=91.208.208.0/24 list=NZ-IPv4 } on-error={}
 :do { add address=91.208.228.0/24 list=NZ-IPv4 } on-error={}
 :do { add address=91.208.230.0/24 list=NZ-IPv4 } on-error={}
 :do { add address=91.208.233.0/24 list=NZ-IPv4 } on-error={}
-:do { add address=91.218.78.0/23 list=NZ-IPv4 } on-error={}
 :do { add address=101.53.192.0/19 list=NZ-IPv4 } on-error={}
 :do { add address=101.98.0.0/16 list=NZ-IPv4 } on-error={}
 :do { add address=101.100.0.0/17 list=NZ-IPv4 } on-error={}

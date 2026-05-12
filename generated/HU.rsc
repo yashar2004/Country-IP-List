@@ -1,4 +1,4 @@
-# Last update: 2026-05-12 06:14:09 UTC
+# Last update: 2026-05-12 09:35:54 UTC
 # Country: HU
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=HU&v4_format=prefix
 
@@ -106,6 +106,7 @@
 :do { add address=2a09:6bc0::/29 list=HU-IPv6 } on-error={}
 :do { add address=2a09:7ac0::/29 list=HU-IPv6 } on-error={}
 :do { add address=2a09:9400::/29 list=HU-IPv6 } on-error={}
+:do { add address=2a09:a380::/29 list=HU-IPv6 } on-error={}
 :do { add address=2a09:af40::/29 list=HU-IPv6 } on-error={}
 :do { add address=2a09:f8c0::/32 list=HU-IPv6 } on-error={}
 :do { add address=2a0a:3fc0::/32 list=HU-IPv6 } on-error={}
@@ -293,6 +294,7 @@
 :do { add address=62.165.192.0/18 list=HU-IPv4 } on-error={}
 :do { add address=62.201.64.0/18 list=HU-IPv4 } on-error={}
 :do { add address=66.203.124.0/22 list=HU-IPv4 } on-error={}
+:do { add address=69.30.89.0/24 list=HU-IPv4 } on-error={}
 :do { add address=77.74.204.0/22 list=HU-IPv4 } on-error={}
 :do { add address=77.110.128.0/19 list=HU-IPv4 } on-error={}
 :do { add address=77.110.160.0/19 list=HU-IPv4 } on-error={}
@@ -592,6 +594,7 @@
 :do { add address=91.216.70.0/24 list=HU-IPv4 } on-error={}
 :do { add address=91.216.150.0/24 list=HU-IPv4 } on-error={}
 :do { add address=91.217.169.0/24 list=HU-IPv4 } on-error={}
+:do { add address=91.218.78.0/23 list=HU-IPv4 } on-error={}
 :do { add address=91.219.84.0/22 list=HU-IPv4 } on-error={}
 :do { add address=91.219.236.0/22 list=HU-IPv4 } on-error={}
 :do { add address=91.220.29.0/24 list=HU-IPv4 } on-error={}
