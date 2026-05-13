@@ -1,4 +1,4 @@
-# Last update: 2026-05-13 18:54:54 UTC
+# Last update: 2026-05-13 20:44:17 UTC
 # Country: SR
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=SR&v4_format=prefix
 
