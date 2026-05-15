@@ -1,4 +1,4 @@
-# Last update: 2026-05-15 06:32:28 UTC
+# Last update: 2026-05-15 09:45:25 UTC
 # Country: BD
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=BD&v4_format=prefix
 
@@ -596,6 +596,7 @@
 :do { add address=2001:df4:9340::/48 list=BD-IPv6 } on-error={}
 :do { add address=2001:df4:a040::/48 list=BD-IPv6 } on-error={}
 :do { add address=2001:df4:a3c0::/48 list=BD-IPv6 } on-error={}
+:do { add address=2001:df4:a4c0::/48 list=BD-IPv6 } on-error={}
 :do { add address=2001:df4:a580::/48 list=BD-IPv6 } on-error={}
 :do { add address=2001:df4:a6c0::/48 list=BD-IPv6 } on-error={}
 :do { add address=2001:df4:a7c0::/48 list=BD-IPv6 } on-error={}
@@ -1282,7 +1283,6 @@
 :do { add address=2402:58e0::/32 list=BD-IPv6 } on-error={}
 :do { add address=2402:5b20::/32 list=BD-IPv6 } on-error={}
 :do { add address=2402:5ba0::/32 list=BD-IPv6 } on-error={}
-:do { add address=2402:5de0::/32 list=BD-IPv6 } on-error={}
 :do { add address=2402:5e80::/32 list=BD-IPv6 } on-error={}
 :do { add address=2402:5fc0::/32 list=BD-IPv6 } on-error={}
 :do { add address=2402:6480::/32 list=BD-IPv6 } on-error={}
@@ -2165,7 +2165,7 @@
 :do { add address=103.92.160.0/23 list=BD-IPv4 } on-error={}
 :do { add address=103.92.204.0/22 list=BD-IPv4 } on-error={}
 :do { add address=103.92.208.0/24 list=BD-IPv4 } on-error={}
-:do { add address=103.92.212.0/22 list=BD-IPv4 } on-error={}
+:do { add address=103.92.212.0/23 list=BD-IPv4 } on-error={}
 :do { add address=103.92.216.0/22 list=BD-IPv4 } on-error={}
 :do { add address=103.92.234.0/24 list=BD-IPv4 } on-error={}
 :do { add address=103.93.18.0/24 list=BD-IPv4 } on-error={}
@@ -3666,6 +3666,7 @@
 :do { add address=160.238.33.0/24 list=BD-IPv4 } on-error={}
 :do { add address=160.250.8.0/23 list=BD-IPv4 } on-error={}
 :do { add address=160.250.36.0/23 list=BD-IPv4 } on-error={}
+:do { add address=160.250.40.0/23 list=BD-IPv4 } on-error={}
 :do { add address=160.250.48.0/23 list=BD-IPv4 } on-error={}
 :do { add address=160.250.52.0/23 list=BD-IPv4 } on-error={}
 :do { add address=160.250.68.0/23 list=BD-IPv4 } on-error={}
