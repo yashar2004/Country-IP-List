@@ -1,4 +1,4 @@
-# Last update: 2026-05-17 19:21:27 UTC
+# Last update: 2026-05-17 20:46:01 UTC
 # Country: HR
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=HR&v4_format=prefix
 
