@@ -1,4 +1,4 @@
-# Last update: 2026-05-17 09:03:00 UTC
+# Last update: 2026-05-17 11:02:48 UTC
 # Country: ZA
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=ZA&v4_format=prefix
 
