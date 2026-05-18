@@ -1,4 +1,4 @@
-# Last update: 2026-05-18 03:28:18 UTC
+# Last update: 2026-05-18 07:59:28 UTC
 # Country: AS
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=AS&v4_format=prefix
 
