@@ -1,4 +1,4 @@
-# Last update: 2026-05-21 06:58:33 UTC
+# Last update: 2026-05-21 10:42:25 UTC
 # Country: KN
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=KN&v4_format=prefix
 
@@ -16,6 +16,7 @@
 :do { add address=45.42.252.0/22 list=KN-IPv4 } on-error={}
 :do { add address=66.198.225.0/24 list=KN-IPv4 } on-error={}
 :do { add address=104.245.228.0/22 list=KN-IPv4 } on-error={}
+:do { add address=104.251.180.0/22 list=KN-IPv4 } on-error={}
 :do { add address=149.112.30.0/24 list=KN-IPv4 } on-error={}
 :do { add address=170.39.88.0/24 list=KN-IPv4 } on-error={}
 :do { add address=173.249.168.0/22 list=KN-IPv4 } on-error={}

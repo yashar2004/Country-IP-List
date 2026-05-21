@@ -1,4 +1,4 @@
-# Last update: 2026-05-21 06:58:33 UTC
+# Last update: 2026-05-21 10:42:25 UTC
 # Country: KZ
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=KZ&v4_format=prefix
 
@@ -235,7 +235,8 @@
 :do { add address=82.115.48.0/22 list=KZ-IPv4 } on-error={}
 :do { add address=82.115.52.0/23 list=KZ-IPv4 } on-error={}
 :do { add address=82.115.54.0/23 list=KZ-IPv4 } on-error={}
-:do { add address=82.115.56.0/22 list=KZ-IPv4 } on-error={}
+:do { add address=82.115.56.0/23 list=KZ-IPv4 } on-error={}
+:do { add address=82.115.58.0/23 list=KZ-IPv4 } on-error={}
 :do { add address=82.115.60.0/22 list=KZ-IPv4 } on-error={}
 :do { add address=82.200.128.0/17 list=KZ-IPv4 } on-error={}
 :do { add address=83.97.77.0/24 list=KZ-IPv4 } on-error={}
@@ -648,6 +649,7 @@
 :do { add address=193.111.175.0/24 list=KZ-IPv4 } on-error={}
 :do { add address=193.148.60.0/24 list=KZ-IPv4 } on-error={}
 :do { add address=193.151.224.0/24 list=KZ-IPv4 } on-error={}
+:do { add address=193.151.247.0/24 list=KZ-IPv4 } on-error={}
 :do { add address=193.162.28.0/24 list=KZ-IPv4 } on-error={}
 :do { add address=193.189.102.0/24 list=KZ-IPv4 } on-error={}
 :do { add address=193.193.224.0/19 list=KZ-IPv4 } on-error={}

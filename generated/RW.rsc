@@ -1,4 +1,4 @@
-# Last update: 2026-05-21 06:58:33 UTC
+# Last update: 2026-05-21 10:42:25 UTC
 # Country: RW
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=RW&v4_format=prefix
 
@@ -36,6 +36,7 @@
 :do { add address=41.242.140.0/22 list=RW-IPv4 } on-error={}
 :do { add address=102.22.128.0/18 list=RW-IPv4 } on-error={}
 :do { add address=102.130.32.0/21 list=RW-IPv4 } on-error={}
+:do { add address=102.202.96.0/22 list=RW-IPv4 } on-error={}
 :do { add address=102.202.188.0/24 list=RW-IPv4 } on-error={}
 :do { add address=102.202.208.0/22 list=RW-IPv4 } on-error={}
 :do { add address=102.207.48.0/24 list=RW-IPv4 } on-error={}
