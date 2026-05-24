@@ -1,4 +1,4 @@
-# Last update: 2026-05-24 17:59:26 UTC
+# Last update: 2026-05-24 19:26:46 UTC
 # Country: DM
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=DM&v4_format=prefix
 
