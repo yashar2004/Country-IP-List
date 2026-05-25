@@ -1,4 +1,4 @@
-# Last update: 2026-05-24 22:55:25 UTC
+# Last update: 2026-05-24 23:57:59 UTC
 # Country: KR
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=KR&v4_format=prefix
 
