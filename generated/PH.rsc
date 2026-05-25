@@ -1,4 +1,4 @@
-# Last update: 2026-05-25 04:14:15 UTC
+# Last update: 2026-05-25 08:54:00 UTC
 # Country: PH
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=PH&v4_format=prefix
 
@@ -377,14 +377,12 @@
 :do { add address=2602:f3f5::/40 list=PH-IPv6 } on-error={}
 :do { add address=2602:f420::/40 list=PH-IPv6 } on-error={}
 :do { add address=2602:f838::/40 list=PH-IPv6 } on-error={}
-:do { add address=2602:fb26::/36 list=PH-IPv6 } on-error={}
 
 /ip firewall address-list remove [/ip firewall address-list find list=PH-IPv4]
 /ip firewall address-list
 :do { add address=1.37.0.0/16 list=PH-IPv4 } on-error={}
 :do { add address=2.58.228.0/22 list=PH-IPv4 } on-error={}
 :do { add address=14.102.168.0/22 list=PH-IPv4 } on-error={}
-:do { add address=23.140.40.0/24 list=PH-IPv4 } on-error={}
 :do { add address=23.155.4.0/24 list=PH-IPv4 } on-error={}
 :do { add address=23.156.204.0/24 list=PH-IPv4 } on-error={}
 :do { add address=23.187.40.0/24 list=PH-IPv4 } on-error={}
@@ -903,7 +901,6 @@
 :do { add address=138.252.226.0/23 list=PH-IPv4 } on-error={}
 :do { add address=139.135.64.0/18 list=PH-IPv4 } on-error={}
 :do { add address=139.135.128.0/17 list=PH-IPv4 } on-error={}
-:do { add address=141.195.112.0/22 list=PH-IPv4 } on-error={}
 :do { add address=143.9.0.0/16 list=PH-IPv4 } on-error={}
 :do { add address=143.44.128.0/17 list=PH-IPv4 } on-error={}
 :do { add address=144.48.28.0/22 list=PH-IPv4 } on-error={}
