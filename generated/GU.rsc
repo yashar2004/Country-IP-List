@@ -1,4 +1,4 @@
-# Last update: 2026-05-26 05:00:57 UTC
+# Last update: 2026-05-26 09:48:51 UTC
 # Country: GU
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=GU&v4_format=prefix
 
@@ -20,7 +20,7 @@
 /ip firewall address-list
 :do { add address=43.240.88.0/22 list=GU-IPv4 } on-error={}
 :do { add address=43.247.60.0/22 list=GU-IPv4 } on-error={}
-:do { add address=49.128.104.0/22 list=GU-IPv4 } on-error={}
+:do { add address=49.128.107.0/24 list=GU-IPv4 } on-error={}
 :do { add address=101.99.128.0/17 list=GU-IPv4 } on-error={}
 :do { add address=103.3.240.0/22 list=GU-IPv4 } on-error={}
 :do { add address=103.7.100.0/22 list=GU-IPv4 } on-error={}

@@ -1,4 +1,4 @@
-# Last update: 2026-05-26 05:00:57 UTC
+# Last update: 2026-05-26 09:48:51 UTC
 # Country: MP
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=MP&v4_format=prefix
 
@@ -9,6 +9,8 @@
 /ip firewall address-list remove [/ip firewall address-list find list=MP-IPv4]
 /ip firewall address-list
 :do { add address=45.117.196.0/22 list=MP-IPv4 } on-error={}
+:do { add address=49.128.104.0/23 list=MP-IPv4 } on-error={}
+:do { add address=49.128.106.0/24 list=MP-IPv4 } on-error={}
 :do { add address=103.1.96.0/22 list=MP-IPv4 } on-error={}
 :do { add address=103.57.232.0/22 list=MP-IPv4 } on-error={}
 :do { add address=202.88.64.0/20 list=MP-IPv4 } on-error={}
