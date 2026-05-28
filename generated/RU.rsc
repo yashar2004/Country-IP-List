@@ -1,4 +1,4 @@
-# Last update: 2026-05-26 13:02:17 UTC
+# Last update: 2026-05-28 01:55:10 UTC
 # Country: RU
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=RU&v4_format=prefix
 
@@ -7979,6 +7979,7 @@
 :do { add address=109.239.208.0/20 list=RU-IPv4 } on-error={}
 :do { add address=109.252.0.0/16 list=RU-IPv4 } on-error={}
 :do { add address=109.254.0.0/16 list=RU-IPv4 } on-error={}
+:do { add address=111.88.78.0/24 list=RU-IPv4 } on-error={}
 :do { add address=111.88.96.0/19 list=RU-IPv4 } on-error={}
 :do { add address=111.88.128.0/22 list=RU-IPv4 } on-error={}
 :do { add address=111.88.132.0/23 list=RU-IPv4 } on-error={}
@@ -11910,6 +11911,7 @@
 :do { add address=194.165.22.0/23 list=RU-IPv4 } on-error={}
 :do { add address=194.165.30.0/23 list=RU-IPv4 } on-error={}
 :do { add address=194.165.50.0/24 list=RU-IPv4 } on-error={}
+:do { add address=194.165.57.0/24 list=RU-IPv4 } on-error={}
 :do { add address=194.165.61.0/24 list=RU-IPv4 } on-error={}
 :do { add address=194.169.56.0/22 list=RU-IPv4 } on-error={}
 :do { add address=194.169.192.0/24 list=RU-IPv4 } on-error={}
