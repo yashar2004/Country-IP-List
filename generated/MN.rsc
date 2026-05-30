@@ -1,4 +1,4 @@
-# Last update: 2026-05-29 02:03:03 UTC
+# Last update: 2026-05-30 01:57:46 UTC
 # Country: MN
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=MN&v4_format=prefix
 
@@ -15,6 +15,7 @@
 :do { add address=2001:df2:87c0::/48 list=MN-IPv6 } on-error={}
 :do { add address=2001:df3:2f40::/48 list=MN-IPv6 } on-error={}
 :do { add address=2001:df3:62c0::/48 list=MN-IPv6 } on-error={}
+:do { add address=2001:df3:62c1::/48 list=MN-IPv6 } on-error={}
 :do { add address=2001:df3:9840::/48 list=MN-IPv6 } on-error={}
 :do { add address=2001:df3:a340::/48 list=MN-IPv6 } on-error={}
 :do { add address=2001:df3:acc0::/48 list=MN-IPv6 } on-error={}

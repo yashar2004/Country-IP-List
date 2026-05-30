@@ -1,4 +1,4 @@
-# Last update: 2026-05-29 02:03:03 UTC
+# Last update: 2026-05-30 01:57:46 UTC
 # Country: IL
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=IL&v4_format=prefix
 
@@ -14,6 +14,7 @@
 :do { add address=2001:67c:2840::/48 list=IL-IPv6 } on-error={}
 :do { add address=2001:7f8:3b::/48 list=IL-IPv6 } on-error={}
 :do { add address=2001:7f8:62::/48 list=IL-IPv6 } on-error={}
+:do { add address=2001:7f8:17d::/48 list=IL-IPv6 } on-error={}
 :do { add address=2001:bf8::/32 list=IL-IPv6 } on-error={}
 :do { add address=2001:40a8::/32 list=IL-IPv6 } on-error={}
 :do { add address=2001:4cd0::/29 list=IL-IPv6 } on-error={}
@@ -424,6 +425,7 @@
 :do { add address=91.212.76.0/24 list=IL-IPv4 } on-error={}
 :do { add address=91.212.114.0/24 list=IL-IPv4 } on-error={}
 :do { add address=91.212.189.0/24 list=IL-IPv4 } on-error={}
+:do { add address=91.213.211.64/26 list=IL-IPv4 } on-error={}
 :do { add address=91.214.100.0/22 list=IL-IPv4 } on-error={}
 :do { add address=91.216.222.0/24 list=IL-IPv4 } on-error={}
 :do { add address=91.216.252.0/24 list=IL-IPv4 } on-error={}
@@ -1071,6 +1073,7 @@
 :do { add address=194.187.84.0/22 list=IL-IPv4 } on-error={}
 :do { add address=194.213.4.0/24 list=IL-IPv4 } on-error={}
 :do { add address=194.238.72.0/23 list=IL-IPv4 } on-error={}
+:do { add address=194.238.74.0/23 list=IL-IPv4 } on-error={}
 :do { add address=194.242.24.0/23 list=IL-IPv4 } on-error={}
 :do { add address=194.247.166.0/23 list=IL-IPv4 } on-error={}
 :do { add address=195.3.136.0/22 list=IL-IPv4 } on-error={}

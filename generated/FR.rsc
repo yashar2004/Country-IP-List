@@ -1,4 +1,4 @@
-# Last update: 2026-05-29 02:03:03 UTC
+# Last update: 2026-05-30 01:57:46 UTC
 # Country: FR
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=FR&v4_format=prefix
 
@@ -696,7 +696,6 @@
 :do { add address=2a05:1800::/29 list=FR-IPv6 } on-error={}
 :do { add address=2a05:1ec0::/29 list=FR-IPv6 } on-error={}
 :do { add address=2a05:2640::/29 list=FR-IPv6 } on-error={}
-:do { add address=2a05:2dc0::/29 list=FR-IPv6 } on-error={}
 :do { add address=2a05:3300::/29 list=FR-IPv6 } on-error={}
 :do { add address=2a05:36c0::/29 list=FR-IPv6 } on-error={}
 :do { add address=2a05:4240::/29 list=FR-IPv6 } on-error={}

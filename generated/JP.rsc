@@ -1,4 +1,4 @@
-# Last update: 2026-05-29 02:03:03 UTC
+# Last update: 2026-05-30 01:57:46 UTC
 # Country: JP
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=JP&v4_format=prefix
 
@@ -515,6 +515,7 @@
 :do { add address=2402:59e0::/32 list=JP-IPv6 } on-error={}
 :do { add address=2402:5a00::/32 list=JP-IPv6 } on-error={}
 :do { add address=2402:5a20::/32 list=JP-IPv6 } on-error={}
+:do { add address=2402:6020::/32 list=JP-IPv6 } on-error={}
 :do { add address=2402:6700::/32 list=JP-IPv6 } on-error={}
 :do { add address=2402:6800::/32 list=JP-IPv6 } on-error={}
 :do { add address=2402:6b00::/32 list=JP-IPv6 } on-error={}
@@ -3573,6 +3574,7 @@
 :do { add address=162.4.79.0/24 list=JP-IPv4 } on-error={}
 :do { add address=162.4.98.0/23 list=JP-IPv4 } on-error={}
 :do { add address=162.4.180.0/23 list=JP-IPv4 } on-error={}
+:do { add address=162.4.194.0/23 list=JP-IPv4 } on-error={}
 :do { add address=162.43.0.0/17 list=JP-IPv4 } on-error={}
 :do { add address=163.42.0.0/16 list=JP-IPv4 } on-error={}
 :do { add address=163.43.0.0/16 list=JP-IPv4 } on-error={}
