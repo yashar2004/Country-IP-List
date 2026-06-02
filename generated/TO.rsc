@@ -1,4 +1,4 @@
-# Last update: 2026-06-01 02:35:00 UTC
+# Last update: 2026-06-02 02:33:34 UTC
 # Country: TO
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=TO&v4_format=prefix
 
