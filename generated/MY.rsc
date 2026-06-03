@@ -1,4 +1,4 @@
-# Last update: 2026-06-02 02:33:34 UTC
+# Last update: 2026-06-03 02:40:10 UTC
 # Country: MY
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=MY&v4_format=prefix
 
@@ -345,6 +345,7 @@
 :do { add address=2602:f41e::/40 list=MY-IPv6 } on-error={}
 :do { add address=2602:f833::/40 list=MY-IPv6 } on-error={}
 :do { add address=2602:f8fa::/40 list=MY-IPv6 } on-error={}
+:do { add address=2a01:a40::/29 list=MY-IPv6 } on-error={}
 
 /ip firewall address-list remove [/ip firewall address-list find list=MY-IPv4]
 /ip firewall address-list

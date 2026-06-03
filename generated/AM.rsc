@@ -1,4 +1,4 @@
-# Last update: 2026-06-02 02:33:34 UTC
+# Last update: 2026-06-03 02:40:10 UTC
 # Country: AM
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=AM&v4_format=prefix
 
@@ -121,7 +121,6 @@
 :do { add address=91.103.24.0/21 list=AM-IPv4 } on-error={}
 :do { add address=91.103.56.0/21 list=AM-IPv4 } on-error={}
 :do { add address=91.103.248.0/22 list=AM-IPv4 } on-error={}
-:do { add address=91.108.187.0/24 list=AM-IPv4 } on-error={}
 :do { add address=91.193.43.0/24 list=AM-IPv4 } on-error={}
 :do { add address=91.195.110.0/24 list=AM-IPv4 } on-error={}
 :do { add address=91.195.111.0/24 list=AM-IPv4 } on-error={}
