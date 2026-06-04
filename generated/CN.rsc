@@ -1,4 +1,4 @@
-# Last update: 2026-06-03 02:40:10 UTC
+# Last update: 2026-06-04 02:35:49 UTC
 # Country: CN
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=CN&v4_format=prefix
 
@@ -8425,6 +8425,7 @@
 :do { add address=162.4.136.0/23 list=CN-IPv4 } on-error={}
 :do { add address=162.4.168.0/23 list=CN-IPv4 } on-error={}
 :do { add address=162.4.198.0/23 list=CN-IPv4 } on-error={}
+:do { add address=162.4.202.0/23 list=CN-IPv4 } on-error={}
 :do { add address=162.14.0.0/16 list=CN-IPv4 } on-error={}
 :do { add address=162.105.0.0/16 list=CN-IPv4 } on-error={}
 :do { add address=163.0.0.0/16 list=CN-IPv4 } on-error={}
