@@ -1,4 +1,4 @@
-# Last update: 2026-06-04 02:35:49 UTC
+# Last update: 2026-06-06 02:01:55 UTC
 # Country: AU
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=AU&v4_format=prefix
 
@@ -1396,7 +1396,6 @@
 :do { add address=2404:8e80::/32 list=AU-IPv6 } on-error={}
 :do { add address=2404:8f00::/32 list=AU-IPv6 } on-error={}
 :do { add address=2404:9400::/32 list=AU-IPv6 } on-error={}
-:do { add address=2404:94c0::/32 list=AU-IPv6 } on-error={}
 :do { add address=2404:9540::/32 list=AU-IPv6 } on-error={}
 :do { add address=2404:9600::/32 list=AU-IPv6 } on-error={}
 :do { add address=2404:9601::/32 list=AU-IPv6 } on-error={}
@@ -1918,6 +1917,7 @@
 :do { add address=45.65.13.0/24 list=AU-IPv4 } on-error={}
 :do { add address=45.65.14.0/23 list=AU-IPv4 } on-error={}
 :do { add address=45.65.60.0/22 list=AU-IPv4 } on-error={}
+:do { add address=45.74.128.0/20 list=AU-IPv4 } on-error={}
 :do { add address=45.86.87.0/24 list=AU-IPv4 } on-error={}
 :do { add address=45.92.80.0/22 list=AU-IPv4 } on-error={}
 :do { add address=45.92.96.0/22 list=AU-IPv4 } on-error={}
@@ -3184,7 +3184,7 @@
 :do { add address=103.136.120.0/24 list=AU-IPv4 } on-error={}
 :do { add address=103.136.121.0/24 list=AU-IPv4 } on-error={}
 :do { add address=103.136.122.0/23 list=AU-IPv4 } on-error={}
-:do { add address=103.136.140.0/22 list=AU-IPv4 } on-error={}
+:do { add address=103.136.140.0/24 list=AU-IPv4 } on-error={}
 :do { add address=103.136.144.0/22 list=AU-IPv4 } on-error={}
 :do { add address=103.136.190.0/23 list=AU-IPv4 } on-error={}
 :do { add address=103.136.214.0/23 list=AU-IPv4 } on-error={}
@@ -4762,7 +4762,6 @@
 :do { add address=157.20.102.0/23 list=AU-IPv4 } on-error={}
 :do { add address=157.20.112.0/23 list=AU-IPv4 } on-error={}
 :do { add address=157.20.140.0/23 list=AU-IPv4 } on-error={}
-:do { add address=157.85.32.0/19 list=AU-IPv4 } on-error={}
 :do { add address=157.85.72.0/21 list=AU-IPv4 } on-error={}
 :do { add address=157.85.80.0/20 list=AU-IPv4 } on-error={}
 :do { add address=157.85.128.0/18 list=AU-IPv4 } on-error={}
