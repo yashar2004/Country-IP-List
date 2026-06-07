@@ -1,4 +1,4 @@
-# Last update: 2026-06-04 02:35:49 UTC
+# Last update: 2026-06-07 02:31:49 UTC
 # Country: BH
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=BH&v4_format=prefix
 
@@ -30,9 +30,9 @@
 :do { add address=46.235.208.0/21 list=BH-IPv4 } on-error={}
 :do { add address=62.209.0.0/19 list=BH-IPv4 } on-error={}
 :do { add address=77.69.128.0/17 list=BH-IPv4 } on-error={}
-:do { add address=77.83.88.0/22 list=BH-IPv4 } on-error={}
 :do { add address=77.92.168.0/21 list=BH-IPv4 } on-error={}
-:do { add address=77.92.176.0/20 list=BH-IPv4 } on-error={}
+:do { add address=77.92.176.0/22 list=BH-IPv4 } on-error={}
+:do { add address=77.92.184.0/21 list=BH-IPv4 } on-error={}
 :do { add address=78.110.64.0/20 list=BH-IPv4 } on-error={}
 :do { add address=79.171.240.0/21 list=BH-IPv4 } on-error={}
 :do { add address=80.88.240.0/20 list=BH-IPv4 } on-error={}

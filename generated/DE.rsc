@@ -1,4 +1,4 @@
-# Last update: 2026-06-06 02:01:55 UTC
+# Last update: 2026-06-07 02:31:49 UTC
 # Country: DE
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=DE&v4_format=prefix
 
@@ -7079,6 +7079,7 @@
 :do { add address=149.234.16.0/20 list=DE-IPv4 } on-error={}
 :do { add address=149.234.32.0/19 list=DE-IPv4 } on-error={}
 :do { add address=149.234.64.0/18 list=DE-IPv4 } on-error={}
+:do { add address=149.235.0.0/16 list=DE-IPv4 } on-error={}
 :do { add address=149.236.0.0/16 list=DE-IPv4 } on-error={}
 :do { add address=149.237.0.0/16 list=DE-IPv4 } on-error={}
 :do { add address=149.238.0.0/16 list=DE-IPv4 } on-error={}
@@ -7118,7 +7119,6 @@
 :do { add address=151.123.176.0/21 list=DE-IPv4 } on-error={}
 :do { add address=151.136.0.0/16 list=DE-IPv4 } on-error={}
 :do { add address=151.189.0.0/16 list=DE-IPv4 } on-error={}
-:do { add address=151.216.48.0/20 list=DE-IPv4 } on-error={}
 :do { add address=151.216.192.0/18 list=DE-IPv4 } on-error={}
 :do { add address=151.237.248.0/21 list=DE-IPv4 } on-error={}
 :do { add address=151.248.24.0/21 list=DE-IPv4 } on-error={}
@@ -12800,6 +12800,7 @@
 :do { add address=195.10.195.0/24 list=DE-IPv4 } on-error={}
 :do { add address=195.10.203.0/24 list=DE-IPv4 } on-error={}
 :do { add address=195.10.208.0/24 list=DE-IPv4 } on-error={}
+:do { add address=195.10.226.0/23 list=DE-IPv4 } on-error={}
 :do { add address=195.12.38.0/24 list=DE-IPv4 } on-error={}
 :do { add address=195.13.40.0/22 list=DE-IPv4 } on-error={}
 :do { add address=195.13.60.0/22 list=DE-IPv4 } on-error={}
@@ -13294,7 +13295,7 @@
 :do { add address=195.253.192.0/22 list=DE-IPv4 } on-error={}
 :do { add address=195.253.196.0/24 list=DE-IPv4 } on-error={}
 :do { add address=195.253.212.0/22 list=DE-IPv4 } on-error={}
-:do { add address=195.253.224.0/21 list=DE-IPv4 } on-error={}
+:do { add address=195.253.228.0/22 list=DE-IPv4 } on-error={}
 :do { add address=195.253.232.0/22 list=DE-IPv4 } on-error={}
 :do { add address=195.253.240.0/24 list=DE-IPv4 } on-error={}
 :do { add address=195.253.244.0/22 list=DE-IPv4 } on-error={}
