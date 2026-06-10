@@ -1,4 +1,4 @@
-# Last update: 2026-06-09 01:58:11 UTC
+# Last update: 2026-06-10 02:11:09 UTC
 # Country: TR
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=TR&v4_format=prefix
 
@@ -1947,6 +1947,7 @@
 :do { add address=185.188.128.0/22 list=TR-IPv4 } on-error={}
 :do { add address=185.189.52.0/22 list=TR-IPv4 } on-error={}
 :do { add address=185.189.128.0/22 list=TR-IPv4 } on-error={}
+:do { add address=185.190.16.0/24 list=TR-IPv4 } on-error={}
 :do { add address=185.190.19.0/24 list=TR-IPv4 } on-error={}
 :do { add address=185.193.4.0/22 list=TR-IPv4 } on-error={}
 :do { add address=185.193.164.0/22 list=TR-IPv4 } on-error={}
