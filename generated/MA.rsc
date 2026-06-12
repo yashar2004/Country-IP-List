@@ -1,4 +1,4 @@
-# Last update: 2026-06-11 02:34:03 UTC
+# Last update: 2026-06-12 02:28:39 UTC
 # Country: MA
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=MA&v4_format=prefix
 
@@ -17,6 +17,7 @@
 :do { add address=2001:43fd:7000::/48 list=MA-IPv6 } on-error={}
 :do { add address=2001:43ff:1000::/48 list=MA-IPv6 } on-error={}
 :do { add address=2001:43ff:3000::/48 list=MA-IPv6 } on-error={}
+:do { add address=2001:43ff:c800::/48 list=MA-IPv6 } on-error={}
 :do { add address=2c0e:6000::/24 list=MA-IPv6 } on-error={}
 :do { add address=2c0f:900::/32 list=MA-IPv6 } on-error={}
 :do { add address=2c0f:3e40::/32 list=MA-IPv6 } on-error={}
@@ -55,6 +56,7 @@
 :do { add address=102.96.0.0/13 list=MA-IPv4 } on-error={}
 :do { add address=102.135.248.0/22 list=MA-IPv4 } on-error={}
 :do { add address=102.165.189.0/24 list=MA-IPv4 } on-error={}
+:do { add address=102.202.54.0/24 list=MA-IPv4 } on-error={}
 :do { add address=102.203.136.0/24 list=MA-IPv4 } on-error={}
 :do { add address=102.204.212.0/23 list=MA-IPv4 } on-error={}
 :do { add address=102.204.214.0/24 list=MA-IPv4 } on-error={}

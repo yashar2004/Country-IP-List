@@ -1,4 +1,4 @@
-# Last update: 2026-06-11 02:34:03 UTC
+# Last update: 2026-06-12 02:28:39 UTC
 # Country: AG
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=AG&v4_format=prefix
 
@@ -16,6 +16,7 @@
 
 /ip firewall address-list remove [/ip firewall address-list find list=AG-IPv4]
 /ip firewall address-list
+:do { add address=2.153.0.0/16 list=AG-IPv4 } on-error={}
 :do { add address=23.132.144.0/24 list=AG-IPv4 } on-error={}
 :do { add address=23.176.240.0/24 list=AG-IPv4 } on-error={}
 :do { add address=46.19.184.0/21 list=AG-IPv4 } on-error={}

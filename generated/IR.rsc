@@ -1,4 +1,4 @@
-# Last update: 2026-06-11 02:34:03 UTC
+# Last update: 2026-06-12 02:28:39 UTC
 # Country: IR
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=IR&v4_format=prefix
 
@@ -2259,6 +2259,7 @@
 :do { add address=193.105.6.0/24 list=IR-IPv4 } on-error={}
 :do { add address=193.105.153.0/24 list=IR-IPv4 } on-error={}
 :do { add address=193.105.234.0/24 list=IR-IPv4 } on-error={}
+:do { add address=193.105.253.0/24 list=IR-IPv4 } on-error={}
 :do { add address=193.106.190.0/24 list=IR-IPv4 } on-error={}
 :do { add address=193.107.44.0/24 list=IR-IPv4 } on-error={}
 :do { add address=193.107.48.0/24 list=IR-IPv4 } on-error={}
