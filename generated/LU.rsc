@@ -1,4 +1,4 @@
-# Last update: 2026-06-13 02:09:49 UTC
+# Last update: 2026-06-14 02:32:44 UTC
 # Country: LU
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=LU&v4_format=prefix
 
@@ -7,6 +7,7 @@
 :do { add address=2001:678:1b::/48 list=LU-IPv6 } on-error={}
 :do { add address=2001:678:60::/48 list=LU-IPv6 } on-error={}
 :do { add address=2001:678:d48::/48 list=LU-IPv6 } on-error={}
+:do { add address=2001:678:12a8::/48 list=LU-IPv6 } on-error={}
 :do { add address=2001:67c:2f4::/48 list=LU-IPv6 } on-error={}
 :do { add address=2001:67c:12ac::/48 list=LU-IPv6 } on-error={}
 :do { add address=2001:67c:1b1c::/48 list=LU-IPv6 } on-error={}
