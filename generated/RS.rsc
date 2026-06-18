@@ -1,4 +1,4 @@
-# Last update: 2026-06-17 02:37:01 UTC
+# Last update: 2026-06-18 02:34:39 UTC
 # Country: RS
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=RS&v4_format=prefix
 
@@ -295,6 +295,7 @@
 :do { add address=109.245.0.0/16 list=RS-IPv4 } on-error={}
 :do { add address=130.180.224.0/19 list=RS-IPv4 } on-error={}
 :do { add address=130.193.76.0/24 list=RS-IPv4 } on-error={}
+:do { add address=132.243.80.0/20 list=RS-IPv4 } on-error={}
 :do { add address=139.28.12.0/22 list=RS-IPv4 } on-error={}
 :do { add address=147.91.0.0/16 list=RS-IPv4 } on-error={}
 :do { add address=160.99.0.0/16 list=RS-IPv4 } on-error={}
