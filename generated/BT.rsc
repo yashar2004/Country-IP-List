@@ -1,4 +1,4 @@
-# Last update: 2026-06-18 02:34:39 UTC
+# Last update: 2026-06-19 02:50:26 UTC
 # Country: BT
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=BT&v4_format=prefix
 
@@ -74,6 +74,7 @@
 :do { add address=157.10.146.0/23 list=BT-IPv4 } on-error={}
 :do { add address=160.30.184.0/23 list=BT-IPv4 } on-error={}
 :do { add address=160.191.60.0/23 list=BT-IPv4 } on-error={}
+:do { add address=162.4.252.0/24 list=BT-IPv4 } on-error={}
 :do { add address=163.128.96.0/24 list=BT-IPv4 } on-error={}
 :do { add address=163.128.114.0/24 list=BT-IPv4 } on-error={}
 :do { add address=163.223.203.0/24 list=BT-IPv4 } on-error={}
