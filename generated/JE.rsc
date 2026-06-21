@@ -1,9 +1,10 @@
-# Last update: 2026-06-20 02:11:20 UTC
+# Last update: 2026-06-21 02:35:37 UTC
 # Country: JE
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=JE&v4_format=prefix
 
 /ipv6 firewall address-list remove [/ipv6 firewall address-list find list=JE-IPv6]
 /ipv6 firewall address-list
+:do { add address=2a00:f180::/32 list=JE-IPv6 } on-error={}
 :do { add address=2a01:94a0::/32 list=JE-IPv6 } on-error={}
 :do { add address=2a01:a400::/29 list=JE-IPv6 } on-error={}
 :do { add address=2a02:c28::/29 list=JE-IPv6 } on-error={}
@@ -43,6 +44,7 @@
 :do { add address=185.16.68.0/22 list=JE-IPv4 } on-error={}
 :do { add address=185.48.60.0/22 list=JE-IPv4 } on-error={}
 :do { add address=185.57.212.0/22 list=JE-IPv4 } on-error={}
+:do { add address=185.70.156.0/22 list=JE-IPv4 } on-error={}
 :do { add address=185.87.8.0/22 list=JE-IPv4 } on-error={}
 :do { add address=185.113.12.0/22 list=JE-IPv4 } on-error={}
 :do { add address=185.122.244.0/22 list=JE-IPv4 } on-error={}
@@ -63,4 +65,5 @@
 :do { add address=212.9.0.0/19 list=JE-IPv4 } on-error={}
 :do { add address=213.133.192.0/19 list=JE-IPv4 } on-error={}
 :do { add address=213.134.23.0/24 list=JE-IPv4 } on-error={}
+:do { add address=213.167.64.0/19 list=JE-IPv4 } on-error={}
 :do { add address=217.198.188.0/24 list=JE-IPv4 } on-error={}
