@@ -1,4 +1,4 @@
-# Last update: 2026-06-21 02:35:37 UTC
+# Last update: 2026-06-22 02:39:17 UTC
 # Country: UG
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=UG&v4_format=prefix
 
@@ -141,6 +141,8 @@
 :do { add address=196.49.15.0/24 list=UG-IPv4 } on-error={}
 :do { add address=196.49.82.0/24 list=UG-IPv4 } on-error={}
 :do { add address=196.49.122.0/24 list=UG-IPv4 } on-error={}
+:do { add address=196.49.126.0/24 list=UG-IPv4 } on-error={}
+:do { add address=196.49.127.0/24 list=UG-IPv4 } on-error={}
 :do { add address=196.60.82.0/24 list=UG-IPv4 } on-error={}
 :do { add address=196.60.164.0/24 list=UG-IPv4 } on-error={}
 :do { add address=196.216.176.0/22 list=UG-IPv4 } on-error={}

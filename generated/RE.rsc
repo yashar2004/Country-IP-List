@@ -1,4 +1,4 @@
-# Last update: 2026-06-21 02:35:37 UTC
+# Last update: 2026-06-22 02:39:17 UTC
 # Country: RE
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=RE&v4_format=prefix
 
