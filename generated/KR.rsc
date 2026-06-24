@@ -1,4 +1,4 @@
-# Last update: 2026-06-23 02:05:49 UTC
+# Last update: 2026-06-24 02:07:46 UTC
 # Country: KR
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=KR&v4_format=prefix
 
@@ -186,7 +186,6 @@
 :do { add address=2602:f5d1::/40 list=KR-IPv6 } on-error={}
 :do { add address=2602:f71f::/36 list=KR-IPv6 } on-error={}
 :do { add address=2a0f:3ec0::/29 list=KR-IPv6 } on-error={}
-:do { add address=2a13:140::/29 list=KR-IPv6 } on-error={}
 
 /ip firewall address-list remove [/ip firewall address-list find list=KR-IPv4]
 /ip firewall address-list

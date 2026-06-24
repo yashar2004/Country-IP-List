@@ -1,4 +1,4 @@
-# Last update: 2026-06-23 02:05:49 UTC
+# Last update: 2026-06-24 02:07:46 UTC
 # Country: AR
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=AR&v4_format=prefix
 
@@ -2975,9 +2975,7 @@
 :do { add address=200.122.64.0/19 list=AR-IPv4 } on-error={}
 :do { add address=200.122.96.0/19 list=AR-IPv4 } on-error={}
 :do { add address=200.123.32.0/22 list=AR-IPv4 } on-error={}
-:do { add address=200.123.39.0/24 list=AR-IPv4 } on-error={}
-:do { add address=200.123.40.0/23 list=AR-IPv4 } on-error={}
-:do { add address=200.123.43.0/24 list=AR-IPv4 } on-error={}
+:do { add address=200.123.41.0/24 list=AR-IPv4 } on-error={}
 :do { add address=200.123.45.0/24 list=AR-IPv4 } on-error={}
 :do { add address=200.123.46.0/23 list=AR-IPv4 } on-error={}
 :do { add address=200.123.48.0/24 list=AR-IPv4 } on-error={}
@@ -2990,7 +2988,6 @@
 :do { add address=200.123.56.0/23 list=AR-IPv4 } on-error={}
 :do { add address=200.123.58.0/24 list=AR-IPv4 } on-error={}
 :do { add address=200.123.60.0/24 list=AR-IPv4 } on-error={}
-:do { add address=200.123.63.0/24 list=AR-IPv4 } on-error={}
 :do { add address=200.123.64.0/19 list=AR-IPv4 } on-error={}
 :do { add address=200.123.96.0/19 list=AR-IPv4 } on-error={}
 :do { add address=200.123.128.0/20 list=AR-IPv4 } on-error={}
