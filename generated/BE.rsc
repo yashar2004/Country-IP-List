@@ -1,4 +1,4 @@
-# Last update: 2026-06-25 02:07:13 UTC
+# Last update: 2026-06-26 02:09:22 UTC
 # Country: BE
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=BE&v4_format=prefix
 
@@ -186,7 +186,6 @@
 :do { add address=2a04:9ec0::/29 list=BE-IPv6 } on-error={}
 :do { add address=2a04:9f80::/29 list=BE-IPv6 } on-error={}
 :do { add address=2a04:b5c0::/29 list=BE-IPv6 } on-error={}
-:do { add address=2a04:dbe0::/30 list=BE-IPv6 } on-error={}
 :do { add address=2a05::/29 list=BE-IPv6 } on-error={}
 :do { add address=2a05:200::/29 list=BE-IPv6 } on-error={}
 :do { add address=2a05:3c0::/29 list=BE-IPv6 } on-error={}
@@ -793,7 +792,6 @@
 :do { add address=185.58.96.0/22 list=BE-IPv4 } on-error={}
 :do { add address=185.59.16.0/22 list=BE-IPv4 } on-error={}
 :do { add address=185.59.168.0/22 list=BE-IPv4 } on-error={}
-:do { add address=185.59.196.0/22 list=BE-IPv4 } on-error={}
 :do { add address=185.61.72.0/22 list=BE-IPv4 } on-error={}
 :do { add address=185.64.64.0/22 list=BE-IPv4 } on-error={}
 :do { add address=185.64.164.0/22 list=BE-IPv4 } on-error={}

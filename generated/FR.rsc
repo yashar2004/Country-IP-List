@@ -1,4 +1,4 @@
-# Last update: 2026-06-25 02:07:13 UTC
+# Last update: 2026-06-26 02:09:22 UTC
 # Country: FR
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=FR&v4_format=prefix
 
@@ -440,7 +440,6 @@
 :do { add address=2a02:e10::/32 list=FR-IPv6 } on-error={}
 :do { add address=2a02:e58::/29 list=FR-IPv6 } on-error={}
 :do { add address=2a02:ec0::/32 list=FR-IPv6 } on-error={}
-:do { add address=2a02:1738::/32 list=FR-IPv6 } on-error={}
 :do { add address=2a02:1740::/32 list=FR-IPv6 } on-error={}
 :do { add address=2a02:1758::/29 list=FR-IPv6 } on-error={}
 :do { add address=2a02:2038::/32 list=FR-IPv6 } on-error={}
@@ -2058,7 +2057,6 @@
 :do { add address=80.74.64.0/20 list=FR-IPv4 } on-error={}
 :do { add address=80.75.144.0/21 list=FR-IPv4 } on-error={}
 :do { add address=80.75.152.0/21 list=FR-IPv4 } on-error={}
-:do { add address=80.77.224.0/20 list=FR-IPv4 } on-error={}
 :do { add address=80.78.0.0/20 list=FR-IPv4 } on-error={}
 :do { add address=80.82.224.0/20 list=FR-IPv4 } on-error={}
 :do { add address=80.87.224.0/20 list=FR-IPv4 } on-error={}
@@ -2748,7 +2746,6 @@
 :do { add address=94.143.228.0/24 list=FR-IPv4 } on-error={}
 :do { add address=94.154.4.0/24 list=FR-IPv4 } on-error={}
 :do { add address=94.154.5.0/24 list=FR-IPv4 } on-error={}
-:do { add address=94.154.6.0/24 list=FR-IPv4 } on-error={}
 :do { add address=94.154.14.0/24 list=FR-IPv4 } on-error={}
 :do { add address=94.154.15.0/24 list=FR-IPv4 } on-error={}
 :do { add address=94.154.119.0/24 list=FR-IPv4 } on-error={}
@@ -3061,6 +3058,7 @@
 :do { add address=152.89.197.0/24 list=FR-IPv4 } on-error={}
 :do { add address=152.228.128.0/17 list=FR-IPv4 } on-error={}
 :do { add address=153.56.149.0/24 list=FR-IPv4 } on-error={}
+:do { add address=153.59.0.0/16 list=FR-IPv4 } on-error={}
 :do { add address=153.92.96.0/20 list=FR-IPv4 } on-error={}
 :do { add address=153.92.224.0/19 list=FR-IPv4 } on-error={}
 :do { add address=155.2.128.0/19 list=FR-IPv4 } on-error={}
@@ -4366,7 +4364,6 @@
 :do { add address=185.249.140.0/22 list=FR-IPv4 } on-error={}
 :do { add address=185.249.184.0/22 list=FR-IPv4 } on-error={}
 :do { add address=185.250.68.0/22 list=FR-IPv4 } on-error={}
-:do { add address=185.250.112.0/22 list=FR-IPv4 } on-error={}
 :do { add address=185.250.176.0/22 list=FR-IPv4 } on-error={}
 :do { add address=185.250.216.0/22 list=FR-IPv4 } on-error={}
 :do { add address=185.251.68.0/24 list=FR-IPv4 } on-error={}
