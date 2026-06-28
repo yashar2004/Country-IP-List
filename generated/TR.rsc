@@ -1,4 +1,4 @@
-# Last update: 2026-06-27 02:03:57 UTC
+# Last update: 2026-06-28 02:14:56 UTC
 # Country: TR
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=TR&v4_format=prefix
 
@@ -1092,6 +1092,11 @@
 :do { add address=85.8.144.0/22 list=TR-IPv4 } on-error={}
 :do { add address=85.8.156.0/22 list=TR-IPv4 } on-error={}
 :do { add address=85.8.160.0/22 list=TR-IPv4 } on-error={}
+:do { add address=85.8.209.0/24 list=TR-IPv4 } on-error={}
+:do { add address=85.8.212.0/24 list=TR-IPv4 } on-error={}
+:do { add address=85.8.214.0/24 list=TR-IPv4 } on-error={}
+:do { add address=85.8.217.0/24 list=TR-IPv4 } on-error={}
+:do { add address=85.8.218.0/24 list=TR-IPv4 } on-error={}
 :do { add address=85.29.0.0/18 list=TR-IPv4 } on-error={}
 :do { add address=85.90.210.0/24 list=TR-IPv4 } on-error={}
 :do { add address=85.95.224.0/19 list=TR-IPv4 } on-error={}
@@ -1483,6 +1488,7 @@
 :do { add address=153.56.156.0/22 list=TR-IPv4 } on-error={}
 :do { add address=153.56.160.0/21 list=TR-IPv4 } on-error={}
 :do { add address=153.56.168.0/23 list=TR-IPv4 } on-error={}
+:do { add address=153.56.190.0/23 list=TR-IPv4 } on-error={}
 :do { add address=155.223.0.0/16 list=TR-IPv4 } on-error={}
 :do { add address=158.94.208.0/22 list=TR-IPv4 } on-error={}
 :do { add address=158.94.216.0/24 list=TR-IPv4 } on-error={}
@@ -2641,6 +2647,7 @@
 :do { add address=217.18.85.0/24 list=TR-IPv4 } on-error={}
 :do { add address=217.18.208.0/22 list=TR-IPv4 } on-error={}
 :do { add address=217.20.255.0/24 list=TR-IPv4 } on-error={}
+:do { add address=217.22.7.0/24 list=TR-IPv4 } on-error={}
 :do { add address=217.26.216.0/24 list=TR-IPv4 } on-error={}
 :do { add address=217.31.224.0/20 list=TR-IPv4 } on-error={}
 :do { add address=217.31.240.0/20 list=TR-IPv4 } on-error={}

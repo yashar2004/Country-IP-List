@@ -1,4 +1,4 @@
-# Last update: 2026-06-27 02:03:57 UTC
+# Last update: 2026-06-28 02:14:56 UTC
 # Country: MY
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=MY&v4_format=prefix
 
@@ -434,7 +434,6 @@
 :do { add address=45.124.98.0/23 list=MY-IPv4 } on-error={}
 :do { add address=45.126.88.0/22 list=MY-IPv4 } on-error={}
 :do { add address=45.127.4.0/22 list=MY-IPv4 } on-error={}
-:do { add address=45.248.38.0/23 list=MY-IPv4 } on-error={}
 :do { add address=45.255.252.0/22 list=MY-IPv4 } on-error={}
 :do { add address=49.0.160.0/21 list=MY-IPv4 } on-error={}
 :do { add address=49.50.12.0/22 list=MY-IPv4 } on-error={}
@@ -448,7 +447,6 @@
 :do { add address=58.84.16.0/22 list=MY-IPv4 } on-error={}
 :do { add address=58.84.40.0/22 list=MY-IPv4 } on-error={}
 :do { add address=58.139.0.0/16 list=MY-IPv4 } on-error={}
-:do { add address=59.153.26.0/23 list=MY-IPv4 } on-error={}
 :do { add address=60.48.0.0/14 list=MY-IPv4 } on-error={}
 :do { add address=60.52.0.0/15 list=MY-IPv4 } on-error={}
 :do { add address=60.54.0.0/16 list=MY-IPv4 } on-error={}
@@ -549,7 +547,6 @@
 :do { add address=103.27.72.0/22 list=MY-IPv4 } on-error={}
 :do { add address=103.27.104.0/22 list=MY-IPv4 } on-error={}
 :do { add address=103.27.112.0/22 list=MY-IPv4 } on-error={}
-:do { add address=103.27.204.0/23 list=MY-IPv4 } on-error={}
 :do { add address=103.27.255.0/24 list=MY-IPv4 } on-error={}
 :do { add address=103.28.90.0/23 list=MY-IPv4 } on-error={}
 :do { add address=103.28.162.0/24 list=MY-IPv4 } on-error={}
@@ -778,7 +775,6 @@
 :do { add address=103.196.195.0/24 list=MY-IPv4 } on-error={}
 :do { add address=103.197.20.0/22 list=MY-IPv4 } on-error={}
 :do { add address=103.197.56.0/22 list=MY-IPv4 } on-error={}
-:do { add address=103.198.16.0/23 list=MY-IPv4 } on-error={}
 :do { add address=103.198.26.0/23 list=MY-IPv4 } on-error={}
 :do { add address=103.198.52.0/23 list=MY-IPv4 } on-error={}
 :do { add address=103.198.68.0/22 list=MY-IPv4 } on-error={}
