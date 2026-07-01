@@ -1,4 +1,4 @@
-# Last update: 2026-06-30 02:09:26 UTC
+# Last update: 2026-07-01 02:14:20 UTC
 # Country: BA
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=BA&v4_format=prefix
 
@@ -101,6 +101,7 @@
 :do { add address=81.94.0.0/20 list=BA-IPv4 } on-error={}
 :do { add address=82.117.232.0/21 list=BA-IPv4 } on-error={}
 :do { add address=82.118.0.0/20 list=BA-IPv4 } on-error={}
+:do { add address=85.8.227.0/24 list=BA-IPv4 } on-error={}
 :do { add address=85.92.224.0/19 list=BA-IPv4 } on-error={}
 :do { add address=85.94.128.0/19 list=BA-IPv4 } on-error={}
 :do { add address=85.158.32.0/21 list=BA-IPv4 } on-error={}
