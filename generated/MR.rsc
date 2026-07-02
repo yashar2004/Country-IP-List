@@ -1,9 +1,10 @@
-# Last update: 2026-07-01 02:14:20 UTC
+# Last update: 2026-07-02 02:06:27 UTC
 # Country: MR
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=MR&v4_format=prefix
 
 /ipv6 firewall address-list remove [/ipv6 firewall address-list find list=MR-IPv6]
 /ipv6 firewall address-list
+:do { add address=2c0f:fa0::/32 list=MR-IPv6 } on-error={}
 :do { add address=2c0f:2240::/32 list=MR-IPv6 } on-error={}
 :do { add address=2c0f:2540::/32 list=MR-IPv6 } on-error={}
 :do { add address=2c0f:2640::/32 list=MR-IPv6 } on-error={}
@@ -16,6 +17,7 @@
 :do { add address=41.188.64.0/18 list=MR-IPv4 } on-error={}
 :do { add address=41.223.96.0/22 list=MR-IPv4 } on-error={}
 :do { add address=82.151.64.0/19 list=MR-IPv4 } on-error={}
+:do { add address=102.202.11.0/24 list=MR-IPv4 } on-error={}
 :do { add address=102.205.52.0/22 list=MR-IPv4 } on-error={}
 :do { add address=102.205.96.0/22 list=MR-IPv4 } on-error={}
 :do { add address=102.205.176.0/22 list=MR-IPv4 } on-error={}

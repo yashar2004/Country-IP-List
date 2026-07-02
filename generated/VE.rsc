@@ -1,4 +1,4 @@
-# Last update: 2026-07-01 02:14:20 UTC
+# Last update: 2026-07-02 02:06:27 UTC
 # Country: VE
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=VE&v4_format=prefix
 
@@ -126,6 +126,7 @@
 :do { add address=2803:7010::/32 list=VE-IPv6 } on-error={}
 :do { add address=2803:72d0::/32 list=VE-IPv6 } on-error={}
 :do { add address=2803:74a0::/32 list=VE-IPv6 } on-error={}
+:do { add address=2803:7530::/32 list=VE-IPv6 } on-error={}
 :do { add address=2803:75c0::/32 list=VE-IPv6 } on-error={}
 :do { add address=2803:76d0::/32 list=VE-IPv6 } on-error={}
 :do { add address=2803:7760::/32 list=VE-IPv6 } on-error={}
@@ -173,6 +174,7 @@
 :do { add address=2803:b400::/32 list=VE-IPv6 } on-error={}
 :do { add address=2803:b460::/32 list=VE-IPv6 } on-error={}
 :do { add address=2803:b500::/32 list=VE-IPv6 } on-error={}
+:do { add address=2803:b530::/32 list=VE-IPv6 } on-error={}
 :do { add address=2803:b5d0::/32 list=VE-IPv6 } on-error={}
 :do { add address=2803:b8d0::/32 list=VE-IPv6 } on-error={}
 :do { add address=2803:b950::/32 list=VE-IPv6 } on-error={}

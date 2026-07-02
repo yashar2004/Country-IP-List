@@ -1,4 +1,4 @@
-# Last update: 2026-07-01 02:14:20 UTC
+# Last update: 2026-07-02 02:06:27 UTC
 # Country: IL
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=IL&v4_format=prefix
 
@@ -509,6 +509,7 @@
 :do { add address=132.74.0.0/15 list=IL-IPv4 } on-error={}
 :do { add address=132.76.0.0/15 list=IL-IPv4 } on-error={}
 :do { add address=132.78.0.0/16 list=IL-IPv4 } on-error={}
+:do { add address=136.148.136.0/22 list=IL-IPv4 } on-error={}
 :do { add address=138.134.0.0/16 list=IL-IPv4 } on-error={}
 :do { add address=141.226.0.0/19 list=IL-IPv4 } on-error={}
 :do { add address=141.226.32.0/20 list=IL-IPv4 } on-error={}
