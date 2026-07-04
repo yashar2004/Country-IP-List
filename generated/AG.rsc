@@ -1,4 +1,4 @@
-# Last update: 2026-07-03 01:50:30 UTC
+# Last update: 2026-07-04 01:50:01 UTC
 # Country: AG
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=AG&v4_format=prefix
 
@@ -20,6 +20,7 @@
 :do { add address=23.132.144.0/24 list=AG-IPv4 } on-error={}
 :do { add address=23.176.240.0/24 list=AG-IPv4 } on-error={}
 :do { add address=46.19.184.0/21 list=AG-IPv4 } on-error={}
+:do { add address=66.85.40.0/24 list=AG-IPv4 } on-error={}
 :do { add address=69.50.64.0/20 list=AG-IPv4 } on-error={}
 :do { add address=69.57.224.0/19 list=AG-IPv4 } on-error={}
 :do { add address=76.76.160.0/19 list=AG-IPv4 } on-error={}
