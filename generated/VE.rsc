@@ -1,4 +1,4 @@
-# Last update: 2026-07-07 01:57:55 UTC
+# Last update: 2026-07-08 01:27:41 UTC
 # Country: VE
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=VE&v4_format=prefix
 
@@ -281,6 +281,7 @@
 :do { add address=45.236.28.0/22 list=VE-IPv4 } on-error={}
 :do { add address=45.236.120.0/24 list=VE-IPv4 } on-error={}
 :do { add address=74.123.48.0/22 list=VE-IPv4 } on-error={}
+:do { add address=85.136.83.0/24 list=VE-IPv4 } on-error={}
 :do { add address=129.90.0.0/16 list=VE-IPv4 } on-error={}
 :do { add address=131.72.168.0/22 list=VE-IPv4 } on-error={}
 :do { add address=131.221.112.0/22 list=VE-IPv4 } on-error={}

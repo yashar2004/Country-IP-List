@@ -1,4 +1,4 @@
-# Last update: 2026-07-07 01:57:55 UTC
+# Last update: 2026-07-08 01:27:41 UTC
 # Country: HR
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=HR&v4_format=prefix
 
@@ -113,6 +113,7 @@
 :do { add address=78.134.128.0/17 list=HR-IPv4 } on-error={}
 :do { add address=80.80.48.0/20 list=HR-IPv4 } on-error={}
 :do { add address=80.173.128.0/22 list=HR-IPv4 } on-error={}
+:do { add address=80.173.132.0/22 list=HR-IPv4 } on-error={}
 :do { add address=80.253.160.0/22 list=HR-IPv4 } on-error={}
 :do { add address=80.253.164.0/22 list=HR-IPv4 } on-error={}
 :do { add address=80.253.168.0/21 list=HR-IPv4 } on-error={}
