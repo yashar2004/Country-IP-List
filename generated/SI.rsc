@@ -1,4 +1,4 @@
-# Last update: 2026-07-10 01:48:27 UTC
+# Last update: 2026-07-11 01:27:37 UTC
 # Country: SI
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=SI&v4_format=prefix
 
@@ -364,6 +364,7 @@
 :do { add address=103.72.184.0/22 list=SI-IPv4 } on-error={}
 :do { add address=103.180.114.0/23 list=SI-IPv4 } on-error={}
 :do { add address=107.150.176.0/24 list=SI-IPv4 } on-error={}
+:do { add address=109.68.220.0/24 list=SI-IPv4 } on-error={}
 :do { add address=109.104.146.0/23 list=SI-IPv4 } on-error={}
 :do { add address=109.123.0.0/18 list=SI-IPv4 } on-error={}
 :do { add address=109.127.192.0/18 list=SI-IPv4 } on-error={}
