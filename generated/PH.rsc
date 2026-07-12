@@ -1,10 +1,11 @@
-# Last update: 2026-07-11 01:27:37 UTC
+# Last update: 2026-07-12 01:28:59 UTC
 # Country: PH
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=PH&v4_format=prefix
 
 /ipv6 firewall address-list remove [/ipv6 firewall address-list find list=PH-IPv6]
 /ipv6 firewall address-list
 :do { add address=2001:d18::/32 list=PH-IPv6 } on-error={}
+:do { add address=2001:de8:6000::/48 list=PH-IPv6 } on-error={}
 :do { add address=2001:de9:c000::/48 list=PH-IPv6 } on-error={}
 :do { add address=2001:ded:4000::/48 list=PH-IPv6 } on-error={}
 :do { add address=2001:df0:70::/48 list=PH-IPv6 } on-error={}
