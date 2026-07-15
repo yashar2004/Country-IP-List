@@ -1,4 +1,4 @@
-# Last update: 2026-07-14 01:19:12 UTC
+# Last update: 2026-07-15 01:16:43 UTC
 # Country: BE
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=BE&v4_format=prefix
 
@@ -71,6 +71,7 @@
 :do { add address=2001:7f8:26::/48 list=BE-IPv6 } on-error={}
 :do { add address=2001:7f8:d2::/48 list=BE-IPv6 } on-error={}
 :do { add address=2001:7f8:12d::/48 list=BE-IPv6 } on-error={}
+:do { add address=2001:7fc:1::/48 list=BE-IPv6 } on-error={}
 :do { add address=2001:9b8::/32 list=BE-IPv6 } on-error={}
 :do { add address=2001:1598::/32 list=BE-IPv6 } on-error={}
 :do { add address=2001:3d80::/29 list=BE-IPv6 } on-error={}
@@ -397,7 +398,10 @@
 :do { add address=46.18.33.0/24 list=BE-IPv4 } on-error={}
 :do { add address=46.18.34.0/23 list=BE-IPv4 } on-error={}
 :do { add address=46.18.36.0/22 list=BE-IPv4 } on-error={}
-:do { add address=46.19.0.0/21 list=BE-IPv4 } on-error={}
+:do { add address=46.19.0.0/22 list=BE-IPv4 } on-error={}
+:do { add address=46.19.4.0/23 list=BE-IPv4 } on-error={}
+:do { add address=46.19.6.0/24 list=BE-IPv4 } on-error={}
+:do { add address=46.19.7.0/24 list=BE-IPv4 } on-error={}
 :do { add address=46.21.224.0/20 list=BE-IPv4 } on-error={}
 :do { add address=46.28.40.0/21 list=BE-IPv4 } on-error={}
 :do { add address=46.31.88.0/21 list=BE-IPv4 } on-error={}
