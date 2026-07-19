@@ -1,4 +1,4 @@
-# Last update: 2026-07-18 01:20:54 UTC
+# Last update: 2026-07-19 01:26:56 UTC
 # Country: NP
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=NP&v4_format=prefix
 
@@ -308,7 +308,6 @@
 :do { add address=103.164.158.0/24 list=NP-IPv4 } on-error={}
 :do { add address=103.165.184.0/24 list=NP-IPv4 } on-error={}
 :do { add address=103.165.185.0/24 list=NP-IPv4 } on-error={}
-:do { add address=103.165.242.0/24 list=NP-IPv4 } on-error={}
 :do { add address=103.166.18.0/23 list=NP-IPv4 } on-error={}
 :do { add address=103.166.100.0/23 list=NP-IPv4 } on-error={}
 :do { add address=103.166.172.0/23 list=NP-IPv4 } on-error={}

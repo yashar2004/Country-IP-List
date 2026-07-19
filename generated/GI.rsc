@@ -1,4 +1,4 @@
-# Last update: 2026-07-18 01:20:54 UTC
+# Last update: 2026-07-19 01:26:56 UTC
 # Country: GI
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=GI&v4_format=prefix
 
@@ -49,7 +49,8 @@
 :do { add address=94.131.22.0/24 list=GI-IPv4 } on-error={}
 :do { add address=94.131.24.0/21 list=GI-IPv4 } on-error={}
 :do { add address=94.131.32.0/20 list=GI-IPv4 } on-error={}
-:do { add address=94.131.52.0/22 list=GI-IPv4 } on-error={}
+:do { add address=94.131.52.0/24 list=GI-IPv4 } on-error={}
+:do { add address=94.131.54.0/23 list=GI-IPv4 } on-error={}
 :do { add address=94.131.56.0/22 list=GI-IPv4 } on-error={}
 :do { add address=94.131.64.0/20 list=GI-IPv4 } on-error={}
 :do { add address=94.131.124.0/22 list=GI-IPv4 } on-error={}
