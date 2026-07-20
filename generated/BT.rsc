@@ -1,4 +1,4 @@
-# Last update: 2026-07-19 01:26:56 UTC
+# Last update: 2026-07-20 03:03:16 UTC
 # Country: BT
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=BT&v4_format=prefix
 
@@ -34,6 +34,7 @@
 /ip firewall address-list remove [/ip firewall address-list find list=BT-IPv4]
 /ip firewall address-list
 :do { add address=36.50.37.0/24 list=BT-IPv4 } on-error={}
+:do { add address=43.226.8.0/22 list=BT-IPv4 } on-error={}
 :do { add address=43.229.124.0/22 list=BT-IPv4 } on-error={}
 :do { add address=43.230.208.0/24 list=BT-IPv4 } on-error={}
 :do { add address=43.241.136.0/22 list=BT-IPv4 } on-error={}
