@@ -1,4 +1,4 @@
-# Last update: 2026-07-22 01:25:10 UTC
+# Last update: 2026-07-23 01:45:10 UTC
 # Country: BW
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=BW&v4_format=prefix
 
@@ -48,6 +48,7 @@
 :do { add address=102.134.160.0/20 list=BW-IPv4 } on-error={}
 :do { add address=102.141.112.0/21 list=BW-IPv4 } on-error={}
 :do { add address=102.165.128.0/19 list=BW-IPv4 } on-error={}
+:do { add address=102.201.232.0/22 list=BW-IPv4 } on-error={}
 :do { add address=102.202.66.0/23 list=BW-IPv4 } on-error={}
 :do { add address=102.202.190.0/24 list=BW-IPv4 } on-error={}
 :do { add address=102.202.191.0/24 list=BW-IPv4 } on-error={}
