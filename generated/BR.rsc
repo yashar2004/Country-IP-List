@@ -1,4 +1,4 @@
-# Last update: 2026-07-24 01:29:32 UTC
+# Last update: 2026-07-25 01:29:29 UTC
 # Country: BR
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=BR&v4_format=prefix
 
@@ -13898,7 +13898,9 @@
 :do { add address=168.197.244.0/22 list=BR-IPv4 } on-error={}
 :do { add address=168.197.252.0/22 list=BR-IPv4 } on-error={}
 :do { add address=168.205.12.0/22 list=BR-IPv4 } on-error={}
-:do { add address=168.205.16.0/22 list=BR-IPv4 } on-error={}
+:do { add address=168.205.16.0/23 list=BR-IPv4 } on-error={}
+:do { add address=168.205.18.0/24 list=BR-IPv4 } on-error={}
+:do { add address=168.205.19.0/24 list=BR-IPv4 } on-error={}
 :do { add address=168.205.20.0/22 list=BR-IPv4 } on-error={}
 :do { add address=168.205.24.0/22 list=BR-IPv4 } on-error={}
 :do { add address=168.205.28.0/22 list=BR-IPv4 } on-error={}
@@ -18489,7 +18491,19 @@
 :do { add address=187.31.28.0/22 list=BR-IPv4 } on-error={}
 :do { add address=187.31.32.0/19 list=BR-IPv4 } on-error={}
 :do { add address=187.31.64.0/18 list=BR-IPv4 } on-error={}
-:do { add address=187.31.128.0/17 list=BR-IPv4 } on-error={}
+:do { add address=187.31.128.0/18 list=BR-IPv4 } on-error={}
+:do { add address=187.31.192.0/23 list=BR-IPv4 } on-error={}
+:do { add address=187.31.194.0/23 list=BR-IPv4 } on-error={}
+:do { add address=187.31.196.0/23 list=BR-IPv4 } on-error={}
+:do { add address=187.31.198.0/23 list=BR-IPv4 } on-error={}
+:do { add address=187.31.200.0/21 list=BR-IPv4 } on-error={}
+:do { add address=187.31.208.0/20 list=BR-IPv4 } on-error={}
+:do { add address=187.31.224.0/21 list=BR-IPv4 } on-error={}
+:do { add address=187.31.232.0/22 list=BR-IPv4 } on-error={}
+:do { add address=187.31.236.0/23 list=BR-IPv4 } on-error={}
+:do { add address=187.31.238.0/24 list=BR-IPv4 } on-error={}
+:do { add address=187.31.239.0/24 list=BR-IPv4 } on-error={}
+:do { add address=187.31.240.0/20 list=BR-IPv4 } on-error={}
 :do { add address=187.32.0.0/16 list=BR-IPv4 } on-error={}
 :do { add address=187.33.0.0/19 list=BR-IPv4 } on-error={}
 :do { add address=187.33.32.0/20 list=BR-IPv4 } on-error={}
