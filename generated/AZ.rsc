@@ -1,4 +1,4 @@
-# Last update: 2026-07-25 01:29:29 UTC
+# Last update: 2026-07-26 01:43:42 UTC
 # Country: AZ
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=AZ&v4_format=prefix
 
@@ -255,6 +255,7 @@
 :do { add address=185.161.224.0/22 list=AZ-IPv4 } on-error={}
 :do { add address=185.163.131.0/24 list=AZ-IPv4 } on-error={}
 :do { add address=185.193.132.0/22 list=AZ-IPv4 } on-error={}
+:do { add address=185.213.123.0/24 list=AZ-IPv4 } on-error={}
 :do { add address=185.220.180.0/22 list=AZ-IPv4 } on-error={}
 :do { add address=185.222.92.0/22 list=AZ-IPv4 } on-error={}
 :do { add address=185.230.199.0/24 list=AZ-IPv4 } on-error={}

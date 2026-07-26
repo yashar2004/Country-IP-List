@@ -1,4 +1,4 @@
-# Last update: 2026-07-25 01:29:29 UTC
+# Last update: 2026-07-26 01:43:42 UTC
 # Country: CI
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=CI&v4_format=prefix
 
@@ -13,6 +13,7 @@
 :do { add address=2001:43f8:1630::/48 list=CI-IPv6 } on-error={}
 :do { add address=2001:43ff:a000::/48 list=CI-IPv6 } on-error={}
 :do { add address=2c0e:7f80::/27 list=CI-IPv6 } on-error={}
+:do { add address=2c0f:1120::/32 list=CI-IPv6 } on-error={}
 :do { add address=2c0f:4c40::/32 list=CI-IPv6 } on-error={}
 :do { add address=2c0f:7c00::/32 list=CI-IPv6 } on-error={}
 :do { add address=2c0f:e800::/32 list=CI-IPv6 } on-error={}
@@ -113,6 +114,7 @@
 :do { add address=102.135.184.0/22 list=CI-IPv4 } on-error={}
 :do { add address=102.135.191.0/24 list=CI-IPv4 } on-error={}
 :do { add address=102.136.0.0/14 list=CI-IPv4 } on-error={}
+:do { add address=102.201.210.0/24 list=CI-IPv4 } on-error={}
 :do { add address=102.203.40.0/22 list=CI-IPv4 } on-error={}
 :do { add address=102.205.12.0/22 list=CI-IPv4 } on-error={}
 :do { add address=102.205.72.0/23 list=CI-IPv4 } on-error={}
