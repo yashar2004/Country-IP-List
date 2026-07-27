@@ -1,4 +1,4 @@
-# Last update: 2026-07-26 01:43:42 UTC
+# Last update: 2026-07-27 01:50:43 UTC
 # Country: GE
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=GE&v4_format=prefix
 
