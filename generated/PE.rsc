@@ -1,4 +1,4 @@
-# Last update: 2026-07-28 01:25:28 UTC
+# Last update: 2026-07-29 01:25:20 UTC
 # Country: PE
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=PE&v4_format=prefix
 
@@ -236,6 +236,7 @@
 
 /ip firewall address-list remove [/ip firewall address-list find list=PE-IPv4]
 /ip firewall address-list
+:do { add address=2.152.246.0/24 list=PE-IPv4 } on-error={}
 :do { add address=45.4.92.0/22 list=PE-IPv4 } on-error={}
 :do { add address=45.5.56.0/22 list=PE-IPv4 } on-error={}
 :do { add address=45.5.68.0/22 list=PE-IPv4 } on-error={}
