@@ -1,4 +1,4 @@
-# Last update: 2026-07-29 01:25:20 UTC
+# Last update: 2026-07-30 01:18:20 UTC
 # Country: CA
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=CA&v4_format=prefix
 
@@ -315,7 +315,7 @@
 :do { add address=2602:fd3b::/36 list=CA-IPv6 } on-error={}
 :do { add address=2602:fd4b::/36 list=CA-IPv6 } on-error={}
 :do { add address=2602:fd50::/32 list=CA-IPv6 } on-error={}
-:do { add address=2602:fd51::/36 list=CA-IPv6 } on-error={}
+:do { add address=2602:fd51::/40 list=CA-IPv6 } on-error={}
 :do { add address=2602:fd52::/36 list=CA-IPv6 } on-error={}
 :do { add address=2602:fd53::/36 list=CA-IPv6 } on-error={}
 :do { add address=2602:fd5a::/36 list=CA-IPv6 } on-error={}

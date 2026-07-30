@@ -1,4 +1,4 @@
-# Last update: 2026-07-29 01:25:20 UTC
+# Last update: 2026-07-30 01:18:20 UTC
 # Country: SE
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=SE&v4_format=prefix
 
@@ -2295,26 +2295,10 @@
 :do { add address=192.71.0.0/16 list=SE-IPv4 } on-error={}
 :do { add address=192.81.194.0/24 list=SE-IPv4 } on-error={}
 :do { add address=192.86.254.0/24 list=SE-IPv4 } on-error={}
-:do { add address=192.91.214.0/24 list=SE-IPv4 } on-error={}
-:do { add address=192.91.215.0/24 list=SE-IPv4 } on-error={}
-:do { add address=192.91.216.0/24 list=SE-IPv4 } on-error={}
-:do { add address=192.91.217.0/24 list=SE-IPv4 } on-error={}
-:do { add address=192.91.218.0/24 list=SE-IPv4 } on-error={}
-:do { add address=192.91.219.0/24 list=SE-IPv4 } on-error={}
-:do { add address=192.91.220.0/24 list=SE-IPv4 } on-error={}
-:do { add address=192.91.221.0/24 list=SE-IPv4 } on-error={}
-:do { add address=192.91.222.0/24 list=SE-IPv4 } on-error={}
-:do { add address=192.91.223.0/24 list=SE-IPv4 } on-error={}
-:do { add address=192.91.224.0/24 list=SE-IPv4 } on-error={}
-:do { add address=192.91.225.0/24 list=SE-IPv4 } on-error={}
-:do { add address=192.91.226.0/24 list=SE-IPv4 } on-error={}
-:do { add address=192.91.227.0/24 list=SE-IPv4 } on-error={}
-:do { add address=192.91.228.0/24 list=SE-IPv4 } on-error={}
-:do { add address=192.91.229.0/24 list=SE-IPv4 } on-error={}
-:do { add address=192.91.230.0/24 list=SE-IPv4 } on-error={}
-:do { add address=192.91.231.0/24 list=SE-IPv4 } on-error={}
-:do { add address=192.91.232.0/24 list=SE-IPv4 } on-error={}
-:do { add address=192.91.233.0/24 list=SE-IPv4 } on-error={}
+:do { add address=192.91.214.0/23 list=SE-IPv4 } on-error={}
+:do { add address=192.91.216.0/21 list=SE-IPv4 } on-error={}
+:do { add address=192.91.224.0/21 list=SE-IPv4 } on-error={}
+:do { add address=192.91.232.0/23 list=SE-IPv4 } on-error={}
 :do { add address=192.107.187.0/24 list=SE-IPv4 } on-error={}
 :do { add address=192.108.107.0/24 list=SE-IPv4 } on-error={}
 :do { add address=192.108.108.0/24 list=SE-IPv4 } on-error={}
