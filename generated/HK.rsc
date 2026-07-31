@@ -1,4 +1,4 @@
-# Last update: 2026-07-30 01:18:20 UTC
+# Last update: 2026-07-31 01:45:12 UTC
 # Country: HK
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=HK&v4_format=prefix
 
@@ -1519,6 +1519,7 @@
 :do { add address=78.24.200.0/24 list=HK-IPv4 } on-error={}
 :do { add address=78.138.12.0/22 list=HK-IPv4 } on-error={}
 :do { add address=78.142.236.0/22 list=HK-IPv4 } on-error={}
+:do { add address=79.170.199.0/24 list=HK-IPv4 } on-error={}
 :do { add address=80.68.156.0/24 list=HK-IPv4 } on-error={}
 :do { add address=80.71.150.0/24 list=HK-IPv4 } on-error={}
 :do { add address=80.71.152.0/24 list=HK-IPv4 } on-error={}
