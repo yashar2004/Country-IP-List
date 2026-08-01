@@ -1,4 +1,4 @@
-# Last update: 2026-07-31 01:45:12 UTC
+# Last update: 2026-08-01 01:46:34 UTC
 # Country: MT
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=MT&v4_format=prefix
 
@@ -69,7 +69,6 @@
 :do { add address=91.216.153.0/24 list=MT-IPv4 } on-error={}
 :do { add address=91.216.154.0/24 list=MT-IPv4 } on-error={}
 :do { add address=91.220.139.0/24 list=MT-IPv4 } on-error={}
-:do { add address=91.221.10.0/23 list=MT-IPv4 } on-error={}
 :do { add address=91.231.10.0/24 list=MT-IPv4 } on-error={}
 :do { add address=91.231.138.0/24 list=MT-IPv4 } on-error={}
 :do { add address=92.251.0.0/17 list=MT-IPv4 } on-error={}

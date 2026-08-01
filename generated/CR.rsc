@@ -1,4 +1,4 @@
-# Last update: 2026-07-31 01:45:12 UTC
+# Last update: 2026-08-01 01:46:34 UTC
 # Country: CR
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=CR&v4_format=prefix
 
@@ -164,6 +164,7 @@
 :do { add address=148.227.162.0/24 list=CR-IPv4 } on-error={}
 :do { add address=152.231.128.0/17 list=CR-IPv4 } on-error={}
 :do { add address=160.223.203.0/24 list=CR-IPv4 } on-error={}
+:do { add address=161.104.78.0/23 list=CR-IPv4 } on-error={}
 :do { add address=163.178.0.0/16 list=CR-IPv4 } on-error={}
 :do { add address=167.250.192.0/22 list=CR-IPv4 } on-error={}
 :do { add address=168.181.160.0/22 list=CR-IPv4 } on-error={}
