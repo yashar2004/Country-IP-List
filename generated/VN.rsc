@@ -1,4 +1,4 @@
-# Last update: 2026-08-01 01:46:34 UTC
+# Last update: 2026-08-02 01:42:49 UTC
 # Country: VN
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=VN&v4_format=prefix
 
@@ -473,7 +473,6 @@
 :do { add address=2001:df6:1d80::/48 list=VN-IPv6 } on-error={}
 :do { add address=2001:df6:1e00::/48 list=VN-IPv6 } on-error={}
 :do { add address=2001:df6:1fc0::/48 list=VN-IPv6 } on-error={}
-:do { add address=2001:df6:2200::/48 list=VN-IPv6 } on-error={}
 :do { add address=2001:df6:22c0::/48 list=VN-IPv6 } on-error={}
 :do { add address=2001:df6:2640::/48 list=VN-IPv6 } on-error={}
 :do { add address=2001:df6:2880::/48 list=VN-IPv6 } on-error={}
@@ -523,6 +522,8 @@
 :do { add address=2001:df7:3f80::/48 list=VN-IPv6 } on-error={}
 :do { add address=2001:df7:4080::/48 list=VN-IPv6 } on-error={}
 :do { add address=2001:df7:4700::/48 list=VN-IPv6 } on-error={}
+:do { add address=2001:df7:47c0::/48 list=VN-IPv6 } on-error={}
+:do { add address=2001:df7:4840::/48 list=VN-IPv6 } on-error={}
 :do { add address=2001:df7:4900::/48 list=VN-IPv6 } on-error={}
 :do { add address=2001:df7:7300::/48 list=VN-IPv6 } on-error={}
 :do { add address=2001:df7:7e80::/48 list=VN-IPv6 } on-error={}
@@ -796,6 +797,7 @@
 :do { add address=2402:5300::/32 list=VN-IPv6 } on-error={}
 :do { add address=2402:60a0::/32 list=VN-IPv6 } on-error={}
 :do { add address=2402:6440::/32 list=VN-IPv6 } on-error={}
+:do { add address=2402:6aa0::/32 list=VN-IPv6 } on-error={}
 :do { add address=2402:9d80::/32 list=VN-IPv6 } on-error={}
 :do { add address=2402:c700::/32 list=VN-IPv6 } on-error={}
 :do { add address=2402:dd40::/32 list=VN-IPv6 } on-error={}
@@ -2355,6 +2357,8 @@
 :do { add address=160.191.254.0/23 list=VN-IPv4 } on-error={}
 :do { add address=160.236.130.0/23 list=VN-IPv4 } on-error={}
 :do { add address=160.236.140.0/23 list=VN-IPv4 } on-error={}
+:do { add address=160.236.190.0/23 list=VN-IPv4 } on-error={}
+:do { add address=160.236.192.0/23 list=VN-IPv4 } on-error={}
 :do { add address=160.250.0.0/23 list=VN-IPv4 } on-error={}
 :do { add address=160.250.2.0/23 list=VN-IPv4 } on-error={}
 :do { add address=160.250.4.0/23 list=VN-IPv4 } on-error={}
