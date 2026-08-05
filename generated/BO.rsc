@@ -1,4 +1,4 @@
-# Last update: 2026-08-04 01:21:20 UTC
+# Last update: 2026-08-05 01:26:36 UTC
 # Country: BO
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=BO&v4_format=prefix
 
@@ -34,6 +34,7 @@
 :do { add address=2803:b60::/32 list=BO-IPv6 } on-error={}
 :do { add address=2803:be0::/32 list=BO-IPv6 } on-error={}
 :do { add address=2803:1180::/32 list=BO-IPv6 } on-error={}
+:do { add address=2803:1330::/32 list=BO-IPv6 } on-error={}
 :do { add address=2803:1920::/32 list=BO-IPv6 } on-error={}
 :do { add address=2803:2030::/32 list=BO-IPv6 } on-error={}
 :do { add address=2803:2110::/32 list=BO-IPv6 } on-error={}

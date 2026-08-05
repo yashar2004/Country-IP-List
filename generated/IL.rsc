@@ -1,4 +1,4 @@
-# Last update: 2026-08-04 01:21:20 UTC
+# Last update: 2026-08-05 01:26:36 UTC
 # Country: IL
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=IL&v4_format=prefix
 
@@ -58,6 +58,7 @@
 :do { add address=2a04:7800::/29 list=IL-IPv6 } on-error={}
 :do { add address=2a04:d980::/29 list=IL-IPv6 } on-error={}
 :do { add address=2a04:e980::/29 list=IL-IPv6 } on-error={}
+:do { add address=2a04:f140::/29 list=IL-IPv6 } on-error={}
 :do { add address=2a05:4500::/29 list=IL-IPv6 } on-error={}
 :do { add address=2a05:8b40::/29 list=IL-IPv6 } on-error={}
 :do { add address=2a05:9e00::/29 list=IL-IPv6 } on-error={}
@@ -228,6 +229,7 @@
 :do { add address=45.158.24.0/22 list=IL-IPv4 } on-error={}
 :do { add address=45.159.128.0/22 list=IL-IPv4 } on-error={}
 :do { add address=45.248.36.0/23 list=IL-IPv4 } on-error={}
+:do { add address=46.16.136.0/21 list=IL-IPv4 } on-error={}
 :do { add address=46.19.80.0/21 list=IL-IPv4 } on-error={}
 :do { add address=46.31.96.0/21 list=IL-IPv4 } on-error={}
 :do { add address=46.116.0.0/15 list=IL-IPv4 } on-error={}
@@ -410,7 +412,8 @@
 :do { add address=91.199.119.0/24 list=IL-IPv4 } on-error={}
 :do { add address=91.199.202.0/24 list=IL-IPv4 } on-error={}
 :do { add address=91.202.168.0/22 list=IL-IPv4 } on-error={}
-:do { add address=91.203.120.0/22 list=IL-IPv4 } on-error={}
+:do { add address=91.203.120.0/23 list=IL-IPv4 } on-error={}
+:do { add address=91.203.122.0/23 list=IL-IPv4 } on-error={}
 :do { add address=91.205.152.0/22 list=IL-IPv4 } on-error={}
 :do { add address=91.207.34.0/23 list=IL-IPv4 } on-error={}
 :do { add address=91.207.90.0/23 list=IL-IPv4 } on-error={}
@@ -511,6 +514,7 @@
 :do { add address=132.74.0.0/15 list=IL-IPv4 } on-error={}
 :do { add address=132.76.0.0/15 list=IL-IPv4 } on-error={}
 :do { add address=132.78.0.0/16 list=IL-IPv4 } on-error={}
+:do { add address=136.148.0.0/19 list=IL-IPv4 } on-error={}
 :do { add address=136.148.136.0/22 list=IL-IPv4 } on-error={}
 :do { add address=138.134.0.0/16 list=IL-IPv4 } on-error={}
 :do { add address=141.226.0.0/19 list=IL-IPv4 } on-error={}

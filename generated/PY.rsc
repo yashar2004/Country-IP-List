@@ -1,4 +1,4 @@
-# Last update: 2026-08-04 01:21:20 UTC
+# Last update: 2026-08-05 01:26:36 UTC
 # Country: PY
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=PY&v4_format=prefix
 
@@ -116,6 +116,7 @@
 
 /ip firewall address-list remove [/ip firewall address-list find list=PY-IPv4]
 /ip firewall address-list
+:do { add address=2.152.248.0/23 list=PY-IPv4 } on-error={}
 :do { add address=24.152.40.0/22 list=PY-IPv4 } on-error={}
 :do { add address=45.68.52.0/22 list=PY-IPv4 } on-error={}
 :do { add address=45.68.94.0/23 list=PY-IPv4 } on-error={}
