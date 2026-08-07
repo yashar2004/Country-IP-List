@@ -1,4 +1,4 @@
-# Last update: 2026-08-06 01:23:43 UTC
+# Last update: 2026-08-07 02:02:57 UTC
 # Country: IT
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=IT&v4_format=prefix
 
@@ -327,7 +327,6 @@
 :do { add address=2a03:2c40::/32 list=IT-IPv6 } on-error={}
 :do { add address=2a03:2e80::/29 list=IT-IPv6 } on-error={}
 :do { add address=2a03:35a0::/29 list=IT-IPv6 } on-error={}
-:do { add address=2a03:37a0::/32 list=IT-IPv6 } on-error={}
 :do { add address=2a03:3d80::/29 list=IT-IPv6 } on-error={}
 :do { add address=2a03:3de0::/32 list=IT-IPv6 } on-error={}
 :do { add address=2a03:4400::/29 list=IT-IPv6 } on-error={}
@@ -3108,7 +3107,6 @@
 :do { add address=185.70.116.0/22 list=IT-IPv4 } on-error={}
 :do { add address=185.70.148.0/22 list=IT-IPv4 } on-error={}
 :do { add address=185.70.200.0/22 list=IT-IPv4 } on-error={}
-:do { add address=185.71.8.0/22 list=IT-IPv4 } on-error={}
 :do { add address=185.71.44.0/22 list=IT-IPv4 } on-error={}
 :do { add address=185.71.244.0/22 list=IT-IPv4 } on-error={}
 :do { add address=185.72.40.0/22 list=IT-IPv4 } on-error={}
