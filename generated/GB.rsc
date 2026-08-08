@@ -1,4 +1,4 @@
-# Last update: 2026-08-07 02:02:57 UTC
+# Last update: 2026-08-08 00:46:20 UTC
 # Country: GB
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=GB&v4_format=prefix
 
@@ -69,6 +69,7 @@
 :do { add address=2001:678:c64::/48 list=GB-IPv6 } on-error={}
 :do { add address=2001:678:cb0::/48 list=GB-IPv6 } on-error={}
 :do { add address=2001:678:cb4::/48 list=GB-IPv6 } on-error={}
+:do { add address=2001:678:d84::/48 list=GB-IPv6 } on-error={}
 :do { add address=2001:678:d90::/48 list=GB-IPv6 } on-error={}
 :do { add address=2001:678:e10::/48 list=GB-IPv6 } on-error={}
 :do { add address=2001:678:e78::/48 list=GB-IPv6 } on-error={}
@@ -6152,7 +6153,6 @@
 :do { add address=159.180.128.0/18 list=GB-IPv4 } on-error={}
 :do { add address=159.197.0.0/17 list=GB-IPv4 } on-error={}
 :do { add address=159.219.0.0/16 list=GB-IPv4 } on-error={}
-:do { add address=159.242.8.0/21 list=GB-IPv4 } on-error={}
 :do { add address=159.242.64.0/18 list=GB-IPv4 } on-error={}
 :do { add address=159.245.0.0/16 list=GB-IPv4 } on-error={}
 :do { add address=159.253.48.0/21 list=GB-IPv4 } on-error={}
@@ -6382,7 +6382,6 @@
 :do { add address=178.57.71.0/24 list=GB-IPv4 } on-error={}
 :do { add address=178.78.64.0/18 list=GB-IPv4 } on-error={}
 :do { add address=178.83.0.0/16 list=GB-IPv4 } on-error={}
-:do { add address=178.99.0.0/16 list=GB-IPv4 } on-error={}
 :do { add address=178.107.48.0/20 list=GB-IPv4 } on-error={}
 :do { add address=178.107.64.0/18 list=GB-IPv4 } on-error={}
 :do { add address=178.159.0.0/20 list=GB-IPv4 } on-error={}
