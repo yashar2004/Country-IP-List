@@ -1,4 +1,4 @@
-# Last update: 2026-08-11 00:51:47 UTC
+# Last update: 2026-08-12 00:58:04 UTC
 # Country: US
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=US&v4_format=prefix
 
@@ -32530,7 +32530,6 @@
 :do { add address=143.244.128.0/17 list=US-IPv4 } on-error={}
 :do { add address=143.246.0.0/19 list=US-IPv4 } on-error={}
 :do { add address=143.246.32.0/22 list=US-IPv4 } on-error={}
-:do { add address=143.246.44.0/22 list=US-IPv4 } on-error={}
 :do { add address=143.246.48.0/20 list=US-IPv4 } on-error={}
 :do { add address=143.246.64.0/18 list=US-IPv4 } on-error={}
 :do { add address=143.246.128.0/21 list=US-IPv4 } on-error={}
