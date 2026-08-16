@@ -1,4 +1,4 @@
-# Last update: 2026-08-15 00:35:00 UTC
+# Last update: 2026-08-16 00:36:27 UTC
 # Country: SE
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=SE&v4_format=prefix
 
@@ -755,6 +755,7 @@
 :do { add address=2a0c:c400::/32 list=SE-IPv6 } on-error={}
 :do { add address=2a0c:c480::/29 list=SE-IPv6 } on-error={}
 :do { add address=2a0c:ccc0::/29 list=SE-IPv6 } on-error={}
+:do { add address=2a0c:d140::/29 list=SE-IPv6 } on-error={}
 :do { add address=2a0c:dd40::/29 list=SE-IPv6 } on-error={}
 :do { add address=2a0c:e580::/29 list=SE-IPv6 } on-error={}
 :do { add address=2a0c:f740::/29 list=SE-IPv6 } on-error={}
@@ -1743,6 +1744,36 @@
 :do { add address=156.49.0.0/16 list=SE-IPv4 } on-error={}
 :do { add address=156.51.0.0/16 list=SE-IPv4 } on-error={}
 :do { add address=157.10.210.0/23 list=SE-IPv4 } on-error={}
+:do { add address=157.96.8.0/24 list=SE-IPv4 } on-error={}
+:do { add address=157.96.12.0/23 list=SE-IPv4 } on-error={}
+:do { add address=157.96.16.0/22 list=SE-IPv4 } on-error={}
+:do { add address=157.96.22.0/24 list=SE-IPv4 } on-error={}
+:do { add address=157.96.24.0/23 list=SE-IPv4 } on-error={}
+:do { add address=157.96.32.0/24 list=SE-IPv4 } on-error={}
+:do { add address=157.96.34.0/23 list=SE-IPv4 } on-error={}
+:do { add address=157.96.39.0/24 list=SE-IPv4 } on-error={}
+:do { add address=157.96.41.0/24 list=SE-IPv4 } on-error={}
+:do { add address=157.96.43.0/24 list=SE-IPv4 } on-error={}
+:do { add address=157.96.44.0/23 list=SE-IPv4 } on-error={}
+:do { add address=157.96.46.0/24 list=SE-IPv4 } on-error={}
+:do { add address=157.96.60.0/24 list=SE-IPv4 } on-error={}
+:do { add address=157.96.62.0/24 list=SE-IPv4 } on-error={}
+:do { add address=157.96.65.0/24 list=SE-IPv4 } on-error={}
+:do { add address=157.96.66.0/24 list=SE-IPv4 } on-error={}
+:do { add address=157.96.79.0/24 list=SE-IPv4 } on-error={}
+:do { add address=157.96.81.0/24 list=SE-IPv4 } on-error={}
+:do { add address=157.96.88.0/24 list=SE-IPv4 } on-error={}
+:do { add address=157.96.92.0/23 list=SE-IPv4 } on-error={}
+:do { add address=157.96.96.0/20 list=SE-IPv4 } on-error={}
+:do { add address=157.96.112.0/22 list=SE-IPv4 } on-error={}
+:do { add address=157.96.124.0/22 list=SE-IPv4 } on-error={}
+:do { add address=157.96.152.0/22 list=SE-IPv4 } on-error={}
+:do { add address=157.96.160.0/21 list=SE-IPv4 } on-error={}
+:do { add address=157.96.176.0/22 list=SE-IPv4 } on-error={}
+:do { add address=157.96.192.0/19 list=SE-IPv4 } on-error={}
+:do { add address=157.96.224.0/20 list=SE-IPv4 } on-error={}
+:do { add address=157.96.240.0/22 list=SE-IPv4 } on-error={}
+:do { add address=157.96.248.0/22 list=SE-IPv4 } on-error={}
 :do { add address=157.171.0.0/16 list=SE-IPv4 } on-error={}
 :do { add address=157.180.128.0/19 list=SE-IPv4 } on-error={}
 :do { add address=157.180.160.0/20 list=SE-IPv4 } on-error={}

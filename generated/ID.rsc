@@ -1,4 +1,4 @@
-# Last update: 2026-08-15 00:35:00 UTC
+# Last update: 2026-08-16 00:36:27 UTC
 # Country: ID
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=ID&v4_format=prefix
 
@@ -1829,6 +1829,7 @@
 :do { add address=2001:df7:59c0::/48 list=ID-IPv6 } on-error={}
 :do { add address=2001:df7:5a00::/48 list=ID-IPv6 } on-error={}
 :do { add address=2001:df7:5a40::/48 list=ID-IPv6 } on-error={}
+:do { add address=2001:df7:5b40::/48 list=ID-IPv6 } on-error={}
 :do { add address=2001:df7:6900::/48 list=ID-IPv6 } on-error={}
 :do { add address=2001:df7:6c00::/48 list=ID-IPv6 } on-error={}
 :do { add address=2001:df7:6f00::/48 list=ID-IPv6 } on-error={}
@@ -2843,6 +2844,7 @@
 :do { add address=43.230.128.0/22 list=ID-IPv4 } on-error={}
 :do { add address=43.230.152.0/22 list=ID-IPv4 } on-error={}
 :do { add address=43.231.128.0/23 list=ID-IPv4 } on-error={}
+:do { add address=43.231.131.0/24 list=ID-IPv4 } on-error={}
 :do { add address=43.240.80.0/22 list=ID-IPv4 } on-error={}
 :do { add address=43.240.224.0/24 list=ID-IPv4 } on-error={}
 :do { add address=43.240.225.0/24 list=ID-IPv4 } on-error={}
