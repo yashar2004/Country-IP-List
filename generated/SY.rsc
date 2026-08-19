@@ -1,4 +1,4 @@
-# Last update: 2026-08-18 00:34:07 UTC
+# Last update: 2026-08-19 00:34:31 UTC
 # Country: SY
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=SY&v4_format=prefix
 
@@ -239,6 +239,7 @@
 :do { add address=198.51.143.0/24 list=SY-IPv4 } on-error={}
 :do { add address=198.51.144.0/23 list=SY-IPv4 } on-error={}
 :do { add address=198.51.146.0/24 list=SY-IPv4 } on-error={}
+:do { add address=199.217.102.0/23 list=SY-IPv4 } on-error={}
 :do { add address=205.209.64.0/19 list=SY-IPv4 } on-error={}
 :do { add address=212.11.192.0/19 list=SY-IPv4 } on-error={}
 :do { add address=213.177.185.0/24 list=SY-IPv4 } on-error={}
