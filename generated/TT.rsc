@@ -1,4 +1,4 @@
-# Last update: 2026-08-19 00:34:31 UTC
+# Last update: 2026-08-20 00:34:06 UTC
 # Country: TT
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=TT&v4_format=prefix
 
@@ -57,7 +57,8 @@
 :do { add address=190.83.128.0/17 list=TT-IPv4 } on-error={}
 :do { add address=190.93.0.0/19 list=TT-IPv4 } on-error={}
 :do { add address=190.93.64.0/18 list=TT-IPv4 } on-error={}
-:do { add address=190.97.96.0/22 list=TT-IPv4 } on-error={}
+:do { add address=190.97.96.0/23 list=TT-IPv4 } on-error={}
+:do { add address=190.97.99.0/24 list=TT-IPv4 } on-error={}
 :do { add address=190.97.104.0/21 list=TT-IPv4 } on-error={}
 :do { add address=190.213.0.0/18 list=TT-IPv4 } on-error={}
 :do { add address=190.213.64.0/18 list=TT-IPv4 } on-error={}
