@@ -1,4 +1,4 @@
-# Last update: 2026-08-20 00:34:06 UTC
+# Last update: 2026-08-21 00:36:46 UTC
 # Country: IE
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=IE&v4_format=prefix
 
@@ -274,7 +274,6 @@
 :do { add address=45.158.112.0/22 list=IE-IPv4 } on-error={}
 :do { add address=45.158.144.0/22 list=IE-IPv4 } on-error={}
 :do { add address=45.158.176.0/22 list=IE-IPv4 } on-error={}
-:do { add address=45.159.172.0/22 list=IE-IPv4 } on-error={}
 :do { add address=46.7.0.0/16 list=IE-IPv4 } on-error={}
 :do { add address=46.17.32.0/21 list=IE-IPv4 } on-error={}
 :do { add address=46.19.208.0/21 list=IE-IPv4 } on-error={}
@@ -766,7 +765,6 @@
 :do { add address=185.192.88.0/22 list=IE-IPv4 } on-error={}
 :do { add address=185.192.152.0/22 list=IE-IPv4 } on-error={}
 :do { add address=185.195.164.0/22 list=IE-IPv4 } on-error={}
-:do { add address=185.200.84.0/22 list=IE-IPv4 } on-error={}
 :do { add address=185.202.16.0/22 list=IE-IPv4 } on-error={}
 :do { add address=185.202.68.0/22 list=IE-IPv4 } on-error={}
 :do { add address=185.204.136.0/22 list=IE-IPv4 } on-error={}
@@ -880,7 +878,6 @@
 :do { add address=194.0.156.0/24 list=IE-IPv4 } on-error={}
 :do { add address=194.0.196.0/24 list=IE-IPv4 } on-error={}
 :do { add address=194.0.226.0/24 list=IE-IPv4 } on-error={}
-:do { add address=194.0.241.0/24 list=IE-IPv4 } on-error={}
 :do { add address=194.8.48.0/24 list=IE-IPv4 } on-error={}
 :do { add address=194.8.59.0/24 list=IE-IPv4 } on-error={}
 :do { add address=194.9.174.0/24 list=IE-IPv4 } on-error={}
