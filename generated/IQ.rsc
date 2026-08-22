@@ -1,4 +1,4 @@
-# Last update: 2026-08-21 00:36:46 UTC
+# Last update: 2026-08-22 00:34:16 UTC
 # Country: IQ
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=IQ&v4_format=prefix
 
@@ -79,6 +79,7 @@
 :do { add address=2a0c:d600::/29 list=IQ-IPv6 } on-error={}
 :do { add address=2a0c:df00::/29 list=IQ-IPv6 } on-error={}
 :do { add address=2a0d:1040::/29 list=IQ-IPv6 } on-error={}
+:do { add address=2a0d:3440::/29 list=IQ-IPv6 } on-error={}
 :do { add address=2a0d:4f00::/29 list=IQ-IPv6 } on-error={}
 :do { add address=2a0d:7d00::/29 list=IQ-IPv6 } on-error={}
 :do { add address=2a0d:9040::/29 list=IQ-IPv6 } on-error={}
