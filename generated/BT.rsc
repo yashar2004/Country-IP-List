@@ -1,4 +1,4 @@
-# Last update: 2026-08-22 00:34:16 UTC
+# Last update: 2026-08-23 00:37:13 UTC
 # Country: BT
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=BT&v4_format=prefix
 
@@ -18,12 +18,14 @@
 :do { add address=2001:df6:3ec0::/48 list=BT-IPv6 } on-error={}
 :do { add address=2001:df6:d9c0::/48 list=BT-IPv6 } on-error={}
 :do { add address=2001:df7:4940::/48 list=BT-IPv6 } on-error={}
+:do { add address=2001:df7:63c0::/48 list=BT-IPv6 } on-error={}
 :do { add address=2400:1440::/32 list=BT-IPv6 } on-error={}
 :do { add address=2400:4e60::/32 list=BT-IPv6 } on-error={}
 :do { add address=2400:50c0::/32 list=BT-IPv6 } on-error={}
 :do { add address=2401:5f40::/32 list=BT-IPv6 } on-error={}
 :do { add address=2401:b760::/32 list=BT-IPv6 } on-error={}
 :do { add address=2401:fe20::/32 list=BT-IPv6 } on-error={}
+:do { add address=2402:70e0::/32 list=BT-IPv6 } on-error={}
 :do { add address=2403:580::/32 list=BT-IPv6 } on-error={}
 :do { add address=2403:8700::/32 list=BT-IPv6 } on-error={}
 :do { add address=2404:5540::/32 list=BT-IPv6 } on-error={}
@@ -78,6 +80,7 @@
 :do { add address=160.191.60.0/23 list=BT-IPv4 } on-error={}
 :do { add address=160.236.194.0/24 list=BT-IPv4 } on-error={}
 :do { add address=162.4.252.0/24 list=BT-IPv4 } on-error={}
+:do { add address=163.52.32.0/23 list=BT-IPv4 } on-error={}
 :do { add address=163.128.96.0/24 list=BT-IPv4 } on-error={}
 :do { add address=163.128.114.0/24 list=BT-IPv4 } on-error={}
 :do { add address=163.223.203.0/24 list=BT-IPv4 } on-error={}
