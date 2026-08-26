@@ -1,4 +1,4 @@
-# Last update: 2026-08-25 00:35:32 UTC
+# Last update: 2026-08-26 00:36:26 UTC
 # Country: VE
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=VE&v4_format=prefix
 
@@ -240,6 +240,7 @@
 
 /ip firewall address-list remove [/ip firewall address-list find list=VE-IPv4]
 /ip firewall address-list
+:do { add address=2.152.251.0/24 list=VE-IPv4 } on-error={}
 :do { add address=45.7.140.0/22 list=VE-IPv4 } on-error={}
 :do { add address=45.68.88.0/22 list=VE-IPv4 } on-error={}
 :do { add address=45.68.100.0/22 list=VE-IPv4 } on-error={}

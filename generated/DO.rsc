@@ -1,4 +1,4 @@
-# Last update: 2026-08-25 00:35:32 UTC
+# Last update: 2026-08-26 00:36:26 UTC
 # Country: DO
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=DO&v4_format=prefix
 
@@ -167,6 +167,7 @@
 :do { add address=2803:b290::/32 list=DO-IPv6 } on-error={}
 :do { add address=2803:b3d0::/32 list=DO-IPv6 } on-error={}
 :do { add address=2803:ba10::/32 list=DO-IPv6 } on-error={}
+:do { add address=2803:bb30::/32 list=DO-IPv6 } on-error={}
 :do { add address=2803:be30::/32 list=DO-IPv6 } on-error={}
 :do { add address=2803:bfd0::/32 list=DO-IPv6 } on-error={}
 :do { add address=2803:c010::/32 list=DO-IPv6 } on-error={}
@@ -220,6 +221,10 @@
 
 /ip firewall address-list remove [/ip firewall address-list find list=DO-IPv4]
 /ip firewall address-list
+:do { add address=2.152.6.0/23 list=DO-IPv4 } on-error={}
+:do { add address=2.152.32.0/24 list=DO-IPv4 } on-error={}
+:do { add address=2.152.58.0/23 list=DO-IPv4 } on-error={}
+:do { add address=2.152.60.0/22 list=DO-IPv4 } on-error={}
 :do { add address=5.183.80.0/22 list=DO-IPv4 } on-error={}
 :do { add address=24.152.48.0/22 list=DO-IPv4 } on-error={}
 :do { add address=45.5.8.0/22 list=DO-IPv4 } on-error={}
