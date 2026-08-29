@@ -1,4 +1,4 @@
-# Last update: 2026-08-27 05:33:27 UTC
+# Last update: 2026-08-29 04:39:07 UTC
 # Country: IN
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=IN&v4_format=prefix
 
@@ -1642,6 +1642,7 @@
 :do { add address=2001:df7:6440::/48 list=IN-IPv6 } on-error={}
 :do { add address=2001:df7:6480::/48 list=IN-IPv6 } on-error={}
 :do { add address=2001:df7:66c0::/48 list=IN-IPv6 } on-error={}
+:do { add address=2001:df7:6740::/48 list=IN-IPv6 } on-error={}
 :do { add address=2001:df7:6780::/48 list=IN-IPv6 } on-error={}
 :do { add address=2001:df7:6800::/48 list=IN-IPv6 } on-error={}
 :do { add address=2001:df7:6880::/48 list=IN-IPv6 } on-error={}
@@ -10837,6 +10838,8 @@
 :do { add address=163.52.36.0/23 list=IN-IPv4 } on-error={}
 :do { add address=163.52.38.0/24 list=IN-IPv4 } on-error={}
 :do { add address=163.52.46.0/23 list=IN-IPv4 } on-error={}
+:do { add address=163.52.60.0/23 list=IN-IPv4 } on-error={}
+:do { add address=163.52.62.0/23 list=IN-IPv4 } on-error={}
 :do { add address=163.53.72.0/22 list=IN-IPv4 } on-error={}
 :do { add address=163.53.76.0/22 list=IN-IPv4 } on-error={}
 :do { add address=163.53.80.0/22 list=IN-IPv4 } on-error={}
@@ -11167,12 +11170,20 @@
 :do { add address=176.124.48.0/22 list=IN-IPv4 } on-error={}
 :do { add address=177.4.96.0/20 list=IN-IPv4 } on-error={}
 :do { add address=177.6.32.0/20 list=IN-IPv4 } on-error={}
+:do { add address=177.7.160.0/20 list=IN-IPv4 } on-error={}
+:do { add address=177.7.224.0/20 list=IN-IPv4 } on-error={}
 :do { add address=177.177.32.0/20 list=IN-IPv4 } on-error={}
 :do { add address=177.177.112.0/20 list=IN-IPv4 } on-error={}
 :do { add address=177.203.80.0/20 list=IN-IPv4 } on-error={}
 :do { add address=177.203.160.0/20 list=IN-IPv4 } on-error={}
 :do { add address=178.212.226.0/24 list=IN-IPv4 } on-error={}
 :do { add address=178.251.234.0/23 list=IN-IPv4 } on-error={}
+:do { add address=179.197.112.0/20 list=IN-IPv4 } on-error={}
+:do { add address=179.197.128.0/20 list=IN-IPv4 } on-error={}
+:do { add address=179.199.160.0/20 list=IN-IPv4 } on-error={}
+:do { add address=179.252.0.0/20 list=IN-IPv4 } on-error={}
+:do { add address=179.252.160.0/20 list=IN-IPv4 } on-error={}
+:do { add address=179.254.224.0/20 list=IN-IPv4 } on-error={}
 :do { add address=180.87.0.0/17 list=IN-IPv4 } on-error={}
 :do { add address=180.87.128.0/18 list=IN-IPv4 } on-error={}
 :do { add address=180.92.160.0/20 list=IN-IPv4 } on-error={}

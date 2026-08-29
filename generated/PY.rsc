@@ -1,4 +1,4 @@
-# Last update: 2026-08-27 05:33:27 UTC
+# Last update: 2026-08-29 04:39:07 UTC
 # Country: PY
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=PY&v4_format=prefix
 
@@ -112,6 +112,7 @@
 :do { add address=2803:f2c0::/32 list=PY-IPv6 } on-error={}
 :do { add address=2803:f440::/32 list=PY-IPv6 } on-error={}
 :do { add address=2803:f6e0::/32 list=PY-IPv6 } on-error={}
+:do { add address=2803:fb30::/32 list=PY-IPv6 } on-error={}
 :do { add address=2803:fc00::/32 list=PY-IPv6 } on-error={}
 
 /ip firewall address-list remove [/ip firewall address-list find list=PY-IPv4]

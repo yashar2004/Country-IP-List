@@ -1,4 +1,4 @@
-# Last update: 2026-08-27 05:33:27 UTC
+# Last update: 2026-08-29 04:39:07 UTC
 # Country: BG
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=BG&v4_format=prefix
 
@@ -30,6 +30,7 @@
 :do { add address=2001:67c:15cc::/48 list=BG-IPv6 } on-error={}
 :do { add address=2001:67c:15e0::/48 list=BG-IPv6 } on-error={}
 :do { add address=2001:67c:16b8::/48 list=BG-IPv6 } on-error={}
+:do { add address=2001:67c:1874::/48 list=BG-IPv6 } on-error={}
 :do { add address=2001:67c:1bfc::/48 list=BG-IPv6 } on-error={}
 :do { add address=2001:67c:20d0::/47 list=BG-IPv6 } on-error={}
 :do { add address=2001:67c:2154::/48 list=BG-IPv6 } on-error={}
@@ -329,7 +330,8 @@
 :do { add address=37.209.168.0/21 list=BG-IPv4 } on-error={}
 :do { add address=45.8.72.0/23 list=BG-IPv4 } on-error={}
 :do { add address=45.8.92.0/22 list=BG-IPv4 } on-error={}
-:do { add address=45.9.156.0/22 list=BG-IPv4 } on-error={}
+:do { add address=45.9.157.0/24 list=BG-IPv4 } on-error={}
+:do { add address=45.9.158.0/23 list=BG-IPv4 } on-error={}
 :do { add address=45.9.208.0/22 list=BG-IPv4 } on-error={}
 :do { add address=45.10.188.0/22 list=BG-IPv4 } on-error={}
 :do { add address=45.12.253.0/24 list=BG-IPv4 } on-error={}
