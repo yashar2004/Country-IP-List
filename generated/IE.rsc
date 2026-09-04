@@ -1,4 +1,4 @@
-# Last update: 2026-09-03 01:54:15 UTC
+# Last update: 2026-09-04 01:48:52 UTC
 # Country: IE
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=IE&v4_format=prefix
 
@@ -401,7 +401,6 @@
 :do { add address=87.121.252.0/22 list=IE-IPv4 } on-error={}
 :do { add address=87.192.64.0/20 list=IE-IPv4 } on-error={}
 :do { add address=87.192.80.0/24 list=IE-IPv4 } on-error={}
-:do { add address=87.192.81.0/24 list=IE-IPv4 } on-error={}
 :do { add address=87.192.82.0/23 list=IE-IPv4 } on-error={}
 :do { add address=87.192.84.0/22 list=IE-IPv4 } on-error={}
 :do { add address=87.192.216.0/22 list=IE-IPv4 } on-error={}
@@ -439,7 +438,6 @@
 :do { add address=89.124.240.0/23 list=IE-IPv4 } on-error={}
 :do { add address=89.124.242.0/23 list=IE-IPv4 } on-error={}
 :do { add address=89.124.244.0/24 list=IE-IPv4 } on-error={}
-:do { add address=89.124.245.0/24 list=IE-IPv4 } on-error={}
 :do { add address=89.127.0.0/17 list=IE-IPv4 } on-error={}
 :do { add address=89.127.248.0/22 list=IE-IPv4 } on-error={}
 :do { add address=89.127.254.0/23 list=IE-IPv4 } on-error={}

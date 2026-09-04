@@ -1,4 +1,4 @@
-# Last update: 2026-09-03 01:54:15 UTC
+# Last update: 2026-09-04 01:48:52 UTC
 # Country: MT
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=MT&v4_format=prefix
 
@@ -34,6 +34,7 @@
 
 /ip firewall address-list remove [/ip firewall address-list find list=MT-IPv4]
 /ip firewall address-list
+:do { add address=2.152.72.0/24 list=MT-IPv4 } on-error={}
 :do { add address=37.75.32.0/19 list=MT-IPv4 } on-error={}
 :do { add address=37.114.72.0/21 list=MT-IPv4 } on-error={}
 :do { add address=37.233.120.0/21 list=MT-IPv4 } on-error={}

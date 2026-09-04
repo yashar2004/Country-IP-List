@@ -1,4 +1,4 @@
-# Last update: 2026-09-03 01:54:15 UTC
+# Last update: 2026-09-04 01:48:52 UTC
 # Country: SV
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=SV&v4_format=prefix
 
@@ -18,6 +18,7 @@
 :do { add address=2803:1000::/32 list=SV-IPv6 } on-error={}
 :do { add address=2803:1c10::/32 list=SV-IPv6 } on-error={}
 :do { add address=2803:3150::/32 list=SV-IPv6 } on-error={}
+:do { add address=2803:4730::/32 list=SV-IPv6 } on-error={}
 :do { add address=2803:5040::/32 list=SV-IPv6 } on-error={}
 :do { add address=2803:59a0::/32 list=SV-IPv6 } on-error={}
 :do { add address=2803:5d00::/32 list=SV-IPv6 } on-error={}
