@@ -1,4 +1,4 @@
-# Last update: 2026-09-04 01:48:52 UTC
+# Last update: 2026-09-05 01:49:41 UTC
 # Country: PH
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=PH&v4_format=prefix
 
@@ -315,6 +315,7 @@
 :do { add address=2402:6ca0::/32 list=PH-IPv6 } on-error={}
 :do { add address=2402:6d80::/32 list=PH-IPv6 } on-error={}
 :do { add address=2402:7020::/32 list=PH-IPv6 } on-error={}
+:do { add address=2402:7360::/32 list=PH-IPv6 } on-error={}
 :do { add address=2402:ba00::/32 list=PH-IPv6 } on-error={}
 :do { add address=2402:fe00::/32 list=PH-IPv6 } on-error={}
 :do { add address=2403:240::/32 list=PH-IPv6 } on-error={}
@@ -1015,6 +1016,8 @@
 :do { add address=163.52.13.0/24 list=PH-IPv4 } on-error={}
 :do { add address=163.52.18.0/24 list=PH-IPv4 } on-error={}
 :do { add address=163.52.39.0/24 list=PH-IPv4 } on-error={}
+:do { add address=163.52.100.0/24 list=PH-IPv4 } on-error={}
+:do { add address=163.52.102.0/23 list=PH-IPv4 } on-error={}
 :do { add address=163.61.86.0/24 list=PH-IPv4 } on-error={}
 :do { add address=163.61.94.0/23 list=PH-IPv4 } on-error={}
 :do { add address=163.61.135.0/24 list=PH-IPv4 } on-error={}

@@ -1,4 +1,4 @@
-# Last update: 2026-09-04 01:48:52 UTC
+# Last update: 2026-09-05 01:49:41 UTC
 # Country: EC
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=EC&v4_format=prefix
 
@@ -53,6 +53,7 @@
 :do { add address=2801:1e:5000::/48 list=EC-IPv6 } on-error={}
 :do { add address=2801:1e:8800::/48 list=EC-IPv6 } on-error={}
 :do { add address=2801:1f:4800::/48 list=EC-IPv6 } on-error={}
+:do { add address=2801:1f:8400::/48 list=EC-IPv6 } on-error={}
 :do { add address=2801:19d::/44 list=EC-IPv6 } on-error={}
 :do { add address=2801:1dd::/40 list=EC-IPv6 } on-error={}
 :do { add address=2803:30::/32 list=EC-IPv6 } on-error={}
@@ -293,6 +294,7 @@
 :do { add address=45.65.203.0/24 list=EC-IPv4 } on-error={}
 :do { add address=45.68.96.0/22 list=EC-IPv4 } on-error={}
 :do { add address=45.68.120.0/22 list=EC-IPv4 } on-error={}
+:do { add address=45.68.140.0/22 list=EC-IPv4 } on-error={}
 :do { add address=45.70.12.0/22 list=EC-IPv4 } on-error={}
 :do { add address=45.70.56.0/22 list=EC-IPv4 } on-error={}
 :do { add address=45.70.196.0/22 list=EC-IPv4 } on-error={}
