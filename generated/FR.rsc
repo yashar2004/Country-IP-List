@@ -1,4 +1,4 @@
-# Last update: 2026-09-09 01:58:12 UTC
+# Last update: 2026-09-10 01:54:45 UTC
 # Country: FR
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=FR&v4_format=prefix
 
@@ -3281,6 +3281,7 @@
 :do { add address=178.255.208.0/21 list=FR-IPv4 } on-error={}
 :do { add address=180.149.196.0/22 list=FR-IPv4 } on-error={}
 :do { add address=185.0.19.0/24 list=FR-IPv4 } on-error={}
+:do { add address=185.0.52.0/23 list=FR-IPv4 } on-error={}
 :do { add address=185.1.2.0/24 list=FR-IPv4 } on-error={}
 :do { add address=185.1.14.0/24 list=FR-IPv4 } on-error={}
 :do { add address=185.1.26.0/24 list=FR-IPv4 } on-error={}

@@ -1,4 +1,4 @@
-# Last update: 2026-09-09 01:58:12 UTC
+# Last update: 2026-09-10 01:54:45 UTC
 # Country: TN
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=TN&v4_format=prefix
 
@@ -29,6 +29,7 @@
 :do { add address=102.156.0.0/14 list=TN-IPv4 } on-error={}
 :do { add address=102.164.112.0/23 list=TN-IPv4 } on-error={}
 :do { add address=102.168.0.0/13 list=TN-IPv4 } on-error={}
+:do { add address=102.201.80.0/22 list=TN-IPv4 } on-error={}
 :do { add address=102.204.204.0/22 list=TN-IPv4 } on-error={}
 :do { add address=102.207.250.0/23 list=TN-IPv4 } on-error={}
 :do { add address=102.208.224.0/22 list=TN-IPv4 } on-error={}
