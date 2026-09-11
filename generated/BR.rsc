@@ -1,4 +1,4 @@
-# Last update: 2026-09-10 01:54:45 UTC
+# Last update: 2026-09-11 01:53:32 UTC
 # Country: BR
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=BR&v4_format=prefix
 
@@ -15823,7 +15823,8 @@
 :do { add address=177.73.120.0/22 list=BR-IPv4 } on-error={}
 :do { add address=177.73.124.0/22 list=BR-IPv4 } on-error={}
 :do { add address=177.73.128.0/22 list=BR-IPv4 } on-error={}
-:do { add address=177.73.132.0/22 list=BR-IPv4 } on-error={}
+:do { add address=177.73.132.0/23 list=BR-IPv4 } on-error={}
+:do { add address=177.73.134.0/23 list=BR-IPv4 } on-error={}
 :do { add address=177.73.136.0/22 list=BR-IPv4 } on-error={}
 :do { add address=177.73.140.0/22 list=BR-IPv4 } on-error={}
 :do { add address=177.73.144.0/22 list=BR-IPv4 } on-error={}
@@ -17830,7 +17831,9 @@
 :do { add address=186.196.28.0/22 list=BR-IPv4 } on-error={}
 :do { add address=186.196.32.0/20 list=BR-IPv4 } on-error={}
 :do { add address=186.196.48.0/20 list=BR-IPv4 } on-error={}
-:do { add address=186.196.64.0/22 list=BR-IPv4 } on-error={}
+:do { add address=186.196.64.0/23 list=BR-IPv4 } on-error={}
+:do { add address=186.196.66.0/24 list=BR-IPv4 } on-error={}
+:do { add address=186.196.67.0/24 list=BR-IPv4 } on-error={}
 :do { add address=186.196.68.0/22 list=BR-IPv4 } on-error={}
 :do { add address=186.196.72.0/23 list=BR-IPv4 } on-error={}
 :do { add address=186.196.74.0/24 list=BR-IPv4 } on-error={}
@@ -17842,7 +17845,9 @@
 :do { add address=186.196.96.0/22 list=BR-IPv4 } on-error={}
 :do { add address=186.196.100.0/22 list=BR-IPv4 } on-error={}
 :do { add address=186.196.104.0/21 list=BR-IPv4 } on-error={}
-:do { add address=186.196.112.0/20 list=BR-IPv4 } on-error={}
+:do { add address=186.196.112.0/21 list=BR-IPv4 } on-error={}
+:do { add address=186.196.120.0/22 list=BR-IPv4 } on-error={}
+:do { add address=186.196.124.0/22 list=BR-IPv4 } on-error={}
 :do { add address=186.196.128.0/19 list=BR-IPv4 } on-error={}
 :do { add address=186.196.160.0/19 list=BR-IPv4 } on-error={}
 :do { add address=186.196.192.0/18 list=BR-IPv4 } on-error={}
