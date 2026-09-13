@@ -1,4 +1,4 @@
-# Last update: 2026-09-12 01:58:27 UTC
+# Last update: 2026-09-13 01:52:14 UTC
 # Country: AT
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=AT&v4_format=prefix
 
@@ -109,7 +109,6 @@
 :do { add address=2001:67c:1434::/48 list=AT-IPv6 } on-error={}
 :do { add address=2001:67c:14bc::/48 list=AT-IPv6 } on-error={}
 :do { add address=2001:67c:14d4::/48 list=AT-IPv6 } on-error={}
-:do { add address=2001:67c:1508::/48 list=AT-IPv6 } on-error={}
 :do { add address=2001:67c:151c::/48 list=AT-IPv6 } on-error={}
 :do { add address=2001:67c:168c::/48 list=AT-IPv6 } on-error={}
 :do { add address=2001:67c:16a8::/48 list=AT-IPv6 } on-error={}
@@ -227,7 +226,7 @@
 :do { add address=2a00:1ba0::/32 list=AT-IPv6 } on-error={}
 :do { add address=2a00:1f30::/29 list=AT-IPv6 } on-error={}
 :do { add address=2a00:1f58::/29 list=AT-IPv6 } on-error={}
-:do { add address=2a00:1f88::/32 list=AT-IPv6 } on-error={}
+:do { add address=2a00:1f88::/29 list=AT-IPv6 } on-error={}
 :do { add address=2a00:40c0::/29 list=AT-IPv6 } on-error={}
 :do { add address=2a00:4400::/32 list=AT-IPv6 } on-error={}
 :do { add address=2a00:4680::/32 list=AT-IPv6 } on-error={}
