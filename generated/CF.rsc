@@ -1,4 +1,4 @@
-# Last update: 2026-09-20 02:09:22 UTC
+# Last update: 2026-09-21 02:09:53 UTC
 # Country: CF
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=CF&v4_format=prefix
 
@@ -9,6 +9,7 @@
 /ip firewall address-list
 :do { add address=41.78.120.0/22 list=CF-IPv4 } on-error={}
 :do { add address=41.223.184.0/22 list=CF-IPv4 } on-error={}
+:do { add address=102.201.32.0/22 list=CF-IPv4 } on-error={}
 :do { add address=102.205.60.0/23 list=CF-IPv4 } on-error={}
 :do { add address=169.239.96.0/22 list=CF-IPv4 } on-error={}
 :do { add address=197.242.176.0/21 list=CF-IPv4 } on-error={}

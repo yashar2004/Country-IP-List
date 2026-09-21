@@ -1,4 +1,4 @@
-# Last update: 2026-09-20 02:09:22 UTC
+# Last update: 2026-09-21 02:09:53 UTC
 # Country: FJ
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=FJ&v4_format=prefix
 
@@ -33,6 +33,7 @@
 :do { add address=103.52.88.0/22 list=FJ-IPv4 } on-error={}
 :do { add address=103.58.20.0/22 list=FJ-IPv4 } on-error={}
 :do { add address=103.71.204.0/24 list=FJ-IPv4 } on-error={}
+:do { add address=103.76.32.0/22 list=FJ-IPv4 } on-error={}
 :do { add address=103.76.157.0/24 list=FJ-IPv4 } on-error={}
 :do { add address=103.77.225.0/24 list=FJ-IPv4 } on-error={}
 :do { add address=103.99.43.0/24 list=FJ-IPv4 } on-error={}
