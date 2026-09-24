@@ -1,4 +1,4 @@
-# Last update: 2026-09-23 02:15:06 UTC
+# Last update: 2026-09-24 02:01:27 UTC
 # Country: CW
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=CW&v4_format=prefix
 
@@ -49,7 +49,7 @@
 :do { add address=190.2.128.0/19 list=CW-IPv4 } on-error={}
 :do { add address=190.2.160.0/21 list=CW-IPv4 } on-error={}
 :do { add address=190.2.168.0/22 list=CW-IPv4 } on-error={}
-:do { add address=190.2.176.0/21 list=CW-IPv4 } on-error={}
+:do { add address=190.2.180.0/22 list=CW-IPv4 } on-error={}
 :do { add address=190.2.188.0/23 list=CW-IPv4 } on-error={}
 :do { add address=190.4.128.0/19 list=CW-IPv4 } on-error={}
 :do { add address=190.4.160.0/19 list=CW-IPv4 } on-error={}
