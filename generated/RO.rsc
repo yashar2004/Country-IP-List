@@ -1,4 +1,4 @@
-# Last update: 2026-09-24 02:01:27 UTC
+# Last update: 2026-09-25 02:18:36 UTC
 # Country: RO
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=RO&v4_format=prefix
 

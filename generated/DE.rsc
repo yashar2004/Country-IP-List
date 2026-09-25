@@ -1,4 +1,4 @@
-# Last update: 2026-09-24 02:01:27 UTC
+# Last update: 2026-09-25 02:18:36 UTC
 # Country: DE
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=DE&v4_format=prefix
 
@@ -270,6 +270,9 @@
 :do { add address=2001:678:12dc::/48 list=DE-IPv6 } on-error={}
 :do { add address=2001:678:130c::/48 list=DE-IPv6 } on-error={}
 :do { add address=2001:678:1314::/48 list=DE-IPv6 } on-error={}
+:do { add address=2001:678:1348::/48 list=DE-IPv6 } on-error={}
+:do { add address=2001:678:134c::/48 list=DE-IPv6 } on-error={}
+:do { add address=2001:678:1350::/48 list=DE-IPv6 } on-error={}
 :do { add address=2001:67c:4::/48 list=DE-IPv6 } on-error={}
 :do { add address=2001:67c:14::/48 list=DE-IPv6 } on-error={}
 :do { add address=2001:67c:24::/48 list=DE-IPv6 } on-error={}
@@ -525,6 +528,7 @@
 :do { add address=2001:67c:15c0::/48 list=DE-IPv6 } on-error={}
 :do { add address=2001:67c:1600::/44 list=DE-IPv6 } on-error={}
 :do { add address=2001:67c:1700::/48 list=DE-IPv6 } on-error={}
+:do { add address=2001:67c:1730::/48 list=DE-IPv6 } on-error={}
 :do { add address=2001:67c:173c::/48 list=DE-IPv6 } on-error={}
 :do { add address=2001:67c:1748::/48 list=DE-IPv6 } on-error={}
 :do { add address=2001:67c:1758::/48 list=DE-IPv6 } on-error={}
@@ -2691,6 +2695,7 @@
 :do { add address=2a0f:3a80::/29 list=DE-IPv6 } on-error={}
 :do { add address=2a0f:3d40::/29 list=DE-IPv6 } on-error={}
 :do { add address=2a0f:3fc0::/29 list=DE-IPv6 } on-error={}
+:do { add address=2a0f:44c0::/29 list=DE-IPv6 } on-error={}
 :do { add address=2a0f:4500::/29 list=DE-IPv6 } on-error={}
 :do { add address=2a0f:4700::/29 list=DE-IPv6 } on-error={}
 :do { add address=2a0f:4800::/29 list=DE-IPv6 } on-error={}
@@ -5241,6 +5246,7 @@
 :do { add address=85.132.192.0/19 list=DE-IPv4 } on-error={}
 :do { add address=85.137.31.0/24 list=DE-IPv4 } on-error={}
 :do { add address=85.137.237.0/24 list=DE-IPv4 } on-error={}
+:do { add address=85.155.14.0/23 list=DE-IPv4 } on-error={}
 :do { add address=85.155.116.0/22 list=DE-IPv4 } on-error={}
 :do { add address=85.158.0.0/21 list=DE-IPv4 } on-error={}
 :do { add address=85.158.176.0/21 list=DE-IPv4 } on-error={}
@@ -10104,7 +10110,6 @@
 :do { add address=192.129.41.0/24 list=DE-IPv4 } on-error={}
 :do { add address=192.129.42.0/24 list=DE-IPv4 } on-error={}
 :do { add address=192.129.45.0/24 list=DE-IPv4 } on-error={}
-:do { add address=192.129.50.0/24 list=DE-IPv4 } on-error={}
 :do { add address=192.129.51.0/24 list=DE-IPv4 } on-error={}
 :do { add address=192.129.52.0/24 list=DE-IPv4 } on-error={}
 :do { add address=192.129.53.0/24 list=DE-IPv4 } on-error={}
