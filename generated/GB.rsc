@@ -1,4 +1,4 @@
-# Last update: 2026-09-25 02:18:36 UTC
+# Last update: 2026-09-26 02:23:25 UTC
 # Country: GB
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=GB&v4_format=prefix
 
@@ -5690,7 +5690,6 @@
 :do { add address=136.225.0.0/16 list=GB-IPv4 } on-error={}
 :do { add address=137.22.160.0/19 list=GB-IPv4 } on-error={}
 :do { add address=137.44.0.0/18 list=GB-IPv4 } on-error={}
-:do { add address=137.44.64.0/19 list=GB-IPv4 } on-error={}
 :do { add address=137.44.96.0/20 list=GB-IPv4 } on-error={}
 :do { add address=137.44.112.0/21 list=GB-IPv4 } on-error={}
 :do { add address=137.44.128.0/17 list=GB-IPv4 } on-error={}
@@ -5934,7 +5933,8 @@
 :do { add address=149.170.64.0/18 list=GB-IPv4 } on-error={}
 :do { add address=149.170.128.0/20 list=GB-IPv4 } on-error={}
 :do { add address=149.170.147.0/24 list=GB-IPv4 } on-error={}
-:do { add address=149.170.148.0/22 list=GB-IPv4 } on-error={}
+:do { add address=149.170.148.0/23 list=GB-IPv4 } on-error={}
+:do { add address=149.170.150.0/24 list=GB-IPv4 } on-error={}
 :do { add address=149.170.152.0/21 list=GB-IPv4 } on-error={}
 :do { add address=149.170.160.0/20 list=GB-IPv4 } on-error={}
 :do { add address=149.170.184.0/21 list=GB-IPv4 } on-error={}
@@ -6087,7 +6087,6 @@
 :do { add address=157.173.40.0/21 list=GB-IPv4 } on-error={}
 :do { add address=157.173.48.0/20 list=GB-IPv4 } on-error={}
 :do { add address=157.173.64.0/22 list=GB-IPv4 } on-error={}
-:do { add address=157.173.69.0/24 list=GB-IPv4 } on-error={}
 :do { add address=157.173.73.0/24 list=GB-IPv4 } on-error={}
 :do { add address=157.173.74.0/23 list=GB-IPv4 } on-error={}
 :do { add address=157.173.76.0/24 list=GB-IPv4 } on-error={}
@@ -10154,7 +10153,6 @@
 :do { add address=195.16.74.0/24 list=GB-IPv4 } on-error={}
 :do { add address=195.16.160.0/19 list=GB-IPv4 } on-error={}
 :do { add address=195.18.4.0/22 list=GB-IPv4 } on-error={}
-:do { add address=195.20.17.0/24 list=GB-IPv4 } on-error={}
 :do { add address=195.20.108.0/23 list=GB-IPv4 } on-error={}
 :do { add address=195.20.155.0/24 list=GB-IPv4 } on-error={}
 :do { add address=195.20.214.0/23 list=GB-IPv4 } on-error={}
