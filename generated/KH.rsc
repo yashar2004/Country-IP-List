@@ -1,4 +1,4 @@
-# Last update: 2026-09-26 02:23:25 UTC
+# Last update: 2026-09-27 02:19:31 UTC
 # Country: KH
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=KH&v4_format=prefix
 
@@ -99,6 +99,7 @@
 /ip firewall address-list remove [/ip firewall address-list find list=KH-IPv4]
 /ip firewall address-list
 :do { add address=5.28.32.0/21 list=KH-IPv4 } on-error={}
+:do { add address=27.0.88.0/22 list=KH-IPv4 } on-error={}
 :do { add address=27.96.84.0/22 list=KH-IPv4 } on-error={}
 :do { add address=27.109.112.0/22 list=KH-IPv4 } on-error={}
 :do { add address=27.111.8.0/22 list=KH-IPv4 } on-error={}
