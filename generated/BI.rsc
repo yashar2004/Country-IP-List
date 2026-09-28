@@ -1,4 +1,4 @@
-# Last update: 2026-09-27 02:19:31 UTC
+# Last update: 2026-09-28 02:24:03 UTC
 # Country: BI
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=BI&v4_format=prefix
 
@@ -17,6 +17,7 @@
 :do { add address=41.79.44.0/22 list=BI-IPv4 } on-error={}
 :do { add address=41.79.224.0/22 list=BI-IPv4 } on-error={}
 :do { add address=102.134.96.0/20 list=BI-IPv4 } on-error={}
+:do { add address=102.201.28.0/24 list=BI-IPv4 } on-error={}
 :do { add address=154.73.40.0/22 list=BI-IPv4 } on-error={}
 :do { add address=154.73.104.0/22 list=BI-IPv4 } on-error={}
 :do { add address=154.117.192.0/18 list=BI-IPv4 } on-error={}
