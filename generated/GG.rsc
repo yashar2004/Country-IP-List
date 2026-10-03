@@ -1,4 +1,4 @@
-# Last update: 2026-10-02 02:57:49 UTC
+# Last update: 2026-10-03 02:43:55 UTC
 # Country: GG
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=GG&v4_format=prefix
 
@@ -17,6 +17,7 @@
 /ip firewall address-list remove [/ip firewall address-list find list=GG-IPv4]
 /ip firewall address-list
 :do { add address=37.72.152.0/21 list=GG-IPv4 } on-error={}
+:do { add address=45.9.23.0/24 list=GG-IPv4 } on-error={}
 :do { add address=45.11.144.0/22 list=GG-IPv4 } on-error={}
 :do { add address=45.135.252.0/22 list=GG-IPv4 } on-error={}
 :do { add address=46.31.240.0/21 list=GG-IPv4 } on-error={}
