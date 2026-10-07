@@ -1,4 +1,4 @@
-# Last update: 2026-10-06 03:41:07 UTC
+# Last update: 2026-10-07 03:08:03 UTC
 # Country: HU
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=HU&v4_format=prefix
 
@@ -10,6 +10,7 @@
 :do { add address=2001:678:f10::/48 list=HU-IPv6 } on-error={}
 :do { add address=2001:678:f28::/48 list=HU-IPv6 } on-error={}
 :do { add address=2001:678:117c::/48 list=HU-IPv6 } on-error={}
+:do { add address=2001:678:11cc::/48 list=HU-IPv6 } on-error={}
 :do { add address=2001:67c:59c::/48 list=HU-IPv6 } on-error={}
 :do { add address=2001:67c:fac::/48 list=HU-IPv6 } on-error={}
 :do { add address=2001:67c:1b94::/48 list=HU-IPv6 } on-error={}
