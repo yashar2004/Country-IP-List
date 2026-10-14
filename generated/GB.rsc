@@ -1,4 +1,4 @@
-# Last update: 2026-10-13 04:21:16 UTC
+# Last update: 2026-10-14 02:31:59 UTC
 # Country: GB
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=GB&v4_format=prefix
 
@@ -1478,7 +1478,6 @@
 :do { add address=2a0b:fc0::/29 list=GB-IPv6 } on-error={}
 :do { add address=2a0b:1a40::/32 list=GB-IPv6 } on-error={}
 :do { add address=2a0b:1c00::/29 list=GB-IPv6 } on-error={}
-:do { add address=2a0b:1d40::/32 list=GB-IPv6 } on-error={}
 :do { add address=2a0b:2440::/29 list=GB-IPv6 } on-error={}
 :do { add address=2a0b:2480::/32 list=GB-IPv6 } on-error={}
 :do { add address=2a0b:2800::/29 list=GB-IPv6 } on-error={}
@@ -2074,6 +2073,7 @@
 :do { add address=2.96.0.0/13 list=GB-IPv4 } on-error={}
 :do { add address=2.120.0.0/13 list=GB-IPv4 } on-error={}
 :do { add address=2.152.73.0/24 list=GB-IPv4 } on-error={}
+:do { add address=2.152.84.0/23 list=GB-IPv4 } on-error={}
 :do { add address=2.216.0.0/13 list=GB-IPv4 } on-error={}
 :do { add address=5.1.45.0/24 list=GB-IPv4 } on-error={}
 :do { add address=5.2.16.0/21 list=GB-IPv4 } on-error={}
@@ -3469,7 +3469,7 @@
 :do { add address=80.0.0.0/13 list=GB-IPv4 } on-error={}
 :do { add address=80.40.0.0/15 list=GB-IPv4 } on-error={}
 :do { add address=80.42.0.0/16 list=GB-IPv4 } on-error={}
-:do { add address=80.44.0.0/15 list=GB-IPv4 } on-error={}
+:do { add address=80.45.0.0/16 list=GB-IPv4 } on-error={}
 :do { add address=80.46.0.0/17 list=GB-IPv4 } on-error={}
 :do { add address=80.47.96.0/19 list=GB-IPv4 } on-error={}
 :do { add address=80.47.160.0/19 list=GB-IPv4 } on-error={}
@@ -4610,7 +4610,6 @@
 :do { add address=91.205.108.0/22 list=GB-IPv4 } on-error={}
 :do { add address=91.205.125.0/24 list=GB-IPv4 } on-error={}
 :do { add address=91.205.228.0/24 list=GB-IPv4 } on-error={}
-:do { add address=91.205.248.0/22 list=GB-IPv4 } on-error={}
 :do { add address=91.206.0.0/23 list=GB-IPv4 } on-error={}
 :do { add address=91.206.48.0/23 list=GB-IPv4 } on-error={}
 :do { add address=91.206.59.0/24 list=GB-IPv4 } on-error={}
@@ -7829,7 +7828,6 @@
 :do { add address=185.206.148.0/22 list=GB-IPv4 } on-error={}
 :do { add address=185.206.216.0/22 list=GB-IPv4 } on-error={}
 :do { add address=185.207.23.0/24 list=GB-IPv4 } on-error={}
-:do { add address=185.207.32.0/22 list=GB-IPv4 } on-error={}
 :do { add address=185.207.36.0/24 list=GB-IPv4 } on-error={}
 :do { add address=185.207.48.0/22 list=GB-IPv4 } on-error={}
 :do { add address=185.207.68.0/22 list=GB-IPv4 } on-error={}

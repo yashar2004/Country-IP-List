@@ -1,4 +1,4 @@
-# Last update: 2026-10-13 04:21:16 UTC
+# Last update: 2026-10-14 02:31:59 UTC
 # Country: MK
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=MK&v4_format=prefix
 
@@ -95,6 +95,7 @@
 :do { add address=92.55.64.0/18 list=MK-IPv4 } on-error={}
 :do { add address=93.95.64.0/21 list=MK-IPv4 } on-error={}
 :do { add address=94.100.96.0/20 list=MK-IPv4 } on-error={}
+:do { add address=94.176.162.0/24 list=MK-IPv4 } on-error={}
 :do { add address=95.86.0.0/22 list=MK-IPv4 } on-error={}
 :do { add address=95.86.12.0/22 list=MK-IPv4 } on-error={}
 :do { add address=95.86.16.0/20 list=MK-IPv4 } on-error={}
@@ -169,6 +170,7 @@
 :do { add address=185.250.252.0/22 list=MK-IPv4 } on-error={}
 :do { add address=185.252.188.0/22 list=MK-IPv4 } on-error={}
 :do { add address=188.44.0.0/19 list=MK-IPv4 } on-error={}
+:do { add address=188.241.85.0/24 list=MK-IPv4 } on-error={}
 :do { add address=193.36.90.0/24 list=MK-IPv4 } on-error={}
 :do { add address=194.26.97.0/24 list=MK-IPv4 } on-error={}
 :do { add address=194.61.58.0/24 list=MK-IPv4 } on-error={}
