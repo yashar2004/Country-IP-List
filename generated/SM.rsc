@@ -1,4 +1,4 @@
-# Last update: 2026-10-15 02:12:34 UTC
+# Last update: 2026-10-16 02:03:22 UTC
 # Country: SM
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=SM&v4_format=prefix
 
@@ -38,6 +38,7 @@
 :do { add address=185.45.68.0/22 list=SM-IPv4 } on-error={}
 :do { add address=185.62.32.0/22 list=SM-IPv4 } on-error={}
 :do { add address=185.86.60.0/22 list=SM-IPv4 } on-error={}
+:do { add address=185.124.71.0/24 list=SM-IPv4 } on-error={}
 :do { add address=185.125.240.0/24 list=SM-IPv4 } on-error={}
 :do { add address=185.146.128.0/22 list=SM-IPv4 } on-error={}
 :do { add address=185.159.90.0/24 list=SM-IPv4 } on-error={}
