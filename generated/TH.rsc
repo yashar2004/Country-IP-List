@@ -1,4 +1,4 @@
-# Last update: 2026-10-18 01:56:59 UTC
+# Last update: 2026-10-19 02:13:47 UTC
 # Country: TH
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=TH&v4_format=prefix
 
@@ -217,6 +217,7 @@
 :do { add address=2407:a500::/32 list=TH-IPv6 } on-error={}
 :do { add address=2407:b1c0::/32 list=TH-IPv6 } on-error={}
 :do { add address=2407:ed00::/32 list=TH-IPv6 } on-error={}
+:do { add address=2602:f2b9::/40 list=TH-IPv6 } on-error={}
 :do { add address=2602:f2c3::/40 list=TH-IPv6 } on-error={}
 :do { add address=2602:f2e4::/40 list=TH-IPv6 } on-error={}
 :do { add address=2602:f2e6::/40 list=TH-IPv6 } on-error={}
@@ -274,6 +275,7 @@
 :do { add address=23.162.28.0/24 list=TH-IPv4 } on-error={}
 :do { add address=23.164.116.0/24 list=TH-IPv4 } on-error={}
 :do { add address=23.165.228.0/24 list=TH-IPv4 } on-error={}
+:do { add address=23.165.244.0/24 list=TH-IPv4 } on-error={}
 :do { add address=23.177.168.0/24 list=TH-IPv4 } on-error={}
 :do { add address=23.177.200.0/24 list=TH-IPv4 } on-error={}
 :do { add address=23.178.56.0/24 list=TH-IPv4 } on-error={}
