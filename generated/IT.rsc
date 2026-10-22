@@ -1,4 +1,4 @@
-# Last update: 2026-10-21 02:22:18 UTC
+# Last update: 2026-10-22 02:17:22 UTC
 # Country: IT
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=IT&v4_format=prefix
 
@@ -943,7 +943,6 @@
 :do { add address=2a10:8e40::/29 list=IT-IPv6 } on-error={}
 :do { add address=2a10:8f40::/29 list=IT-IPv6 } on-error={}
 :do { add address=2a10:98c0::/29 list=IT-IPv6 } on-error={}
-:do { add address=2a10:9a00::/29 list=IT-IPv6 } on-error={}
 :do { add address=2a10:9ec0::/29 list=IT-IPv6 } on-error={}
 :do { add address=2a10:a0c0::/29 list=IT-IPv6 } on-error={}
 :do { add address=2a10:a140::/32 list=IT-IPv6 } on-error={}
@@ -978,6 +977,7 @@
 :do { add address=2a11:a580::/29 list=IT-IPv6 } on-error={}
 :do { add address=2a11:a6c0::/29 list=IT-IPv6 } on-error={}
 :do { add address=2a11:a740::/29 list=IT-IPv6 } on-error={}
+:do { add address=2a11:a840::/29 list=IT-IPv6 } on-error={}
 :do { add address=2a11:ab40::/32 list=IT-IPv6 } on-error={}
 :do { add address=2a11:abc0::/29 list=IT-IPv6 } on-error={}
 :do { add address=2a11:ad40::/29 list=IT-IPv6 } on-error={}
@@ -2705,6 +2705,7 @@
 :do { add address=159.61.80.0/24 list=IT-IPv4 } on-error={}
 :do { add address=159.61.152.0/22 list=IT-IPv4 } on-error={}
 :do { add address=159.149.0.0/16 list=IT-IPv4 } on-error={}
+:do { add address=159.200.205.0/24 list=IT-IPv4 } on-error={}
 :do { add address=159.210.0.0/16 list=IT-IPv4 } on-error={}
 :do { add address=159.213.0.0/16 list=IT-IPv4 } on-error={}
 :do { add address=159.253.96.0/21 list=IT-IPv4 } on-error={}

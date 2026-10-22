@@ -1,4 +1,4 @@
-# Last update: 2026-10-21 02:22:18 UTC
+# Last update: 2026-10-22 02:17:22 UTC
 # Country: AU
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=AU&v4_format=prefix
 
@@ -8115,7 +8115,6 @@
 :do { add address=202.68.64.0/20 list=AU-IPv4 } on-error={}
 :do { add address=202.68.96.0/20 list=AU-IPv4 } on-error={}
 :do { add address=202.68.112.0/21 list=AU-IPv4 } on-error={}
-:do { add address=202.68.124.0/22 list=AU-IPv4 } on-error={}
 :do { add address=202.68.160.0/20 list=AU-IPv4 } on-error={}
 :do { add address=202.69.132.0/23 list=AU-IPv4 } on-error={}
 :do { add address=202.69.134.0/24 list=AU-IPv4 } on-error={}

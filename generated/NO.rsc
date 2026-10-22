@@ -1,4 +1,4 @@
-# Last update: 2026-10-21 02:22:18 UTC
+# Last update: 2026-10-22 02:17:22 UTC
 # Country: NO
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=NO&v4_format=prefix
 
@@ -1662,6 +1662,7 @@
 :do { add address=195.5.183.0/24 list=NO-IPv4 } on-error={}
 :do { add address=195.8.32.0/23 list=NO-IPv4 } on-error={}
 :do { add address=195.10.196.0/24 list=NO-IPv4 } on-error={}
+:do { add address=195.10.236.0/22 list=NO-IPv4 } on-error={}
 :do { add address=195.16.73.0/24 list=NO-IPv4 } on-error={}
 :do { add address=195.18.0.0/22 list=NO-IPv4 } on-error={}
 :do { add address=195.18.128.0/17 list=NO-IPv4 } on-error={}
