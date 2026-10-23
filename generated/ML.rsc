@@ -1,4 +1,4 @@
-# Last update: 2026-10-22 02:17:22 UTC
+# Last update: 2026-10-23 02:22:53 UTC
 # Country: ML
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=ML&v4_format=prefix
 
@@ -22,6 +22,7 @@
 :do { add address=102.68.176.0/22 list=ML-IPv4 } on-error={}
 :do { add address=102.130.232.0/22 list=ML-IPv4 } on-error={}
 :do { add address=102.165.96.0/20 list=ML-IPv4 } on-error={}
+:do { add address=102.200.223.0/24 list=ML-IPv4 } on-error={}
 :do { add address=102.212.72.0/22 list=ML-IPv4 } on-error={}
 :do { add address=102.213.136.0/22 list=ML-IPv4 } on-error={}
 :do { add address=102.217.24.0/22 list=ML-IPv4 } on-error={}

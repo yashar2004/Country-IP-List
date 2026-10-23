@@ -1,10 +1,11 @@
-# Last update: 2026-10-22 02:17:22 UTC
+# Last update: 2026-10-23 02:22:53 UTC
 # Country: AE
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=AE&v4_format=prefix
 
 /ipv6 firewall address-list remove [/ipv6 firewall address-list find list=AE-IPv6]
 /ipv6 firewall address-list
 :do { add address=2001:678:1130::/48 list=AE-IPv6 } on-error={}
+:do { add address=2001:67c:5c4::/48 list=AE-IPv6 } on-error={}
 :do { add address=2001:67c:2040::/48 list=AE-IPv6 } on-error={}
 :do { add address=2001:67c:2348::/48 list=AE-IPv6 } on-error={}
 :do { add address=2001:67c:23e8::/48 list=AE-IPv6 } on-error={}
@@ -1332,7 +1333,8 @@
 :do { add address=153.56.176.0/22 list=AE-IPv4 } on-error={}
 :do { add address=153.56.182.0/23 list=AE-IPv4 } on-error={}
 :do { add address=153.56.210.0/24 list=AE-IPv4 } on-error={}
-:do { add address=153.56.212.0/22 list=AE-IPv4 } on-error={}
+:do { add address=153.56.213.0/24 list=AE-IPv4 } on-error={}
+:do { add address=153.56.214.0/23 list=AE-IPv4 } on-error={}
 :do { add address=153.56.216.0/21 list=AE-IPv4 } on-error={}
 :do { add address=153.56.224.0/23 list=AE-IPv4 } on-error={}
 :do { add address=153.56.228.0/22 list=AE-IPv4 } on-error={}

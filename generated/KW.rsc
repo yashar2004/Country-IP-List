@@ -1,4 +1,4 @@
-# Last update: 2026-10-22 02:17:22 UTC
+# Last update: 2026-10-23 02:22:53 UTC
 # Country: KW
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=KW&v4_format=prefix
 
@@ -88,7 +88,10 @@
 :do { add address=94.29.128.0/17 list=KW-IPv4 } on-error={}
 :do { add address=94.128.0.0/15 list=KW-IPv4 } on-error={}
 :do { add address=94.187.160.0/19 list=KW-IPv4 } on-error={}
-:do { add address=94.187.192.0/18 list=KW-IPv4 } on-error={}
+:do { add address=94.187.196.0/22 list=KW-IPv4 } on-error={}
+:do { add address=94.187.200.0/21 list=KW-IPv4 } on-error={}
+:do { add address=94.187.208.0/20 list=KW-IPv4 } on-error={}
+:do { add address=94.187.224.0/19 list=KW-IPv4 } on-error={}
 :do { add address=95.66.0.0/17 list=KW-IPv4 } on-error={}
 :do { add address=109.71.188.0/23 list=KW-IPv4 } on-error={}
 :do { add address=139.141.0.0/16 list=KW-IPv4 } on-error={}

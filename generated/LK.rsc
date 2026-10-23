@@ -1,4 +1,4 @@
-# Last update: 2026-10-22 02:17:22 UTC
+# Last update: 2026-10-23 02:22:53 UTC
 # Country: LK
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=LK&v4_format=prefix
 
@@ -15,6 +15,7 @@
 :do { add address=2001:df4:1b00::/48 list=LK-IPv6 } on-error={}
 :do { add address=2400:a240::/32 list=LK-IPv6 } on-error={}
 :do { add address=2400:d040::/32 list=LK-IPv6 } on-error={}
+:do { add address=2400:e2e0::/32 list=LK-IPv6 } on-error={}
 :do { add address=2400:ff00::/32 list=LK-IPv6 } on-error={}
 :do { add address=2401:460::/32 list=LK-IPv6 } on-error={}
 :do { add address=2401:dd00::/32 list=LK-IPv6 } on-error={}
@@ -48,6 +49,7 @@
 :do { add address=103.84.160.0/22 list=LK-IPv4 } on-error={}
 :do { add address=103.87.12.0/22 list=LK-IPv4 } on-error={}
 :do { add address=103.87.124.0/22 list=LK-IPv4 } on-error={}
+:do { add address=103.96.226.0/23 list=LK-IPv4 } on-error={}
 :do { add address=103.99.100.0/24 list=LK-IPv4 } on-error={}
 :do { add address=103.138.180.0/24 list=LK-IPv4 } on-error={}
 :do { add address=103.140.194.0/23 list=LK-IPv4 } on-error={}
