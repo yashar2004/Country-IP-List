@@ -1,4 +1,4 @@
-# Last update: 2026-10-25 02:07:56 UTC
+# Last update: 2026-10-26 02:08:33 UTC
 # Country: KE
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=KE&v4_format=prefix
 
@@ -130,6 +130,7 @@
 :do { add address=2c0f:5940::/32 list=KE-IPv6 } on-error={}
 :do { add address=2c0f:5a20::/32 list=KE-IPv6 } on-error={}
 :do { add address=2c0f:5ac0::/32 list=KE-IPv6 } on-error={}
+:do { add address=2c0f:5b20::/32 list=KE-IPv6 } on-error={}
 :do { add address=2c0f:5e80::/32 list=KE-IPv6 } on-error={}
 :do { add address=2c0f:5fc0::/32 list=KE-IPv6 } on-error={}
 :do { add address=2c0f:6300::/32 list=KE-IPv6 } on-error={}
@@ -246,6 +247,7 @@
 :do { add address=102.166.0.0/15 list=KE-IPv4 } on-error={}
 :do { add address=102.176.180.0/22 list=KE-IPv4 } on-error={}
 :do { add address=102.200.14.0/24 list=KE-IPv4 } on-error={}
+:do { add address=102.200.182.0/23 list=KE-IPv4 } on-error={}
 :do { add address=102.200.184.0/22 list=KE-IPv4 } on-error={}
 :do { add address=102.200.192.0/22 list=KE-IPv4 } on-error={}
 :do { add address=102.200.204.0/22 list=KE-IPv4 } on-error={}
