@@ -1,4 +1,4 @@
-# Last update: 2026-10-28 02:54:16 UTC
+# Last update: 2026-10-29 03:18:33 UTC
 # Country: TH
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=TH&v4_format=prefix
 
@@ -61,7 +61,6 @@
 :do { add address=2001:df3:f240::/48 list=TH-IPv6 } on-error={}
 :do { add address=2001:df3:f880::/48 list=TH-IPv6 } on-error={}
 :do { add address=2001:df3:f900::/48 list=TH-IPv6 } on-error={}
-:do { add address=2001:df4:2000::/48 list=TH-IPv6 } on-error={}
 :do { add address=2001:df4:3000::/48 list=TH-IPv6 } on-error={}
 :do { add address=2001:df4:4480::/48 list=TH-IPv6 } on-error={}
 :do { add address=2001:df4:68c0::/48 list=TH-IPv6 } on-error={}
@@ -219,6 +218,8 @@
 :do { add address=2407:b1c0::/32 list=TH-IPv6 } on-error={}
 :do { add address=2407:ed00::/32 list=TH-IPv6 } on-error={}
 :do { add address=2602:f296::/40 list=TH-IPv6 } on-error={}
+:do { add address=2602:f29c::/40 list=TH-IPv6 } on-error={}
+:do { add address=2602:f2b3::/40 list=TH-IPv6 } on-error={}
 :do { add address=2602:f2b9::/40 list=TH-IPv6 } on-error={}
 :do { add address=2602:f2c3::/40 list=TH-IPv6 } on-error={}
 :do { add address=2602:f2e4::/40 list=TH-IPv6 } on-error={}
@@ -279,6 +280,8 @@
 :do { add address=23.165.228.0/24 list=TH-IPv4 } on-error={}
 :do { add address=23.165.244.0/24 list=TH-IPv4 } on-error={}
 :do { add address=23.166.84.0/24 list=TH-IPv4 } on-error={}
+:do { add address=23.166.100.0/24 list=TH-IPv4 } on-error={}
+:do { add address=23.166.132.0/24 list=TH-IPv4 } on-error={}
 :do { add address=23.177.168.0/24 list=TH-IPv4 } on-error={}
 :do { add address=23.177.200.0/24 list=TH-IPv4 } on-error={}
 :do { add address=23.178.56.0/24 list=TH-IPv4 } on-error={}
@@ -338,7 +341,6 @@
 :do { add address=27.254.236.0/22 list=TH-IPv4 } on-error={}
 :do { add address=27.254.240.0/20 list=TH-IPv4 } on-error={}
 :do { add address=43.228.80.0/22 list=TH-IPv4 } on-error={}
-:do { add address=43.228.196.0/22 list=TH-IPv4 } on-error={}
 :do { add address=43.229.44.0/22 list=TH-IPv4 } on-error={}
 :do { add address=43.229.68.0/22 list=TH-IPv4 } on-error={}
 :do { add address=43.229.76.0/22 list=TH-IPv4 } on-error={}
@@ -539,7 +541,6 @@
 :do { add address=103.23.120.0/22 list=TH-IPv4 } on-error={}
 :do { add address=103.23.246.0/24 list=TH-IPv4 } on-error={}
 :do { add address=103.26.20.0/22 list=TH-IPv4 } on-error={}
-:do { add address=103.26.180.0/22 list=TH-IPv4 } on-error={}
 :do { add address=103.27.100.0/22 list=TH-IPv4 } on-error={}
 :do { add address=103.27.200.0/22 list=TH-IPv4 } on-error={}
 :do { add address=103.28.100.0/22 list=TH-IPv4 } on-error={}
