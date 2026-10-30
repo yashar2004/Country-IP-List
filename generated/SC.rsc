@@ -1,4 +1,4 @@
-# Last update: 2026-10-29 03:18:33 UTC
+# Last update: 2026-10-30 03:20:33 UTC
 # Country: SC
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=SC&v4_format=prefix
 
@@ -1294,6 +1294,7 @@
 :do { add address=180.94.224.0/21 list=SC-IPv4 } on-error={}
 :do { add address=185.3.132.0/22 list=SC-IPv4 } on-error={}
 :do { add address=185.5.44.0/22 list=SC-IPv4 } on-error={}
+:do { add address=185.7.173.0/24 list=SC-IPv4 } on-error={}
 :do { add address=185.9.52.0/24 list=SC-IPv4 } on-error={}
 :do { add address=185.11.63.0/24 list=SC-IPv4 } on-error={}
 :do { add address=185.30.232.0/26 list=SC-IPv4 } on-error={}

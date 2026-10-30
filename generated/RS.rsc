@@ -1,4 +1,4 @@
-# Last update: 2026-10-29 03:18:33 UTC
+# Last update: 2026-10-30 03:20:33 UTC
 # Country: RS
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=RS&v4_format=prefix
 
@@ -92,7 +92,6 @@
 :do { add address=2a10:3fc0::/29 list=RS-IPv6 } on-error={}
 :do { add address=2a12:cbc0::/29 list=RS-IPv6 } on-error={}
 :do { add address=2a13:a400::/29 list=RS-IPv6 } on-error={}
-:do { add address=2a13:a980::/29 list=RS-IPv6 } on-error={}
 :do { add address=2a14:bf80::/29 list=RS-IPv6 } on-error={}
 
 /ip firewall address-list remove [/ip firewall address-list find list=RS-IPv4]
