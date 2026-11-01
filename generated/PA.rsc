@@ -1,4 +1,4 @@
-# Last update: 2026-10-31 03:04:50 UTC
+# Last update: 2026-11-01 02:59:26 UTC
 # Country: PA
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=PA&v4_format=prefix
 
@@ -88,6 +88,7 @@
 :do { add address=2a09:4ac0::/29 list=PA-IPv6 } on-error={}
 :do { add address=2a09:a700::/29 list=PA-IPv6 } on-error={}
 :do { add address=2a10:9100::/29 list=PA-IPv6 } on-error={}
+:do { add address=2a12:8640::/29 list=PA-IPv6 } on-error={}
 :do { add address=2a13:240::/29 list=PA-IPv6 } on-error={}
 
 /ip firewall address-list remove [/ip firewall address-list find list=PA-IPv4]
@@ -115,6 +116,7 @@
 :do { add address=81.17.16.0/20 list=PA-IPv4 } on-error={}
 :do { add address=92.249.36.0/22 list=PA-IPv4 } on-error={}
 :do { add address=94.131.53.0/24 list=PA-IPv4 } on-error={}
+:do { add address=94.131.59.0/24 list=PA-IPv4 } on-error={}
 :do { add address=103.86.96.0/22 list=PA-IPv4 } on-error={}
 :do { add address=103.173.150.0/23 list=PA-IPv4 } on-error={}
 :do { add address=116.204.192.0/22 list=PA-IPv4 } on-error={}
