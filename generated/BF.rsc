@@ -1,4 +1,4 @@
-# Last update: 2026-11-05 04:02:05 UTC
+# Last update: 2026-11-06 04:00:13 UTC
 # Country: BF
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=BF&v4_format=prefix
 
@@ -45,7 +45,6 @@
 :do { add address=102.23.0.0/18 list=BF-IPv4 } on-error={}
 :do { add address=102.36.164.0/22 list=BF-IPv4 } on-error={}
 :do { add address=102.67.96.0/19 list=BF-IPv4 } on-error={}
-:do { add address=102.67.172.0/22 list=BF-IPv4 } on-error={}
 :do { add address=102.68.32.0/21 list=BF-IPv4 } on-error={}
 :do { add address=102.68.100.0/22 list=BF-IPv4 } on-error={}
 :do { add address=102.68.125.0/24 list=BF-IPv4 } on-error={}

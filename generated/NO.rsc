@@ -1,4 +1,4 @@
-# Last update: 2026-11-05 04:02:05 UTC
+# Last update: 2026-11-06 04:00:13 UTC
 # Country: NO
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=NO&v4_format=prefix
 
@@ -319,7 +319,6 @@
 :do { add address=2a06:700::/29 list=NO-IPv6 } on-error={}
 :do { add address=2a06:11c0::/29 list=NO-IPv6 } on-error={}
 :do { add address=2a06:2240::/29 list=NO-IPv6 } on-error={}
-:do { add address=2a06:2300::/29 list=NO-IPv6 } on-error={}
 :do { add address=2a06:2400::/29 list=NO-IPv6 } on-error={}
 :do { add address=2a06:31c0::/29 list=NO-IPv6 } on-error={}
 :do { add address=2a06:5840::/29 list=NO-IPv6 } on-error={}
