@@ -1,4 +1,4 @@
-# Last update: 2026-11-12 04:44:48 UTC
+# Last update: 2026-11-13 03:56:19 UTC
 # Country: DO
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=DO&v4_format=prefix
 
@@ -169,6 +169,7 @@
 :do { add address=2803:b230::/32 list=DO-IPv6 } on-error={}
 :do { add address=2803:b290::/32 list=DO-IPv6 } on-error={}
 :do { add address=2803:b3d0::/32 list=DO-IPv6 } on-error={}
+:do { add address=2803:b8b0::/32 list=DO-IPv6 } on-error={}
 :do { add address=2803:ba10::/32 list=DO-IPv6 } on-error={}
 :do { add address=2803:bb30::/32 list=DO-IPv6 } on-error={}
 :do { add address=2803:be30::/32 list=DO-IPv6 } on-error={}

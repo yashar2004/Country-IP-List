@@ -1,4 +1,4 @@
-# Last update: 2026-11-12 04:44:48 UTC
+# Last update: 2026-11-13 03:56:19 UTC
 # Country: HK
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=HK&v4_format=prefix
 
@@ -1708,7 +1708,6 @@
 :do { add address=103.10.196.0/24 list=HK-IPv4 } on-error={}
 :do { add address=103.10.197.0/24 list=HK-IPv4 } on-error={}
 :do { add address=103.10.198.0/24 list=HK-IPv4 } on-error={}
-:do { add address=103.10.199.0/24 list=HK-IPv4 } on-error={}
 :do { add address=103.10.236.0/22 list=HK-IPv4 } on-error={}
 :do { add address=103.11.72.0/23 list=HK-IPv4 } on-error={}
 :do { add address=103.11.88.0/22 list=HK-IPv4 } on-error={}
@@ -3084,9 +3083,9 @@
 :do { add address=159.200.64.0/20 list=HK-IPv4 } on-error={}
 :do { add address=159.200.80.0/22 list=HK-IPv4 } on-error={}
 :do { add address=159.200.84.0/22 list=HK-IPv4 } on-error={}
-:do { add address=159.200.88.0/21 list=HK-IPv4 } on-error={}
+:do { add address=159.200.88.0/22 list=HK-IPv4 } on-error={}
+:do { add address=159.200.92.0/22 list=HK-IPv4 } on-error={}
 :do { add address=159.200.96.0/19 list=HK-IPv4 } on-error={}
-:do { add address=159.200.192.0/21 list=HK-IPv4 } on-error={}
 :do { add address=159.200.204.0/24 list=HK-IPv4 } on-error={}
 :do { add address=159.200.222.0/23 list=HK-IPv4 } on-error={}
 :do { add address=159.200.224.0/22 list=HK-IPv4 } on-error={}
