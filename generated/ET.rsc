@@ -1,4 +1,4 @@
-# Last update: 2026-11-13 03:56:19 UTC
+# Last update: 2026-11-14 03:54:52 UTC
 # Country: ET
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=ET&v4_format=prefix
 
@@ -14,6 +14,7 @@
 
 /ip firewall address-list remove [/ip firewall address-list find list=ET-IPv4]
 /ip firewall address-list
+:do { add address=102.200.156.0/22 list=ET-IPv4 } on-error={}
 :do { add address=102.203.224.0/22 list=ET-IPv4 } on-error={}
 :do { add address=102.204.190.0/23 list=ET-IPv4 } on-error={}
 :do { add address=102.208.96.0/22 list=ET-IPv4 } on-error={}
