@@ -1,4 +1,4 @@
-# Last update: 2026-11-14 03:54:52 UTC
+# Last update: 2026-11-15 03:38:10 UTC
 # Country: UY
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=UY&v4_format=prefix
 
@@ -58,6 +58,7 @@
 :do { add address=69.164.80.0/24 list=UY-IPv4 } on-error={}
 :do { add address=69.164.91.0/24 list=UY-IPv4 } on-error={}
 :do { add address=69.164.98.0/24 list=UY-IPv4 } on-error={}
+:do { add address=92.43.88.0/24 list=UY-IPv4 } on-error={}
 :do { add address=131.0.212.0/22 list=UY-IPv4 } on-error={}
 :do { add address=138.59.12.0/22 list=UY-IPv4 } on-error={}
 :do { add address=138.99.44.0/22 list=UY-IPv4 } on-error={}

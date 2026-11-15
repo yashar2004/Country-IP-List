@@ -1,4 +1,4 @@
-# Last update: 2026-11-14 03:54:52 UTC
+# Last update: 2026-11-15 03:38:10 UTC
 # Country: PH
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=PH&v4_format=prefix
 
@@ -391,7 +391,10 @@
 :do { add address=2407:e640::/32 list=PH-IPv6 } on-error={}
 :do { add address=2407:fdc0::/32 list=PH-IPv6 } on-error={}
 :do { add address=2602:f275::/40 list=PH-IPv6 } on-error={}
+:do { add address=2602:f278::/40 list=PH-IPv6 } on-error={}
+:do { add address=2602:f27b::/40 list=PH-IPv6 } on-error={}
 :do { add address=2602:f27e::/40 list=PH-IPv6 } on-error={}
+:do { add address=2602:f281::/40 list=PH-IPv6 } on-error={}
 :do { add address=2602:f2e1::/40 list=PH-IPv6 } on-error={}
 :do { add address=2602:f327::/40 list=PH-IPv6 } on-error={}
 :do { add address=2602:f35f::/40 list=PH-IPv6 } on-error={}
@@ -415,7 +418,10 @@
 :do { add address=23.161.92.0/24 list=PH-IPv4 } on-error={}
 :do { add address=23.162.116.0/24 list=PH-IPv4 } on-error={}
 :do { add address=23.164.172.0/24 list=PH-IPv4 } on-error={}
+:do { add address=23.167.76.0/24 list=PH-IPv4 } on-error={}
 :do { add address=23.167.92.0/24 list=PH-IPv4 } on-error={}
+:do { add address=23.167.100.0/24 list=PH-IPv4 } on-error={}
+:do { add address=23.167.108.0/24 list=PH-IPv4 } on-error={}
 :do { add address=23.167.124.0/24 list=PH-IPv4 } on-error={}
 :do { add address=23.187.40.0/24 list=PH-IPv4 } on-error={}
 :do { add address=27.49.0.0/16 list=PH-IPv4 } on-error={}
