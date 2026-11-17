@@ -1,4 +1,4 @@
-# Last update: 2026-11-16 03:37:30 UTC
+# Last update: 2026-11-17 05:34:42 UTC
 # Country: SN
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=SN&v4_format=prefix
 
@@ -10,7 +10,6 @@
 :do { add address=2001:43f8:1400::/48 list=SN-IPv6 } on-error={}
 :do { add address=2001:43f8:1750::/48 list=SN-IPv6 } on-error={}
 :do { add address=2001:43f8:1751::/48 list=SN-IPv6 } on-error={}
-:do { add address=2001:43f8:17a0::/48 list=SN-IPv6 } on-error={}
 :do { add address=2001:43fe:7000::/48 list=SN-IPv6 } on-error={}
 :do { add address=2001:43fe:c800::/48 list=SN-IPv6 } on-error={}
 :do { add address=2c0f:10a0::/32 list=SN-IPv6 } on-error={}
@@ -36,7 +35,6 @@
 :do { add address=102.207.140.0/24 list=SN-IPv4 } on-error={}
 :do { add address=102.208.110.0/23 list=SN-IPv4 } on-error={}
 :do { add address=102.209.164.0/22 list=SN-IPv4 } on-error={}
-:do { add address=102.209.208.0/22 list=SN-IPv4 } on-error={}
 :do { add address=102.214.191.0/24 list=SN-IPv4 } on-error={}
 :do { add address=154.65.32.0/21 list=SN-IPv4 } on-error={}
 :do { add address=154.73.172.0/22 list=SN-IPv4 } on-error={}
