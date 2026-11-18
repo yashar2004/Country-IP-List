@@ -1,4 +1,4 @@
-# Last update: 2026-11-17 05:34:42 UTC
+# Last update: 2026-11-18 04:58:58 UTC
 # Country: US
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=US&v4_format=prefix
 
@@ -8003,6 +8003,7 @@
 :do { add address=2620:8:4300::/48 list=US-IPv6 } on-error={}
 :do { add address=2620:8:8200::/48 list=US-IPv6 } on-error={}
 :do { add address=2620:8:f080::/44 list=US-IPv6 } on-error={}
+:do { add address=2620:9:1840::/48 list=US-IPv6 } on-error={}
 :do { add address=2620:9:4000::/48 list=US-IPv6 } on-error={}
 :do { add address=2620:9:6000::/48 list=US-IPv6 } on-error={}
 :do { add address=2620:9:8000::/48 list=US-IPv6 } on-error={}
