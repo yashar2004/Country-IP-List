@@ -1,4 +1,4 @@
-# Last update: 2026-11-18 04:58:58 UTC
+# Last update: 2026-11-19 04:53:54 UTC
 # Country: AM
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=AM&v4_format=prefix
 
@@ -183,6 +183,7 @@
 :do { add address=157.228.99.0/24 list=AM-IPv4 } on-error={}
 :do { add address=157.228.100.0/22 list=AM-IPv4 } on-error={}
 :do { add address=157.228.104.0/21 list=AM-IPv4 } on-error={}
+:do { add address=159.200.96.0/19 list=AM-IPv4 } on-error={}
 :do { add address=159.200.203.0/24 list=AM-IPv4 } on-error={}
 :do { add address=176.32.192.0/21 list=AM-IPv4 } on-error={}
 :do { add address=176.113.118.0/24 list=AM-IPv4 } on-error={}
@@ -226,7 +227,6 @@
 :do { add address=185.230.240.0/22 list=AM-IPv4 } on-error={}
 :do { add address=185.247.0.0/22 list=AM-IPv4 } on-error={}
 :do { add address=185.255.68.0/22 list=AM-IPv4 } on-error={}
-:do { add address=188.92.28.0/24 list=AM-IPv4 } on-error={}
 :do { add address=188.115.192.0/18 list=AM-IPv4 } on-error={}
 :do { add address=188.164.152.0/21 list=AM-IPv4 } on-error={}
 :do { add address=193.29.226.0/24 list=AM-IPv4 } on-error={}
