@@ -1,4 +1,4 @@
-# Last update: 2026-11-20 04:43:54 UTC
+# Last update: 2026-11-21 04:39:02 UTC
 # Country: SY
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=SY&v4_format=prefix
 
@@ -39,6 +39,7 @@
 :do { add address=2a11:ccc0::/29 list=SY-IPv6 } on-error={}
 :do { add address=2a12:1500::/29 list=SY-IPv6 } on-error={}
 :do { add address=2a13:b8c0::/29 list=SY-IPv6 } on-error={}
+:do { add address=2a13:c780::/29 list=SY-IPv6 } on-error={}
 :do { add address=2a14:6540::/29 list=SY-IPv6 } on-error={}
 
 /ip firewall address-list remove [/ip firewall address-list find list=SY-IPv4]
