@@ -1,4 +1,4 @@
-# Last update: 2026-11-25 05:56:53 UTC
+# Last update: 2026-11-26 05:49:14 UTC
 # Country: PE
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=PE&v4_format=prefix
 
@@ -41,6 +41,7 @@
 :do { add address=2803:1280::/32 list=PE-IPv6 } on-error={}
 :do { add address=2803:1350::/32 list=PE-IPv6 } on-error={}
 :do { add address=2803:1410::/32 list=PE-IPv6 } on-error={}
+:do { add address=2803:14b0::/32 list=PE-IPv6 } on-error={}
 :do { add address=2803:1590::/32 list=PE-IPv6 } on-error={}
 :do { add address=2803:15e0::/32 list=PE-IPv6 } on-error={}
 :do { add address=2803:16e0::/32 list=PE-IPv6 } on-error={}

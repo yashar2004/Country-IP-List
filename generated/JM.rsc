@@ -1,4 +1,4 @@
-# Last update: 2026-11-25 05:56:53 UTC
+# Last update: 2026-11-26 05:49:14 UTC
 # Country: JM
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=JM&v4_format=prefix
 
@@ -61,6 +61,7 @@
 :do { add address=199.195.220.0/22 list=JM-IPv4 } on-error={}
 :do { add address=200.9.115.0/24 list=JM-IPv4 } on-error={}
 :do { add address=200.10.152.0/24 list=JM-IPv4 } on-error={}
+:do { add address=204.124.98.0/24 list=JM-IPv4 } on-error={}
 :do { add address=206.41.107.0/24 list=JM-IPv4 } on-error={}
 :do { add address=207.204.64.0/18 list=JM-IPv4 } on-error={}
 :do { add address=207.254.128.0/20 list=JM-IPv4 } on-error={}

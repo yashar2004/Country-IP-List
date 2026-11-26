@@ -1,10 +1,11 @@
-# Last update: 2026-11-25 05:56:53 UTC
+# Last update: 2026-11-26 05:49:14 UTC
 # Country: KG
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=KG&v4_format=prefix
 
 /ipv6 firewall address-list remove [/ipv6 firewall address-list find list=KG-IPv6]
 /ipv6 firewall address-list
 :do { add address=2001:678:5fc::/48 list=KG-IPv6 } on-error={}
+:do { add address=2001:678:141c::/48 list=KG-IPv6 } on-error={}
 :do { add address=2001:67c:87c::/48 list=KG-IPv6 } on-error={}
 :do { add address=2001:67c:12e0::/48 list=KG-IPv6 } on-error={}
 :do { add address=2001:67c:2264::/48 list=KG-IPv6 } on-error={}

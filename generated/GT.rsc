@@ -1,4 +1,4 @@
-# Last update: 2026-11-25 05:56:53 UTC
+# Last update: 2026-11-26 05:49:14 UTC
 # Country: GT
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=GT&v4_format=prefix
 
@@ -93,6 +93,7 @@
 :do { add address=2.152.0.0/22 list=GT-IPv4 } on-error={}
 :do { add address=2.152.4.0/23 list=GT-IPv4 } on-error={}
 :do { add address=2.152.40.0/23 list=GT-IPv4 } on-error={}
+:do { add address=2.152.45.0/24 list=GT-IPv4 } on-error={}
 :do { add address=24.152.52.0/22 list=GT-IPv4 } on-error={}
 :do { add address=45.4.128.0/22 list=GT-IPv4 } on-error={}
 :do { add address=45.5.116.0/22 list=GT-IPv4 } on-error={}
