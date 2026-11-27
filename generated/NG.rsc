@@ -1,4 +1,4 @@
-# Last update: 2026-11-26 05:49:14 UTC
+# Last update: 2026-11-27 05:43:11 UTC
 # Country: NG
 # Source: https://stat.ripe.net/data/country-resource-list/data.json?resource=NG&v4_format=prefix
 
@@ -258,6 +258,7 @@
 :do { add address=102.165.184.0/22 list=NG-IPv4 } on-error={}
 :do { add address=102.176.240.0/22 list=NG-IPv4 } on-error={}
 :do { add address=102.176.244.0/22 list=NG-IPv4 } on-error={}
+:do { add address=102.200.136.0/23 list=NG-IPv4 } on-error={}
 :do { add address=102.200.237.0/24 list=NG-IPv4 } on-error={}
 :do { add address=102.201.18.0/23 list=NG-IPv4 } on-error={}
 :do { add address=102.201.30.0/24 list=NG-IPv4 } on-error={}
